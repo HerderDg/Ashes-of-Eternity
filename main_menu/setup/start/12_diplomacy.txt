@@ -1,0 +1,116 @@
+diplomacy_manager = {
+    #-------England-------
+    dependency = { first = SLV second = EWY subject_type = vassal }
+    dependency = { first = GMG second = GWR subject_type = vassal }
+    dependency = { first = ENG second = LAN subject_type = vassal }
+    dependency = { first = MTH second = LEI subject_type = fiefdom }
+    dependency = { first = CNN second = HYM subject_type = vassal }
+
+    #Orissan Subjects:
+
+
+    #-------France-------
+	#Auld Alliance
+
+
+    #Vassals of vassals
+
+
+    #-------Italy-------
+    dependency = { first = FLO second = SIE subject_type = vassal }
+
+    dependency = { first = TUN second = TRP subject_type = vassal }
+    dependency = { first = TUN second = BTL subject_type = vassal }
+
+
+    #-------Iberia-------
+    dependency = { first = ARA second = MLL subject_type = vassal start_date = 1279.1.20 } #Treaty of Perpignan, where James II of Mallorca acknowledged the overlordship of his elder brother, Peter IV of Aragon
+
+
+    #-------Maghreb-------
+
+    #-------Germany-------
+
+
+    #------Balkans--------
+    dependency = { first = WEI second = HAB subject_type = fiefdom }
+    dependency = { first = WEI second = ULM subject_type = fiefdom }
+    dependency = { first = WEI second = LEU subject_type = fiefdom }
+
+    dependency = { first = BYZ second = NEO subject_type = vassal }
+    dependency = { first = BYZ second = NEG subject_type = vassal }
+    dependency = { first = BYZ second = VID subject_type = vassal }
+    dependency = { first = BYZ second = HSC subject_type = vassal }
+    dependency = { first = BYZ second = THE subject_type = vassal }
+    dependency = { first = BYZ second = EPI subject_type = vassal }
+    dependency = { first = BLD second = IAS subject_type = vassal }
+    dependency = { first = BLD second = SRC subject_type = vassal }
+    #-------Low Lands-------
+    dependency = { first = FRI second = OLD subject_type = vassal }
+
+    #-------Baltics-------
+    dependency = { first = FIN second = TAV subject_type = vassal }
+    dependency = { first = FIN second = SVO subject_type = vassal }
+
+    #-------Lithuania-------
+
+
+    #-------Bohemia-------
+    dependency = { first = DIT second = MVA subject_type = vassal }
+    dependency = { first = DIT second = CRH subject_type = vassal }
+    dependency = { first = DIT second = CLI subject_type = vassal }
+    #-------Poland-------
+    dependency = { first = INO second = CHL subject_type = vassal }
+    dependency = { first = NWG second = KMM subject_type = vassal }
+    dependency = { first = POL second = NMD subject_type = vassal }
+    dependency = { first = POL second = ZIE subject_type = vassal }
+    dependency = { first = SOR second = ZAG subject_type = vassal }
+    dependency = { first = SOR second = JAW subject_type = vassal }
+    dependency = { first = SIZ second = OSW subject_type = vassal }
+
+	#-------Rus----------
+	dependency = { first = NOV second = PSK subject_type = vassal }
+	dependency = { first = NOV second = BLO subject_type = vassal }
+	dependency = { first = NOV second = RZH subject_type = vassal }
+	dependency = { first = SMO second = VYA subject_type = vassal }
+	dependency = { first = PRK second = TRS subject_type = vassal }
+	dependency = { first = ACH second = GAZ subject_type = vassal }
+	dependency = { first = HAL second = STZ subject_type = vassal }
+	dependency = { first = KIE second = RYL subject_type = vassal }
+	dependency = { first = KIE second = CHR subject_type = vassal }
+	dependency = { first = KIE second = FMB subject_type = vassal }
+	dependency = { first = KIE second = KZK subject_type = vassal }
+    scripted_mutual = { first = PRK second = MRM type = alliance }
+    scripted_mutual = { first = PRK second = MOG type = alliance }
+    #Balkans:
+
+
+    #Anatolia
+	dependency = { first = KRD second = TEK subject_type = vassal }
+	dependency = { first = KRD second = KAR subject_type = vassal }
+	dependency = { first = KRD second = AHI subject_type = vassal }
+	dependency = { first = KRD second = CND subject_type = vassal }
+    #-------------Persia------------
+
+    #-------------Caucasus------------
+
+    #------------- Persia ------------
+    
+
+    #-------------East Africa------------
+    #Ethiopia
+
+    #Kilwa
+
+    #Zimbabwe
+
+    #West africa
+
+
+    #-------------Mesoamerica------------
+
+
+    #-------------China------------
+
+
+}

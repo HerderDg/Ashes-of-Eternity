@@ -1,0 +1,13 @@
+{
+	"name" : "Ashes of Eternity",
+	"id" : "",
+	"version" : "",
+	"supported_game_version" : "",
+	"short_description" : "Ashes of Eternity",
+	"tags" : [],
+	"picture" : "thumbnail.png",
+	"relationships" : [],
+	"game_custom_data" : {
+		"multiplayer_synchronized" : true
+	}
+}
