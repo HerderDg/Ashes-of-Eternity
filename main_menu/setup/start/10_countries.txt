@@ -18299,7 +18299,10 @@ countries = {
 
 	TGT = {
 		own_control_core = {
-			touggourt  asuf tamacine
+			touggourt asuf tamacine
+			ghadames sinawin
+			ouargla ngoussa
+			ghardaia berriane el_guerrara guettara
 		}
 
 		starting_technology_level = 3
@@ -18373,7 +18376,7 @@ countries = {
 	#Mzab - MZB
 	MZB = {
 		own_control_core = {
-			ghardaia berriane el_guerrara guettara
+			
 		}
 
 		our_cores_conquered_by_others = {
@@ -18438,7 +18441,7 @@ countries = {
 	#Djerids - DJE
 	DJE = {
 		own_control_core = {
-			ghadames sinawin
+			
 		}
 
 		starting_technology_level = 3
@@ -18532,7 +18535,7 @@ countries = {
 	#Ouargla - OGL
 	OGL = {
 		own_control_core = {
-			ouargla ngoussa
+			
 		}
 
 		starting_technology_level = 3
@@ -18562,6 +18565,8 @@ countries = {
 		own_control_core = {
 			bechar figuig
 			timimoun tabelbala adrar ain_salah igli charouine taghit
+			el_golea taghaza taoudenni
+			abalessa
 		}
 
 		starting_technology_level = 3
@@ -18655,7 +18660,8 @@ countries = {
 	FZA = {
 		own_control_core = {
 			sabha  al_jawf brak murzuk tazirbu #fezzan_province
-			qatrun
+			qatrun in_amenas zouar sherda ain_galaka ounianga tekro
+			djado seguedine
 		}
 
 		own_control_integrated = {
@@ -19264,7 +19270,7 @@ countries = {
 		}
 		own_control_integrated = {
 			walata 
-			taghaza taoudenni araouane
+			araouane
 		}
 		our_cores_conquered_by_others = {
 			diara
@@ -20054,7 +20060,7 @@ countries = {
 	KBO = {
 		own_control_core = {
 			njimi manan bodou_sailay nguigmi
-			bilma dirkou djado seguedine fachi agadem
+			bilma dirkou fachi agadem
 			mondo cherfe ngousa moussoro
 			ngazargamu yo marte gubio gambaru
 			mir_loc garoumale boutti goure goudooumaria
@@ -20986,8 +20992,7 @@ countries = {
 	#Al-Abwab - ABW
 	ABW = {
 		own_control_core = {
-			el_metemma #bayuda_province
-			ed_damer shendi #lower_butana_province
+
 		}
 
 		starting_technology_level = 3
@@ -21007,12 +21012,9 @@ countries = {
 	#Alodia - ALO
 	ALO = {
 		own_control_core = {
-			atbara kassala #atbai_province
-			omdurman #bayuda_province
 			kosa waylula #kordofan_province
-			soba qerri #lower_butana_province
 			sennar alays arbaji el_manaqil wad_madani #lower_gezira_province
-			el_gadarif al_matamma branko el_eleila quz_rajab #upper_butana_province
+			el_gadarif al_matamma el_eleila #upper_butana_province
 			singa karkuj #upper_gezira_province
 		}
 
@@ -21135,6 +21137,10 @@ countries = {
 			dongola abu_hamed berber kerma karima #makuria_province
 			faras daw_sud kalabsha qasr_ibrim sai #nobatia_province
 			selima #oasis_province
+			el_metemma
+			ed_damer shendi 
+			atbara qerri soba omdurman branko quz_rajab 
+			deraheib aydhab kassala
 		}
 
 		starting_technology_level = 3
@@ -21338,13 +21344,8 @@ countries = {
 			damanhur ramsis kafr_saqr kharibta rashid wadi_el_natrun
 			cairo atfih beni_suef faiyum giza dakahla
 			al_mima el_mahalla fuwa menouf samanoud tidah
-			mansoura bilbeis faqus ushmum_tannah qalyub tarrana tinnis
-			suez saint_anthony saint_paul_anchorite
-			el_tor
-			edfu esna qena hiw qus
-			asyut el_balyana el_buwit akhmim manfalut
-			minya ashmunayn el_bahnasa sharuna tahna
-			kharga bahariyya baris el_qasr qasr_farafra
+			mansoura bilbeis faqus ushmum_tannah qalyub tarrana
+			bahariyya
 		}
 
 
@@ -21377,8 +21378,12 @@ countries = {
 	#Banu Kanz - BKZ
 	BKZ = {
 		own_control_core = {
-			aswan  aydhab kom_ombo
-			deraheib #suakin_province
+			aswan kom_ombo
+			edfu esna qena hiw el_balyana akhmim
+			el_buwit asyut manfalut qus
+			ashmunayn tahna minya sharuna el_bahnasa
+			el_qoseir safaga ras_gharib saint_anthony saint_paul_anchorite
+			kharga baris el_qasr qasr_farafra
 		}
 
 		starting_technology_level = 3
@@ -21397,7 +21402,7 @@ countries = {
 			beja_culture
 		}
 
-		capital = aswan
+		capital = edfu
 	}
 
 	#Suakin - SKN
@@ -31263,7 +31268,7 @@ countries = {
 	#Bafra - BFR #https://en.wikipedia.org/wiki/Beylik_of_Bafra
 	BFR = {
 		own_control_core = {
-			bafra gerze gadegara gumus 
+			
 		}
 
 		starting_technology_level = 3
@@ -31445,7 +31450,7 @@ countries = {
 
 	KOJ = { #Kingdom of Jerusalem
 		own_control_core = {
-			jerusalem acre beersheba gaza hebron jaffa majdal nablus safed
+			jerusalem acre hebron jaffa majdal nablus safed
 		}
 		
 		starting_technology_level = 3
@@ -31575,7 +31580,7 @@ countries = {
 	#Eretnids - ERE https://en.wikipedia.org/wiki/Eretnids
 	ERE = {
 		own_control_core = {
-			akdagmadeni aydincik koyulhisar sulusaray tokat zile
+			akdagmadeni aydincik sulusaray tokat zile
 			bozok baliseyh candir dinek_keskin sorgun
 			corum huseyinabad sungurlu
 			divrigi arapgir egin arguvan
@@ -31677,7 +31682,7 @@ countries = {
 	#Haciemirids - HCI https://en.wikipedia.org/wiki/Beyliks_of_Canik
 	HCI = {
 		own_control_core = {
-			mesudiye
+			
 		}
 
 		starting_technology_level = 3
@@ -31803,6 +31808,7 @@ countries = {
 		own_control_core = {
 			ladik_pontus merzifon
 			amasya
+			bafra gerze gadegara gumus 
 		}
 
 		starting_technology_level = 3
@@ -32405,7 +32411,7 @@ countries = {
 	#Zerzari - ZZR
 	ZZR = {
 		own_control_core = {
-			semdinli
+			sidon deir_qamar baalbek qusayr homs tartus baniyas jableh
 		}
 
 		include = "expl_middle_east"
@@ -32458,7 +32464,8 @@ countries = {
 	TDJ = {
 		own_control_core = {
 			niksar sonisa
-			akkus
+			akkus koyulhisar
+			mesudiye
 		}
 
 		starting_technology_level = 3
@@ -33258,7 +33265,6 @@ countries = {
 	#Al 'Alī - AAL
 	AAL = {
 		own_control_core = {
-			burraq jayrud qutayfah
 			sakaka dumat_al_jandal aba_al_qur al_hamad arar
 		}
 
@@ -33320,13 +33326,15 @@ countries = {
 			ithriya sukhnah taybah
 			qastal salamiyya
 			arak huwwarin qaryatayn tadmur
+			burraq jayrud qutayfah
+			damascus nabek
+			zubala al_labbah al_thulayma al_waqbi linah lowqah
+			abu_kemal
+			deir_ez_zor tabqah rahba			
 		}
 
 		own_control_integrated = {
-			zubala al_labbah al_thulayma al_waqbi linah lowqah
-			al_anbar hit ayn_tamr karbala
-			anah abu_kemal haditha
-			deir_ez_zor tabqah rahba
+
 		}
 
 		starting_technology_level = 3
@@ -58523,8 +58531,11 @@ countries = {
 
 	ANZ = { #Anizah
 		own_control_core = {
-			al_ayn_khaybar khaybar
-			al_huwayyit fadak darghat
+			el_jundi faran el_tor suez
+			saint_katrine nuweiba aqaba
+			nekhel el_arish warrada qatya
+			haql al_quwayrah maan shoubak sughar
+			tinnis beersheba gaza
 		}
 
 		include = "expl_middle_east"

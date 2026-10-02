@@ -90,6 +90,7 @@ diplomacy_manager = {
 	dependency = { first = KRD second = KAR subject_type = vassal }
 	dependency = { first = KRD second = AHI subject_type = vassal }
 	dependency = { first = KRD second = CND subject_type = vassal }
+	dependency = { first = ERE second = KBD subject_type = vassal }
     #-------------Persia------------
 
     #-------------Caucasus------------
