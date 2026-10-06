@@ -16,12 +16,6 @@ germanic = {
 	allow_slaves_of_same_group = no			
 }
 
-ork_faith = {
-	color = color_ibadi
-	convert_slaves_at_start = yes
-	allow_slaves_of_same_group = no			
-}
-
 elven_faith = {
 	color = color_shamanism
 	convert_slaves_at_start = yes
@@ -32,12 +26,6 @@ dwarven_faith = {
 	color = map_TIB
 	convert_slaves_at_start = no
 	allow_slaves_of_same_group = no		
-}
-
-draconic_faith = {
-	color = color_shinto
-	convert_slaves_at_start = yes
-	allow_slaves_of_same_group = yes		
 }
 
 christian = {
