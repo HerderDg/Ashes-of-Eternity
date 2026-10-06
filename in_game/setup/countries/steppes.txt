@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = mongolian_culture
-	religion_definition = sunni
+	religion_definition = tengri
 
 	description_category = military
 	difficulty = 4
@@ -14,7 +14,7 @@ CRI = {
 	color2 = rgb { 61 8 81 }
 
 	culture_definition = crimean
-	religion_definition = sunni
+	religion_definition = tengri
 
 }
 
@@ -24,7 +24,7 @@ NOG = {
 	color2 = rgb { 61 8 81 }
 
 	culture_definition = nogai
-	religion_definition = sunni
+	religion_definition = tengri
 
 }
 
@@ -33,7 +33,7 @@ ATR = {
 	color2 = rgb { 61 8 81 }
 
 	culture_definition = astrakhani
-	religion_definition = sunni
+	religion_definition = tengri
 
 }
 
@@ -51,7 +51,7 @@ BSH = {
 	color2 = rgb { 61 8 81 }
 
 	culture_definition = bashkir
-	religion_definition = sunni
+	religion_definition = tengri
 }
 
 MGE = {
