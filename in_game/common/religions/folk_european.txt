@@ -84,21 +84,6 @@ lezgin_paganism = {
 	}
 }
 
-norse = { 
-	color = color_norse
-	group = folk_european_group
-
-	religious_aspects = 1
-	
-	definition_modifier = {
-		auto_slave_raid_different_religion = yes
-	}
-
-	tags = {
-		folk_european_gfx pagan_gfx
-	}
-}
-
 alan_paganism = { #https://en.wikipedia.org/wiki/Ossetian_mythology
 	color = religion_alan
 	group = folk_european_group

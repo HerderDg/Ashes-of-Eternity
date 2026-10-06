@@ -1,0 +1,63 @@
+﻿spring_kin = { 
+	color = color_anglican
+	group = slavic
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	language = church_slavonic_language
+
+	ai_wants_convert = yes
+	
+	definition_modifier = {
+		global_max_literacy = 5
+		global_build_buildings_cost = -0.05
+		
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		winter_kin = negative
+	}
+
+	unique_names = {
+
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+	custom_tags = { church_aspects }
+}
+
+winter_kin = {
+	color = color_lutheran
+	group = slavic
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	language = church_slavonic_language
+
+	ai_wants_convert = yes
+	
+	definition_modifier = {
+	
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		tax_income_efficiency = medium_tax_income_efficiency_bonus
+
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		spring_kin = negative
+	}
+
+	unique_names = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+	custom_tags = { church_aspects }
+}

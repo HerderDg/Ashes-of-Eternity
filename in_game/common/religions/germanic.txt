@@ -1,0 +1,59 @@
+﻿norse = { #nordic germanic
+	color = color_norse
+	group = germanic
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+gautism = { #gothic germanic
+	color = color_norse
+	group = germanic
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+wealdism = { #britonic germanic
+	color = color_norse
+	group = germanic
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+wotanism = { #west germanic
+	color = color_norse
+	group = germanic
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}

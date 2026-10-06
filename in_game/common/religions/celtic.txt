@@ -1,0 +1,92 @@
+﻿circle_gaulish = { 
+	color = color_bogomilism
+	group = celtic
+	
+	language = gaelic_language
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	
+	definition_modifier = {	
+		global_clergy_estate_power = -0.5
+		global_peasants_estate_power = 0.5
+		is_battles_preordained = yes
+		retreat_delay = 20
+		
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		circle_irish = kindred
+		circle_brythonic = kindred
+	}
+
+	unique_names = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+	custom_tags = { church_aspects }
+}
+
+circle_irish = { 
+	color = color_bosnian_church
+	group = celtic
+	
+	language = gaelic_language
+		
+	has_canonization = yes
+	has_religious_influence = yes
+	
+	definition_modifier = {
+		tolerance_heretic = 1.5
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		nobles_estate_target_satisfaction = medium_permanent_target_satisfaction
+		monthly_religious_influence = 0.1
+		
+		can_have_monasteries = yes
+		
+		maximum_religious_influence = 900
+	}
+	
+	opinions = {
+		circle_gaulish = kindred
+		circle_brythonic = kindred
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+}
+
+circle_brythonic = { 
+	color = color_catharism
+	group = celtic
+	
+	language = brythonic_language
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+	
+	definition_modifier = {	
+		global_clergy_estate_power = -0.5
+		global_burghers_estate_power = 0.25
+		global_max_literacy = 5
+		
+		gender_equality = yes
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		circle_gaulish = kindred
+		circle_irish = kindred
+	}
+
+	unique_names = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+	custom_tags = { church_aspects }
+}
