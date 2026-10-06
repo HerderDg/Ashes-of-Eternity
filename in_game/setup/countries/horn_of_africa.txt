@@ -42,6 +42,16 @@ ETH = {
 	difficulty = 3
 }
 
+BEJ = {
+	color = map_enderta
+	color2 = green
+	culture_definition = amhara
+	religion_definition = miaphysite
+
+	description_category = military
+	difficulty = 3
+}
+
 #Gojjam - GJJ
 GJJ = {
 	color = map_gojjam
