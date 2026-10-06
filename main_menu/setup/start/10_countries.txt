@@ -5012,6 +5012,7 @@ countries = {
 		}
 		capital = carbery
 	}
+
 	PLE = { # The Pale
 		own_control_core = {
 
@@ -18104,7 +18105,7 @@ countries = {
 
 		starting_technology_level = 3
 		include = "expl_muslim_mediterranean"
-		include = "muslim_monarchy_no_abrahamic_dhimmi"
+
 		country_rank = rank_kingdom
 		government = {
 			type = monarchy
@@ -20317,7 +20318,7 @@ countries = {
 	#Dobe'a - DBE
 	DBE = {
 		own_control_core = {
-			manadeley amora_gadal chercher hayq #dobea_province
+			 #dobea_province
 		}
 
 		starting_technology_level = 3
@@ -20353,6 +20354,15 @@ countries = {
 			ankober gendebelo nora_eth #argobba_province
 			dima bahir_dar dangila debra_warq enjebara #gojjam_province
 			gonder #begemder_province
+			debre_bizen dekemhare
+			debarwa mendefera
+			zula buri 
+			tadjoura assab balho obock rahayta #afar_province
+			bayul dallol edd #denkelia_province
+			afrera #dobea_province
+			manadeley amora_gadal chercher hayq
+			mora_eth asaita killelu 
+			
 		}
 
 		own_control_integrated = {
@@ -20421,9 +20431,7 @@ countries = {
 	#Medri Bahri - MED
 	MED = {
 		own_control_core = {
-			debre_bizen dekemhare #akele_guzai_province
-			asmara keren #hamasien_province
-			debarwa mendefera #serae_province
+
 		}
 
 		our_cores_conquered_by_others = {
@@ -20513,9 +20521,7 @@ countries = {
 	#Dankali - AFA (Denkelia)
 	AFA = {
 		own_control_core = {
-			tadjoura assab balho obock rahayta #afar_province
-			bayul dallol edd #denkelia_province
-			afrera #dobea_province
+
 		}
 
 		our_cores_conquered_by_others = {
@@ -20544,7 +20550,7 @@ countries = {
 	#Dahlak- DHK
 	DHK = {
 		own_control_core = {
-			dahlak #balaw_province
+			 #balaw_province
 		}
 
 		starting_technology_level = 3
@@ -20572,13 +20578,12 @@ countries = {
 			garacad #ajan_province
 			burao garoowe maduna qardho #ciid_province
 			aware buhoodle degehabur geledi gode hargaya limey oodweyne #haud_province
-			zeila ali_sabieh amud el_sheikh hargeisa #ifat_province
+			zeila amud el_sheikh hargeisa #ifat_province
 			berbera el_darad fardawsa ruguda siyara xagal #guban_province
 			bandarbeyla barbacadle #majerteen_province
 			awrtable el_hamurre galkayo #mudugh_province
 			# own_control_integrated, but culture accepted
 			arabi awbare dakkar dire_dawa jeldesa #adal_province
-			asaita killelu mora_eth #mora_province
 
 		}
 
@@ -21047,8 +21052,7 @@ countries = {
 	#Baqlin - BQL
 	BQL = {
 		own_control_core = {
-			anseba khawr_baraka #atbai_province
-			agordat #hamasien_province
+			
 		}
 
 		starting_technology_level = 3
@@ -21074,10 +21078,13 @@ countries = {
 	#Bazin - BZN
 	BZN = {
 		own_control_core = {
-			tembesha #bazin_province
+			tembesha 
+			anseba agordat
+			tesenei bazin
+			asmara keren
 		}
 		own_control_integrated = {
-			tesenei bazin #bazin_province
+
 		}
 
 		starting_technology_level = 3
@@ -21105,8 +21112,7 @@ countries = {
 	#Jarin - JRN
 	JRN = {
 		own_control_core = {
-			massawa nafka #balaw_province
-			badi #suakin_province
+
 		}
 
 		starting_technology_level = 3
@@ -21128,6 +21134,33 @@ countries = {
 
 		capital = massawa
 	}
+
+	BEJ = {
+		own_control_core = {
+			massawa nafka #balaw_province
+			badi suakin
+			khawr_baraka
+		}
+
+		starting_technology_level = 3
+		include = "expl_horn_of_africa"
+		include = "subsaharan_advanced_muslim_tribe"
+		government = {
+			ruler = random
+
+			laws = {
+				sharia_law = maliki_policy
+			}
+		}
+		religious_school = maliki_school
+		government = { mysticism_vs_jurisprudence = -5 }
+
+		tolerated_cultures = {
+			tigre
+		}
+
+		capital = massawa
+	}	
 
 	#Makuria - MAK
 	MAK = {
@@ -21169,7 +21202,7 @@ countries = {
 	#Naqis - NQS
 	NQS = {
 		own_control_core = {
-			khawr_nubt #atbai_province
+			
 		}
 
 		starting_technology_level = 3
@@ -21191,8 +21224,7 @@ countries = {
 	#Qata - QTA
 	QTA = {
 		own_control_core = {
-			zula #akele_guzai_province
-			buri #denkelia_province
+
 		}
 
 		starting_technology_level = 3
@@ -21408,7 +21440,7 @@ countries = {
 	#Suakin - SKN
 	SKN = {
 		own_control_core = {
-			suakin
+			
 		}
 
 		starting_technology_level = 3
@@ -33328,7 +33360,6 @@ countries = {
 			arak huwwarin qaryatayn tadmur
 			burraq jayrud qutayfah
 			damascus nabek
-			zubala al_labbah al_thulayma al_waqbi linah lowqah
 			abu_kemal
 			deir_ez_zor tabqah rahba			
 		}
@@ -56383,18 +56414,19 @@ countries = {
 
 	ORM = { #Ormus
 		own_control_core = {
-			hormuz gamrun bandar_charak bandar_khamir bandar_lengeh
-			kish minab manujan nowdezh rudkhaneh shaqrud senderk sirik
+			hormuz 
+			nizwa bahla ibra ibri izki sinaw yanqul
+			liwa marawah sir_bani_yas
+			julfar al_dhaid
+			khor_fakkan shinas
+			abu_dhabi al_ayn dubai sharjah
+			masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
+			suhar al_khaburah nakhal rustaq saham	
 		}
 
 		own_control_conquered = {
-			julfar al_dhaid
-			khor_fakkan shinas
-			machul
-			abu_dhabi al_ayn dubai sharjah
-			masqat al_kamil_wal_wafi as_sib jalan_buani_buali masirah qalhat sur
-			suhar al_khaburah nakhal rustaq saham
-			manama sayhat
+
+			
 		}
 		include = "expl_middle_east"
 		starting_technology_level = 3
@@ -56890,6 +56922,7 @@ countries = {
 		own_control_core = {
 			lar darz dehtal fin ruydar
 			kariyan bastak
+			kish bandar_charak bandar_khamir bandar_lengeh gamrun minab manujan nowdezh rudkhaneh shaqrud senderk sirik
 		}
 
 		include = "expl_middle_east"
@@ -57190,6 +57223,7 @@ countries = {
 			khalafabad quban
 			ahvaz dowraq hamidiyeh hoveyzeh mosharahat muhammerah
 			samawa suq_al_shuyukh kazimah
+			machul
 		}
 
 		include = "expl_middle_east"
@@ -58403,6 +58437,7 @@ countries = {
 			nita_arabia al_suman al_uyayna jannah jarrarah qaryat_ulya
 			al_bidda al_huwaila al_mashqar al_udayd eglat_faisal zubarah
 			al_hunayy harad_al_ahsa khurays rumah urayrah
+			manama sayhat
 		}
 
 		our_cores_conquered_by_others = {
@@ -58430,7 +58465,7 @@ countries = {
 
 	OMA = { #Oman
 		own_control_core = {
-			nizwa bahla ibra ibri izki sinaw yanqul
+			
 		}
 
 		our_cores_conquered_by_others = {
@@ -58507,6 +58542,7 @@ countries = {
 		own_control_core = {
 			hail ash_shuaybah_hail baqa
 			al_hufayr jubbah mawqaq umm_al_qulban
+			zubala al_labbah al_thulayma al_waqbi linah lowqah
 		}
 
 	include = "expl_middle_east"
@@ -58737,10 +58773,7 @@ countries = {
 
 	DWS = { #Dawasir
 		own_control_core = {
-			aqiq_banu_uqayi habiyah tamrah
-			laila al_aflaj al_haddar qasr_himam
-			al_majazah
-			ad_dawasir
+
 		}
 
 	include = "expl_middle_east"
@@ -58802,6 +58835,10 @@ countries = {
 			al_abala al_amlah ash_shaqiqah qalat_bishah
 			turbah ad_dughmiyah
 			dhalam al_hufayrah ar_ruwailiyyah muwayh qasr_al_qaba umm_ad_dawm
+			aqiq_banu_uqayi habiyah tamrah
+			laila al_aflaj al_haddar qasr_himam
+			al_majazah
+			ad_dawasir
 		}
 
 		include = "expl_middle_east"
@@ -58882,7 +58919,7 @@ countries = {
 
 	YAS = { #Yas
 		own_control_core = {
-			liwa marawah sir_bani_yas
+			
 		}
 
 		include = "expl_middle_east"
