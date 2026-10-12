@@ -52,3 +52,29 @@ samaritanism = {
 	tags = { judaism_gfx abrahamic_gfx }
 }
 
+ugaritic = { 
+	color = map_tunis
+	group = israelite_group
+	language = hebrew_language
+
+	definition_modifier = {
+		global_merchant_power = 0.05
+		ship_build_speed = 0.05
+	}
+	
+	tags = { judaism_gfx abrahamic_gfx }
+}
+
+magonid = { 
+	color = map_ARA
+	group = israelite_group
+	language = hebrew_language
+
+	definition_modifier = {
+		global_merchant_power = 0.05
+		ship_build_speed = 0.05
+	}
+
+	tags = { judaism_gfx abrahamic_gfx }
+}
+

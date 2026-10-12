@@ -1,5 +1,5 @@
 ﻿spring_kin = { 
-	color = color_anglican
+	color = map_kashubian
 	group = slavic
 	
 	religious_aspects = 3
@@ -31,7 +31,7 @@
 }
 
 winter_kin = {
-	color = color_lutheran
+	color = map_kievan
 	group = slavic
 	
 	religious_aspects = 3
@@ -53,6 +53,38 @@ winter_kin = {
 	
 	opinions = {
 		spring_kin = negative
+	}
+
+	unique_names = {
+	}
+
+	tags = { folk_european_gfx pagan_gfx }
+	custom_tags = { church_aspects }
+}
+
+summer_kin = {
+	color = map_croatian
+	group = slavic
+	
+	religious_aspects = 3
+	has_religious_influence = yes
+
+	language = church_slavonic_language
+
+	ai_wants_convert = yes
+	
+	definition_modifier = {
+	
+		clergy_estate_target_satisfaction = medium_permanent_target_satisfaction
+		tax_income_efficiency = medium_tax_income_efficiency_bonus
+
+		monthly_religious_influence = 0.1
+
+		maximum_religious_influence = 400
+	}
+	
+	opinions = {
+		winter_kin = negative
 	}
 
 	unique_names = {

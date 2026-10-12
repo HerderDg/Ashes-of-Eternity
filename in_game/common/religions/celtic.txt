@@ -1,5 +1,5 @@
 ﻿circle_gaulish = { 
-	color = color_bogomilism
+	color = map_BRI
 	group = celtic
 	
 	language = gaelic_language
@@ -32,7 +32,7 @@
 }
 
 circle_irish = { 
-	color = color_bosnian_church
+	color = map_irish_faith
 	group = celtic
 	
 	language = gaelic_language
@@ -60,7 +60,7 @@ circle_irish = {
 }
 
 circle_brythonic = { 
-	color = color_catharism
+	color = map_ENG
 	group = celtic
 	
 	language = brythonic_language

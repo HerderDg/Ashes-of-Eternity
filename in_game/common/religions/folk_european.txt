@@ -1,5 +1,81 @@
-﻿votian_religion = {
+﻿aisaru = {
+    color = map_etruscan
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+votian_religion = {
     color = map_votian
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+amalurtz_religion = {
+    color = map_NAV
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+dacian_religion = {
+    color = map_wallachian
+    group = folk_european_group
+
+	religious_aspects = 1
+    
+    definition_modifier = {
+		global_defensive = 0.1
+		global_pop_food_consumption = -0.1
+    }
+    
+    opinions = {
+    }
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+illyrian_religion = {
+    color = map_albanian
     group = folk_european_group
 
 	religious_aspects = 1
