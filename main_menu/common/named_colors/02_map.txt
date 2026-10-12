@@ -2,6 +2,7 @@
 colors = {
 	#eu4 map colors
 	map_debug = rgb { 255 0 255 }
+	map_etruscan = rgb { 107 59 74 }
 	map_arpitan = rgb { 235 196 231 }
 	map_austrian = rgb { 220 220 220 }
 	map_german = hsv360 { 180 10 50 }
@@ -12,7 +13,10 @@ colors = {
 	map_gutnish = rgb { 190 120 70 }
 	map_dutch = hsv360 { 27 92 83 }
 	map_emilian = rgb { 192 102 151 }
+	map_kievan = rgb { 81 123 210 }
+	map_kashubian = rgb { 126 105 0 }
 	map_ENG = rgb { 47 156 42 }
+	map_irish_faith = hsv360 { 90 46 49 }
 	map_AIA = hsv360 { 154 100 33 }
 	map_GBR = hsv360 { 355 70 90 }
 	map_finnish = hsv360 { 216 24 80 }
