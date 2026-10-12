@@ -1,0 +1,68 @@
+﻿l_english:
+ amalurtz_religion: "Amalurtz"
+ amalurtz_religion_ADJ: "Amalurtzi"
+ amalurtz_religion_desc: "The $common_folk_religion_desc$"
+
+ gautism: "Gautish"
+ gautism_ADJ: "Gautish"
+ gautism_desc: "The $common_folk_religion_desc$"
+
+ wealdism: "Wealdish"
+ wealdism_ADJ: "Wealdish"
+ wealdism_desc: "The $common_folk_religion_desc$" 
+
+ wotanism: "Wotanic"
+ wotanism_ADJ: "Wotanic"
+ wotanism_desc: "The $common_folk_religion_desc$"  
+
+ circle_gaulish: "Gaulish Circle"
+ circle_gaulish_ADJ: "Gaulish"
+ circle_gaulish_desc: "The $common_folk_religion_desc$"
+
+ circle_irish: "Irish Circle"
+ circle_irish_ADJ: "Irish"
+ circle_irish_desc: "The $common_folk_religion_desc$"
+
+ circle_brythonic: "Brythonic Circle"
+ circle_brythonic_ADJ: "Brythonic"
+ circle_brythonic_desc: "The $common_folk_religion_desc$"
+
+ celtic: "Celtic Faith"
+ slavic: "Slavic Faith"
+ germanic: "Germanic Faith"
+ elven_faith: "Elven Pantheon"
+ dwarven_faith: "Dwarven Pantheon"
+
+ spring_kin: "Spring Kin"
+ spring_kin_ADJ: "Vesnorodic"
+ spring_kin_desc: "The $common_folk_religion_desc$"
+
+ winter_kin: "Winter Kin"
+ winter_kin_ADJ: "Zimorodic"
+ winter_kin_desc: "The $common_folk_religion_desc$" 
+
+ summer_kin: "Summer Kin"
+ summer_kin_ADJ: "Letorodic"
+ summer_kin_desc: "The $common_folk_religion_desc$"  
+
+ dacian_religion: "Zalmoxism"
+ dacian_religion_ADJ: "Zalmoxian"
+ dacian_religion_desc: "The $common_folk_religion_desc$"
+
+ illyrian_religion: "Menzanic"
+ illyrian_religion_ADJ: "Menzanic"
+ illyrian_religion_desc: "The $common_folk_religion_desc$"
+
+ ugaritic: "Ugaritic"
+ ugaritic_ADJ: "Ugaritic"
+ ugaritic_desc: "The $common_folk_religion_desc$"
+
+ magonid: "Magonid"
+ magonid_ADJ: "Magonid"
+ magonid_desc: "The $common_folk_religion_desc$" 
+
+ aisaru: "Aisaru"
+ aisaru_ADJ: "Aisaru"
+ aisaru_desc: "The $common_folk_religion_desc$" 
+ 
+
