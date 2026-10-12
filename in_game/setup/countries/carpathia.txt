@@ -7,7 +7,7 @@
 	unit_color2 = rgb {	239 239 242 }
 
 	culture_definition = hungarian
-	religion_definition = catholic
+	religion_definition = tengri
 
 	description_category = diplomatic
 	difficulty = 1
@@ -18,56 +18,56 @@ WAL = {
 	color2 = rgb { 82 160 242 }
 
 	culture_definition = wallachian
-	religion_definition = orthodox
+	religion_definition = dacian_religion
 }
 
 BIA = {
 	color = rgb { 36  157  123 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = norse
 }
 
 BLD = {
 	color = rgb { 236  57  123 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = summer_kin
 }
 
 HTN = {
 	color = rgb { 236  57  223 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = summer_kin
 }
 
 HSC = {
 	color = rgb { 136  57  223 }
-   culture_definition = moldovan
-   religion_definition = orthodox
+   culture_definition = greek_culture
+   religion_definition = hellenism_religion
 }
 
 IAS = {
 	color = rgb { 36  57  123 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = summer_kin
 }
 
 SRC = {
 	color = rgb { 136  157  223 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = summer_kin
 }
 
 SSI = {
 	color = rgb { 36  57  223 }
    culture_definition = moldovan
-   religion_definition = orthodox
+   religion_definition = norse
 }
 
 TRA = {
 	color = map_transylvanian
 	color2 = rgb { 211  207  173 }
 
-	culture_definition = hungarian
-	religion_definition = catholic
+	culture_definition = german_transylvanian
+	religion_definition = gautism
 }
 

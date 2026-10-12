@@ -2,8 +2,8 @@
 	color = map_BRI
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = gallo
-	religion_definition = catholic
+	culture_definition = breton
+	religion_definition = circle_gaulish
 }
 
 
@@ -15,8 +15,8 @@ FRA = {
 	unit_color1 = rgb { 171 19 19 }
 	unit_color2 = rgb { 200 200 210 }
 
-	culture_definition = french
-	religion_definition = catholic
+	culture_definition = champenais
+	religion_definition = wotanism
 
 	description_category = military
 	difficulty = 3
@@ -27,7 +27,7 @@ BUR = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = burgundian
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 FCB = {
@@ -35,7 +35,7 @@ FCB = {
 	color2 = rgb { 0 162 232 }
 
 	culture_definition = franc_comtois
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Aquitaine
@@ -44,7 +44,7 @@ AQN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = amalurtz_religion
 }
 
 #Alencon
@@ -53,7 +53,7 @@ ALE = {
 	color = rgb { 162 116 225 }
 
 	culture_definition = norman
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Auxerre
@@ -62,7 +62,7 @@ AUX = {
 	color = rgb { 102 116 205 }
 
 	culture_definition = burgundian
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Sancerre
@@ -71,7 +71,7 @@ SAN = {
 	color = rgb { 204 116 245 }
 
 	culture_definition = berrichon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Armagnac
@@ -79,8 +79,8 @@ AMG = {
 	#color = map_FRA
 	color = rgb { 38 65 223 }
 
-	culture_definition = gascon
-	religion_definition = catholic
+	culture_definition = griko_culture
+	religion_definition = hellenism_religion
 }
 
 #Auvergne
@@ -88,8 +88,8 @@ AUV = {
 	color = map_AUV
 	color2 = rgb { 218 155 75 }
 
-	culture_definition = auvergnat
-	religion_definition = catholic
+	culture_definition = sardinian
+	religion_definition = magonid
 }
 
 #Bourbonnais
@@ -98,7 +98,7 @@ BOU = {
 	color2 = rgb { 0 140 165 }
 
 	culture_definition = berrichon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #chalons_champagne
@@ -107,7 +107,7 @@ CHP = {
 	color = rgb { 166 125 154 }
 
 	culture_definition = champenais
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Dauphine
@@ -116,7 +116,7 @@ DAU = {
 	color = rgb { 93 194 122 }
 
 	culture_definition = arpitan
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Evreux
@@ -125,7 +125,7 @@ EVR = {
 	color2 = rgb { 104 116 138 }
 
 	culture_definition = norman
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Foix
@@ -134,7 +134,7 @@ FOI = {
 	color = rgb { 70 107 59 }
 
 	culture_definition = languedocien
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Gascony
@@ -143,7 +143,7 @@ GUY = {
 	color = rgb { 160 237 225 }
 
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = amalurtz_religion
 }
 
 #Nevers
@@ -152,7 +152,7 @@ NEV = {
 	color = rgb { 195 104 228 }
 
 	culture_definition = burgundian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 #Narbonne
@@ -161,7 +161,7 @@ NRB = {
 	color2 = rgb { 255 1 5 }
 
 	culture_definition = languedocien
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Normandy
@@ -170,7 +170,7 @@ NRM = {
 	color2 = rgb { 131 138 116 }
 
 	culture_definition = norman
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Jersey
@@ -178,8 +178,8 @@ JER = {
 	color = map_JER
 	color2 = rgb { 131 138 116 }
 
-	culture_definition = norman
-	religion_definition = catholic
+	culture_definition = breton
+	religion_definition = circle_gaulish
 }
 
 #Orleans
@@ -188,7 +188,7 @@ ORL = {
 	color2 = rgb { 216 121 139 }
 
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Picardy
@@ -197,7 +197,7 @@ PIC = {
 	color2 = rgb { 184 184 122 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 #Provence
@@ -205,8 +205,8 @@ PRO = {
 	color = map_PRO
 	color2 = rgb { 93 160 163 }
 
-	culture_definition = provencal
-	religion_definition = catholic
+	culture_definition = ligurian
+	religion_definition = circle_gaulish
 }
 
 #Orange
@@ -215,7 +215,7 @@ ORA = {
 	color2 = rgb { 255 128 0 }
 
 	culture_definition = provencal
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Toulouse
@@ -224,7 +224,7 @@ TOU = {
 	color2 = rgb { 127 170 146 }
 
 	culture_definition = languedocien
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Berry
@@ -233,7 +233,7 @@ BER = {
 	color2 = rgb { 103 191 147 }
 
 	culture_definition = berrichon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Lorraine
@@ -242,7 +242,7 @@ LOR = {
 	color2 = rgb { 115 142 205 }
 
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 #Bar
@@ -251,7 +251,7 @@ BAR = {
 	color = rgb { 115 39 78 }
 
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 #Dreux
@@ -260,7 +260,7 @@ DRE = {
 	color = rgb { 254 229 110 }
 
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Mortain
@@ -269,7 +269,7 @@ MRT = {
 	color = rgb { 110 41 250 }
 
 	culture_definition = norman
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Poitou
@@ -278,7 +278,7 @@ POI = {
 	color = rgb { 241 116 119 }
 
 	culture_definition = poitevin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Anjou
@@ -287,7 +287,7 @@ ANJ = {
 	color = rgb { 197 50 53 }
 
 	culture_definition = angevin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Maine
@@ -296,7 +296,7 @@ MIE = {
 	color2 = rgb { 87 189 57 }
 
 	culture_definition = angevin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Valois
@@ -305,7 +305,7 @@ VLS = {
 	color = rgb { 66 103 182 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Perche
@@ -314,7 +314,7 @@ PRC = {
 	color = rgb { 83 164 130 }
 
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Forez
@@ -323,7 +323,7 @@ FRZ = {
 	color = rgb { 103 191 126 }
 
 	culture_definition = arpitan
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Blois
@@ -332,7 +332,7 @@ BLS = {
 	color = rgb { 16 41 202 }
 
 	culture_definition = berrichon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Appanages
@@ -341,7 +341,7 @@ VDM = {
 	#color = map_FRA
 	color = rgb { 216 38 38 }
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Etampes
@@ -349,7 +349,7 @@ ETA = {
 	#color = map_FRA
 	color = rgb { 213 65 65 }
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Vassals
@@ -358,7 +358,7 @@ AST = {
 	#color = map_FRA
 	color = rgb { 253 243 111 }
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Comminges
@@ -366,7 +366,7 @@ COM = {
 	#color = map_FRA
 	color = rgb { 231 66 66 }
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Isle de Jourdan
@@ -374,7 +374,7 @@ IJO = {
 	#color = map_FRA
 	color = rgb { 235 210 49 }
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Valentinois
@@ -390,7 +390,7 @@ PER = {
 	#color = map_FRA
 	color = rgb { 102 166 110 }
 	culture_definition = limousin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Tonnerre
@@ -398,7 +398,7 @@ TON = {
 	#color = map_FRA
 	color = rgb { 252 242 107 }
 	culture_definition = burgundian
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Montfort
@@ -406,7 +406,7 @@ MON = {
 	#color = map_FRA
 	color = rgb { 219 44 44 }
 	culture_definition = french
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Aumale
@@ -414,7 +414,7 @@ AUM = {
 	#color = map_FRA
 	color = rgb { 44 145 78 }
 	culture_definition = norman
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Roucy
@@ -422,7 +422,7 @@ ROU = {
 	#color = map_FRA
 	color = rgb { 94 132 244 }
 	culture_definition = champenais
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Besançon
@@ -430,7 +430,7 @@ BSC = {
 	#color = map_FRA
 	color = rgb { 189 194 100 }
 	culture_definition = franc_comtois
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Strasbourg
@@ -438,7 +438,7 @@ ALS = {
 	#color = map_FRA
 	color = rgb { 246 223 15 }
 	culture_definition = rhine_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 #Montbéliard
@@ -446,37 +446,37 @@ MTB = {
 	#color = map_FRA
 	color = rgb { 250 38 38 }
 	culture_definition = franc_comtois
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 TUL = {
 	color = rgb { 233 78 78 }
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 VDU = {
 	color = rgb { 223 255 0 }
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 MTZ = {
 	color = rgb { 136 115 156 }
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SLM = {
 	color = rgb { 238 87 226 }
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MOU = {
 	color = rgb { 215 200 205 }
 	culture_definition = champenais
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Rethélois
@@ -485,14 +485,14 @@ RET = {
 	color = rgb { 166 223 215 }
 
 	culture_definition = champenais
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 CAM = {
 	color = rgb { 133 193 120 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 #Béarn
@@ -500,7 +500,7 @@ BRR = {
 	color = rgb { 251 212 72 }
 
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = amalurtz_religion
 }
 
 #Mont-de-Marsan
@@ -508,7 +508,7 @@ MDM = {
 	color = rgb { 188 46 46 }
 
 	culture_definition = gascon
-	religion_definition = catholic
+	religion_definition = amalurtz_religion
 }
 
 #Ferrette
@@ -516,7 +516,7 @@ FRT = {
 	color = rgb { 245 14 36 }
 
 	culture_definition = rhine_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 #La Marche
@@ -524,7 +524,7 @@ MRC = {
 	color = rgb { 114 196 155 }
 
 	culture_definition = berrichon
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Ventadour
@@ -532,7 +532,7 @@ VNT = {
 	color = rgb { 211 21 22 }
 
 	culture_definition = limousin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Rochechouart
@@ -540,7 +540,7 @@ RCC = {
 	color = rgb { 53 128 62 }
 
 	culture_definition = limousin
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Carlat
@@ -548,7 +548,7 @@ CLT = {
 	color = rgb { 56 215 2 }
 
 	culture_definition = auvergnat
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 #Angoulême
@@ -556,5 +556,5 @@ ANG = {
 	color = rgb { 156 65 224 }
 
 	culture_definition = saintongeais
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }

@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = catalan
-	religion_definition = catholic
+	religion_definition = magonid
 
 	
 }
@@ -13,7 +13,7 @@ ANR = {
 	color2 = rgb { 16 41 202 }
 	
 	culture_definition = catalan
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 ARA = {
@@ -25,7 +25,7 @@ ARA = {
 	unit_color2 = yellow
 
 	culture_definition = catalan
-	religion_definition = catholic
+	religion_definition = magonid
 
 	description_category = administrative
 	difficulty = 1
@@ -38,7 +38,7 @@ VAL = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = catalan
-	religion_definition = catholic
+	religion_definition = magonid
 
 	
 }
@@ -48,7 +48,7 @@ MLL = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = catalan
-	religion_definition = catholic
+	religion_definition = magonid
 
 	
 }
@@ -59,7 +59,7 @@ CAS = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = castilian
-	religion_definition = catholic
+	religion_definition = magonid
 	
 	unit_color0 = rgb { 201 163 9 }
 	unit_color1 = rgb { 188 28 13 }
@@ -76,7 +76,7 @@ POR = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = portuguese
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 	
 	unit_color0 = rgb { 44 66 96 }
 	unit_color1 = rgb { 214 22 30 }
@@ -93,7 +93,7 @@ LON = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = leonese
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 	
 	unit_color0 = purple
 	unit_color1 = white
@@ -107,7 +107,7 @@ GLC = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = galician
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 
 	
 }
@@ -117,7 +117,7 @@ GRA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = andalusi
-	religion_definition = sunni
+	religion_definition = magonid
 
 	
 }
@@ -127,7 +127,7 @@ NAV = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = basque
-	religion_definition = catholic
+	religion_definition = amalurtz_religion
 
 	
 }

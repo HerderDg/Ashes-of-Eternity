@@ -3,31 +3,31 @@
 	color2 = rgb { 129 177 125 } #same as in EU4
 
 	culture_definition = croatian
-	religion_definition = catholic
+	religion_definition = summer_kin
 }
 
 ACH = {
 	color = map_achaian
 	color2 = rgb { 157 87 123 } #new color
 
-	culture_definition = french
-	religion_definition = catholic
+	culture_definition = pontic_greek_culture
+	religion_definition = hellenism_religion
 }
 
 ATH = {
 	color = map_athenian
 	color2 = rgb { 41 188 84 } #new color
 
-	culture_definition = catalan
-	religion_definition = catholic
+	culture_definition = pontic_greek_culture
+	religion_definition = hellenism_religion
 }
 
 CEP = {
 	color = map_cephalonian
 	color2 = rgb { 41 188 84 } #new color
 
-	culture_definition = french
-	religion_definition = catholic
+	culture_definition = greek_culture
+	religion_definition = hellenism_religion
 }
 
 
@@ -48,8 +48,8 @@ NAX = {
 	color = map_naxos
 	color2 = rgb { 42 55 197 } 
 
-	culture_definition = venetian
-	religion_definition = catholic
+	culture_definition = greek_culture
+	religion_definition = hellenism_religion
 }
 
 
@@ -58,7 +58,7 @@ EPI = {
 	color = map_epirus
 	color2 = rgb { 13 111 189 } #new color
 	culture_definition = greek_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 BYZ = {
@@ -66,7 +66,7 @@ BYZ = {
 	color2 = rgb { 150 11 146 } #new color
 
 	culture_definition = greek_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 
 	description_category = military
 	difficulty = 4
@@ -83,7 +83,7 @@ THE = {
 	color2 = rgb { 0 240 60 }
 
 	culture_definition = greek_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 
 	is_historic = yes
 }
@@ -93,7 +93,7 @@ THS = {
 	color2 = rgb { 40 240 60 }
 
 	culture_definition = greek_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 	
 
@@ -101,8 +101,8 @@ SER = {
 	color = map_serbian
 	color2 = rgb { 83 142 30 } #new color
 
-	culture_definition = serbian
-	religion_definition = orthodox
+	culture_definition = dalmatian
+	religion_definition = illyrian_religion
 
 	description_category = military
 	difficulty = 2
@@ -114,7 +114,7 @@ ALB = {
 	color2 = rgb { 60 60 60 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = illyrian_religion 
 
 }
 
@@ -123,7 +123,7 @@ THP = {
 	color2 = rgb { 83 184 221 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = illyrian_religion 
 
 }
 
@@ -132,7 +132,7 @@ MZK = {
 	color2 = rgb { 250 1 1 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = illyrian_religion 
 
 }
 
@@ -141,7 +141,7 @@ ANT = {
 	color2 = rgb { 8 86 149 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = illyrian_religion 
 
 }
 
@@ -150,7 +150,7 @@ MTR = {
 	color2 = rgb { 75 110 50 }
 
 	culture_definition = albanian
-	religion_definition = catholic 
+	religion_definition = illyrian_religion 
 
 }
 
@@ -158,8 +158,8 @@ BOS = {
 	color = map_bosnian
 	color2 = rgb { 163 165 77 } #new color
 
-	culture_definition = bosnian
-	religion_definition = bosnian_church
+	culture_definition = albanian
+	religion_definition = illyrian_religion
 }
 
 RAG = {
@@ -167,7 +167,7 @@ RAG = {
 	color2 = rgb { 163 165 77 } #new color
 
 	culture_definition = dalmatian
-	religion_definition = catholic
+	religion_definition = illyrian_religion
 }
 
 BUL = {
@@ -175,15 +175,15 @@ BUL = {
 	color2 = rgb { 83 149 105 } #same as in EU4
 
 	culture_definition = bulgarian
-	religion_definition = orthodox
+	religion_definition = summer_kin
 }
 
 VID = {
 	color = map_VID
 	color2 = rgb { 183 149 205 }
 
-	culture_definition = bulgarian
-	religion_definition = orthodox
+	culture_definition = albanian
+	religion_definition = illyrian_religion
 }
 
 CLI = {	
@@ -191,14 +191,14 @@ CLI = {
 	color2 = rgb { 159 174 96 }
 	
 	culture_definition = slovene
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 NEO = {
 	color = rgb { 63 72 204 }
 	
-	culture_definition = catalan
-	religion_definition = catholic
+	culture_definition = aromanian
+	religion_definition = dacian_religion
 }
 
 BOD = {
@@ -211,8 +211,8 @@ BOD = {
 ARG = {
 	color = hsv360 { 239 70 61 }
 	
-	culture_definition = french
-	religion_definition = catholic
+	culture_definition = greek_culture
+	religion_definition = chichimecah_religion
 }
 
 KNI = {
@@ -235,15 +235,15 @@ CRT = {
 NEG = {
 	color = rgb { 95 105 100 }
 	
-	culture_definition = venetian
-	religion_definition = catholic
+	culture_definition = bulgarian
+	religion_definition = summer_kin
 }
 
 SAO = {
 	color = rgb { 255 201 14 }
 	
-	culture_definition = catalan
-	religion_definition = catholic
+	culture_definition = greek_culture
+	religion_definition = hellenism_religion
 }
 
 CAR = {
@@ -264,5 +264,5 @@ GOR = {
 	color = map_GOR
 
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = norse
 }

@@ -6,8 +6,8 @@
 	unit_color1 = rgb {	157 48 28 }
 	unit_color2 = rgb {	19 20 25 }
 
-	culture_definition = danube_bavarian
-	religion_definition = catholic
+	culture_definition = swabian
+	religion_definition = gautism
 	
 	description_category = diplomatic
 	difficulty = 3
@@ -22,7 +22,7 @@ BOH = {
 	unit_color2 = rgb {	103 118 165 }
 	
 	culture_definition = czech
-	religion_definition = catholic
+	religion_definition = spring_kin
 
 	description_category = diplomatic
 	difficulty = 1
@@ -33,28 +33,28 @@ MVA = {
 	color2 = rgb { 232 149 18 }
 	
 	culture_definition = moravian
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 PSS = {
 	color = rgb { 130 90 200 }
 	
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 AUG = {
 	color = rgb { 20 188 118 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 AGC = {
 	color = rgb { 20 190 118 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 UBV = {
@@ -65,7 +65,7 @@ UBV = {
 	unit_color2 = rgb {	195 25 31 }
 	
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = wotanism
 
 	description_category = diplomatic
 	difficulty = 3
@@ -79,7 +79,7 @@ LBV = {
 	unit_color2 = rgb {	195 25 31 }
 	
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SLZ = {
@@ -90,126 +90,126 @@ SLZ = {
 	unit_color2 = rgb {	115 80 65 }
 	
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 BAM = {
 	color = rgb { 200 219 195 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 STY = {
 	color = rgb { 113 135 158 }
 	
 	culture_definition = southern_bavarian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 CRH = {
 	color = rgb { 201 185 40 }
 	
 	culture_definition = slovene
-	religion_definition = orthodox
+	religion_definition = spring_kin
 }
 
 TIR = {
 	color = rgb { 132 110 166 }
 	
 	culture_definition = southern_bavarian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 WER = {
 	color = rgb { 175 183 202 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MBZ = {
 	color = rgb { 101 189 23 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MFK = {
 	color = rgb { 134 115 181 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BCH = {
 	color = rgb { 148 124 184 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 STG = {
 	color = rgb { 115 104 76 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ZUR = {
 	color = rgb { 118 162 168 }
 	
-	culture_definition = high_alemannic
-	religion_definition = catholic
+	culture_definition = venetian
+	religion_definition = aisaru
 }
 
 SYZ = {
 	color = rgb { 133 118 168 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 GLR = {
 	color = rgb { 220 229 61 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 LCA = {
 	color = rgb { 102 132 251 }
 	
 	culture_definition = lombard
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 URI = {
 	color = rgb { 255 223 87 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 OBW = {
 	color = rgb { 196 68 110 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 LCU = {
 	color = rgb { 164 168 237 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 SIT = {
 	color = rgb { 141 124 207 }
 	
 	culture_definition = arpitan
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 SWI = {
@@ -217,7 +217,7 @@ SWI = {
 	color2 = rgb { 153 122 108 }	#Like in EU4
 
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 	is_historic = yes
 }
 
@@ -225,63 +225,63 @@ BRN = {
 	color = rgb { 218 161 113 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 SLT = {
 	color = rgb { 191 156 141 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 NEU = {
 	color = rgb { 51 191 102 }
 	
 	culture_definition = franc_comtois
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BAS = {
 	color = rgb { 58 156 83 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 LSA = {
 	color = rgb { 94 32 108 }
 	
 	culture_definition = arpitan
-	religion_definition = catholic
+	religion_definition = circle_gaulish
 }
 
 KYB = {
 	color = rgb { 219 212 255 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 TRN = {
 	color = hsv { 0.32 0.21 0.38 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 BRC = {
 	color = rgb { 139 40 40 }
 	
 	culture_definition = danube_bavarian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 GRF = {
 	color = rgb { 159 116 182 }
 	
-	culture_definition = danube_bavarian
-	religion_definition = catholic
+	culture_definition = czech
+	religion_definition = spring_kin
 }
 
 PAL = {
@@ -293,7 +293,7 @@ PAL = {
 	unit_color2 = rgb {	220 170 100 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 
 	description_category = diplomatic
 	difficulty = 3
@@ -303,7 +303,7 @@ REG = {
 	color = rgb { 221 41 111 }
 	
 	culture_definition = upper_palatine
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ANS = {
@@ -311,35 +311,35 @@ ANS = {
 	color2 = rgb { 130 77 119 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 FRE = {
 	color = rgb { 242 255 140 }
 	
-	culture_definition = danube_bavarian
-	religion_definition = catholic
+	culture_definition = czech
+	religion_definition = spring_kin
 }
 
 EIC = {
 	color = rgb { 60 97 64 }
 	
 	culture_definition = upper_palatine
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WEI = {
 	color = rgb { 245 216 216 }
 	
-	culture_definition = upper_palatine
-	religion_definition = catholic
+	culture_definition = swabian
+	religion_definition = gautism
 }
 
 NUR = {
 	color = rgb { 243 112 15 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WBG = {
@@ -350,70 +350,70 @@ WBG = {
 	unit_color2 = rgb {	0 28 68 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 RIE = {
 	color = rgb { 250 0 0 }
 	
-	culture_definition = east_franconian
-	religion_definition = catholic
+	culture_definition = german_carpathian
+	religion_definition = gautism
 }
 
 MSB = {
 	color = rgb { 87 131 152 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 UFF = {
 	color = rgb { 154 152 126 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ROT = {
 	color = rgb { 210 15 15 }
 	
-	culture_definition = east_franconian
-	religion_definition = catholic
+	culture_definition = german_carpathian
+	religion_definition = gautism
 }
 
 DNB = {
 	color = rgb { 101 143 66 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MEM = {
 	color = rgb { 210 37 57 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 KMP = {
 	color = rgb { 212 235 111 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 ULM = {
 	color = rgb { 202 202 202 }
 	
 	culture_definition = swabian
-	religion_definition = catholic
+	religion_definition = gautism
 }
 
 KNZ = {
 	color = rgb { 255 133 59 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WUR = {
@@ -423,29 +423,29 @@ WUR = {
 	unit_color1 = rgb {	220 170 91 }
 	unit_color2 = rgb {	201 24 34 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 OET = {
 	color = rgb { 154 79 103 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 SWH = {
 	color = rgb { 40 90 161 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HBR = {
 	color = rgb { 250 227 16 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BDE = {
@@ -456,70 +456,70 @@ BDE = {
 	unit_color2 = rgb {	190 93 71 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WDB = {
 	color = rgb { 250 232 185 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 RVA = {
 	color = rgb { 108 139 228 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BIB = {
 	color = rgb { 0 103 169 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 UBL = {
 	color = rgb { 162 8 198 }
 	
 	culture_definition = high_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HHB = {
 	color = rgb { 198 8 116 }
 	
-	culture_definition = swabian
-	religion_definition = catholic
+	culture_definition = rhine_alemannic
+	religion_definition = wotanism
 }
 
 FBG = {
 	color = rgb { 240 199 229 }
 	
 	culture_definition = rhine_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 OFB = {
 	color = rgb { 247 176 130 }
 	
 	culture_definition = rhine_alemannic
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WLD = {
 	color = rgb { 0 48 255 }
 	
 	culture_definition = upper_palatine
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 OGK = { #old german kingdom for Ruler History
 	color = rgb { 150 177 161 }
 
 	culture_definition = lower_saxon
-	religion_definition = catholic
+	religion_definition = wotanism
 
 	is_historic = yes	
 }
@@ -529,215 +529,215 @@ BXN = {
 	color = rgb { 50 240 158 }
 	
 	culture_definition = southern_bavarian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 VUD = { #Vaud
 	color = rgb { 132 120 179 }
 
 	culture_definition = arpitan
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MSO = {
     color = rgb { 190 170 220 }
     culture_definition = lombard
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 
 SGL = {
     color = rgb { 170 170 170 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 	is_historic = yes
 }
 
 AOS = {
     color = rgb { 150 100 90 }
     culture_definition = arpitan
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 
 FLK = {
     color = rgb { 190 130 120 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 MDS = {
     color = rgb { 180 150 120 }
     culture_definition = ripuarian_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 LDA = {
     color = rgb { 200 150 80 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 VEL = {
     color = rgb { 190 130 90 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 GRY = {
     color = rgb { 170 140 110 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 TGG = {
     color = rgb { 180 120 100 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 PSZ = {
     color = rgb { 210 150 90 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 HLE = {
     color = rgb { 180 140 100 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 	is_historic = yes
 }
 
 SFC = {
     color = rgb { 200 160 110 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 CFC = {
     color = rgb { 170 130 100 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 MUR = {
     color = rgb { 160 110 90 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 HAG = {
     color = rgb { 175 140 120 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 MUL = {
     color = rgb { 190 150 130 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 LIC = {
     color = rgb { 190 120 80 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 BLM = {
     color = rgb { 170 160 100 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 DIS = {
     color = rgb { 180 140 110 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 FUR = {
     color = rgb { 190 230 120 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = circle_irish
 }
 
 GRK = {
     color = rgb { 200 150 110 }
     culture_definition = southern_bavarian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 HAC = {
     color = rgb { 170 140 100 }
     culture_definition = rhine_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 SAW = {
     color = rgb { 200 170 110 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 SAB = {
     color = rgb { 180 140 90 }
     culture_definition = high_alemannic
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 THD = {
     color = rgb { 190 150 100 }
     culture_definition = east_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 ELL = {
     color = rgb { 200 150 90 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 HEH = {
     color = rgb { 180 130 80 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 HLF = {
     color = rgb { 190 140 100 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 HOH = {
     color = rgb { 170 120 90 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 KIR = {
     color = rgb { 200 160 210 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 NEL = {
     color = rgb { 180 140 190 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = high_alemannic
+    religion_definition = norse
 }
 
 TUB = {
     color = rgb { 210 170 120 }
-    culture_definition = swabian
-    religion_definition = catholic
+    culture_definition = rhine_alemannic
+    religion_definition = wotanism
 }
 
 LEU = {
 	color = rgb { 215 183 147 }
 	
-	culture_definition = upper_palatine
-	religion_definition = catholic
+	culture_definition = swabian
+	religion_definition = gautism
 }

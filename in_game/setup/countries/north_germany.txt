@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = slovak
-	religion_definition = orthodox
+	religion_definition = spring_kin
 }
 
 HSA = {
@@ -11,7 +11,7 @@ HSA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = hanseatic	#can't be holsatian
-	religion_definition = catholic
+	religion_definition = wotanism
 
 	description_category = administrative
 	difficulty = 3
@@ -22,14 +22,14 @@ LUB = {
 	color2 = rgb { 156 179 189 }
 
 	culture_definition = holsatian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LBB = {
 	color = rgb { 150 188 200 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = holsatian
+	religion_definition = spring_kin
 }
 
 BRA = {
@@ -41,7 +41,7 @@ BRA = {
 	unit_color2 = rgb {	205 74 44 }
 
 	culture_definition = polabian
-	religion_definition = orthodox
+	religion_definition = spring_kin
 
 	description_category = military
 	difficulty = 5
@@ -51,50 +51,50 @@ ALL = {
 	color = map_ALL
 	color2 = rgb { 200 189 16 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 MAG = {
 	color = rgb { 189 115 99 }
 	
 	culture_definition = polabian
-	religion_definition = orthodox
+	religion_definition = spring_kin
 }
 
 THU = {
 	color = rgb { 66 126 157 }
 	
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 BRE = {
 	color = rgb { 33 101 137 }
 	
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = lower_saxon
+	religion_definition = spring_kin
 }
 
 BRM = {
 	color = rgb { 33 101 150 }
 	
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 MDN = {
 	color = rgb { 133 201 150 }
 	
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 NSA = {
 	color = rgb { 91 83 203 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 	is_historic = yes
 }
 
@@ -102,35 +102,35 @@ NSH = {
 	color = rgb { 91 183 203 }
 	
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 NSS = {
 	color = rgb { 191 83 203 }
 	
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 NSD = {
 	color = rgb { 191 183 203 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BRG = {
 	color = rgb { 240 205 140 }
 	
 	culture_definition = ripuarian_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 KTZ = {
 	color = rgb { 178 45 187 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MAI = {
@@ -141,14 +141,14 @@ MAI = {
 	unit_color2 = rgb {	195 160 71 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SAA = {
 	color = rgb { 75 110 102 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 STE = {
@@ -158,43 +158,43 @@ STE = {
 	unit_color1 = rgb {	83 157 201 }
 	unit_color2 = rgb {	199 36 39 }
 	
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = eastern_pomeranian
+	religion_definition = spring_kin
 }
 
 HTR = {
 	color = rgb { 220 150 158 }
 	
-	culture_definition = holsatian
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 SLV = {
 	color = hsv360 { 2 80 95 }
 	
-	culture_definition = holsatian
-	religion_definition = catholic
+	culture_definition = danish
+	religion_definition = wealdism
 }
 
 HNB = {
 	color = rgb { 234 193 53 }
 	
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SPY = {
 	color = rgb { 140 224 255 }
 	
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 PLN = {
 	color = rgb { 250 200 180 }
 
 	culture_definition = east_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MEI = {
@@ -205,7 +205,7 @@ MEI = {
 	unit_color2 = rgb {	255 254 236 }
 
 	culture_definition = saxon
-	religion_definition = catholic
+	religion_definition = spring_kin
 
 	description_category = diplomatic
 	difficulty = 2
@@ -215,14 +215,14 @@ LDB = {
 	color = rgb { 255 221 17 }
 
 	culture_definition = saxon
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 GLA = {
 	color = rgb { 197 81 194 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 SOR = {
@@ -230,49 +230,49 @@ SOR = {
 	color2 = rgb { 67 80 128 }
 
 	culture_definition = sorbian
-	religion_definition = orthodox
+	religion_definition = spring_kin
 }
 
 SPB = {
 	color = rgb { 255 137 146 }
 
 	culture_definition = german_silesian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SWB = {
 	color = hsv { 0 0.7 0.38 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = danish
+	religion_definition = wealdism
 }
 
 RUP = {
 	color = rgb { 136 48 66 }
 
 	culture_definition = markish
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 HVB = {
 	color = rgb { 25 73 134 }
 
 	culture_definition = polabian
-	religion_definition = orthodox
+	religion_definition = spring_kin
 }
 
 SWR = {
 	color = rgb { 228 110 95 }
 
 	culture_definition = western_pomeranian
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 WRN = {
 	color = rgb { 0 255 128 }
 
 	culture_definition = western_pomeranian
-	religion_definition = catholic
+	religion_definition = nahuatl
 }
 
 MKL = {
@@ -283,29 +283,29 @@ MKL = {
 	unit_color1 = rgb {	210 2 1 }
 	unit_color2 = rgb {	195 160 71 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = western_pomeranian
+	religion_definition = spring_kin
 }
 
 RZB = {
 	color = rgb { 255 249 116 }
 
-	culture_definition = western_pomeranian
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 RST = {
 	color = rgb { 255 225 196 }
 
 	culture_definition = western_pomeranian
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 GSW = {
 	color = rgb { 245 196 145 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = western_pomeranian
+	religion_definition = spring_kin
 }
 
 WOL = {
@@ -315,136 +315,136 @@ WOL = {
 	unit_color1 = rgb {	117 177 226 }
 	unit_color2 = rgb {	195 170 71 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = western_pomeranian
+	religion_definition = spring_kin
 }
 
 
 LAU = {
 	color = rgb { 79 139 99 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 HAM = {
 	color = rgb { 227 95 7 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 HBS = {
 	color = rgb { 215 182 199 }
 
-	culture_definition = sorbian
-	religion_definition = orthodox
+	culture_definition = saxon
+	religion_definition = spring_kin
 }
 
 BBG = {
 	color = rgb { 75 39 97 }
 
-	culture_definition = eastphalian
-	religion_definition = catholic
+	culture_definition = swedish
+	religion_definition = norse
 }
 
 ANH = {
 	color = map_ANH
 	color2 = rgb { 203 93 124 }
 
-	culture_definition = sorbian
-	religion_definition = orthodox
+	culture_definition = brandenburgish
+	religion_definition = spring_kin
 }
 
 BNB = {
 	color = rgb { 150 213 211 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 MFE = {
 	color = rgb { 30 143 239 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 MRB = {
 	color = rgb { 232 232 102 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 NMB = {
 	color = rgb { 240 203 255 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 QUB = {
 	color = rgb { 127 124 85 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 WMA = {
 	color = rgb { 220 94 40 }
 
-	culture_definition = sorbian
-	religion_definition = orthodox
+	culture_definition = saxon
+	religion_definition = spring_kin
 }
 
 SWZ = {
 	color = hsv { 0.14 0.38 0.38 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 FLD = {
 	color = rgb { 66 103 88 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SHS = {
 	color = rgb { 198 210 222 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 NHS = {
 	color = rgb { 200 200 62 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 MLH = {
 	color = rgb { 155 170 136 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = east_franconian
+	religion_definition = wotanism
 }
 
 ERF = {
 	color = rgb { 133 22 128 }
 
-	culture_definition = saxon
-	religion_definition = catholic
+	culture_definition = swabian
+	religion_definition = gautism
 }
 
 HSF = {
 	color = rgb { 117 175 244 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HES = {
@@ -455,42 +455,42 @@ HES = {
 	unit_color2 = rgb {	254 253 235 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 PDB = {
 	color = rgb { 214 90 79 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ZIG = {
 	color = rgb { 0 241 230 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HNA = {
 	color = rgb { 205 186 214 }
 
-	culture_definition = rhine_franconian
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 BUD = {
 	color = rgb { 150 70 70 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WTZ = {
 	color = rgb { 180 22 127 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 TRI = {
@@ -501,63 +501,63 @@ TRI = {
 	unit_color2 = rgb {	15 33 30 }
 
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 DIE = {
 	color = rgb { 236 90 91 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 FRN = {
 	color = rgb { 243 201 33 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ERB = {
 	color = rgb { 227 225 160 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WRM = {
 	color = rgb { 86 98 246 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 SYE = {
 	color = rgb { 240 101 101 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ZWE = {
 	color = rgb { 251 187 0 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LNN = {
 	color = rgb { 0 187 251 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 SPO = {
 	color = rgb { 215 66 74 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 
@@ -566,7 +566,7 @@ SYN = {
 	color = rgb { 7 137 48 }
 
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 KOL = {
@@ -577,133 +577,133 @@ KOL = {
 	unit_color2 = rgb {	185 35 40 }
 
 	culture_definition = ripuarian_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 DUN = {
 	color = hsv { 0.66 0.33 0.38 }
 
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 APR = {
 	color = rgb { 200 211 22 }
 
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 AAC = {
 	color = rgb { 157 51 167 }
 
 	culture_definition = ripuarian_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 JUL = {
 	color = rgb { 103 79 33 }
 
 	culture_definition = ripuarian_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 GEL = {
 	color = rgb { 139 66 97 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ZUT = {
 	color = rgb { 79 157 202 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 GMK = {
 	color = rgb { 93 202 202 }
 
 	culture_definition = westphalian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 WTG = {
 	color = rgb { 221 37 77 }
 
 	culture_definition = rhine_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 DTM = {
 	color = rgb { 228 108 139 }
 
 	culture_definition = westphalian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ESS = {
 	color = rgb { 215 177 186 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = norse
 }
 
 MRS = {
 	color = rgb { 55 69 106 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 KLE = {
 	color = rgb { 173 176 113 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ANB = {
 	color = rgb { 176 176 6 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LPP = {
 	color = rgb { 21 83 149 }
 
-	culture_definition = angrian
-	religion_definition = catholic
+	culture_definition = swedish
+	religion_definition = norse
 }
 
 HOX = {
 	color = rgb { 244 193 37 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 RVB = {
 	color = rgb { 220 134 21 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 OSN = {
 	color = rgb { 135 138 192 }
 
-	culture_definition = westphalian
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 TCK = {
 	color = rgb { 144 44 144 }
 
 	culture_definition = westphalian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 MUN = {
@@ -714,7 +714,7 @@ MUN = {
 	unit_color2 = rgb {	40 67 97 }
 
 	culture_definition = westphalian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LUN = {
@@ -724,8 +724,8 @@ LUN = {
 	unit_color1 = rgb {	190 25 30 }
 	unit_color2 = rgb {	58 58 60 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = lower_saxon
+	religion_definition = spring_kin
 }
 
 BRU = {
@@ -735,178 +735,178 @@ BRU = {
 	unit_color1 = rgb {	210 2 43 }
 	unit_color2 = rgb {	66 65 70 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = eastphalian
+	religion_definition = spring_kin
 }
 
 GBH = {
 	color = rgb { 193 174 132 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HDH = {
 	color = rgb { 225 240 210 }
 
-	culture_definition = eastphalian
-	religion_definition = catholic
+	culture_definition = westphalian
+	religion_definition = wotanism
 }
 
 GOS = {
 	color = rgb { 88 45 148 }
 
-	culture_definition = eastphalian
-	religion_definition = catholic
+	culture_definition = westphalian
+	religion_definition = wotanism
 }
 
 SCB = {
 	color = rgb { 165 90 127 }
 
 	culture_definition = angrian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HOY = {
 	color = rgb { 239 239 78 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 NIE = {
 	color = rgb { 239 78 239 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 DPH = {
 	color = rgb { 80 110 54 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 VRD = {
 	color = rgb { 227 211 34 }
 
-	culture_definition = polabian
-	religion_definition = orthodox
+	culture_definition = lower_saxon
+	religion_definition = spring_kin
 }
 
 RTB = {
 	color = rgb { 225 183 143 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = angrian
+	religion_definition = wotanism
 }
 
 OLD = {
 	color = rgb { 147 130 118 }
 
-	culture_definition = lower_saxon
-	religion_definition = catholic
+	culture_definition = frisian
+	religion_definition = wealdism
 }
 
 BMS = {
     color = rgb { 150 200 250 }
     culture_definition = saxon
-    religion_definition = catholic
+    religion_definition = spring_kin
 }
 
 BLB = {
     color = rgb { 180 120 240 }
     culture_definition = polabian
-    religion_definition = orthodox
+    religion_definition = spring_kin
 }
 
 BBD = {
     color = rgb { 140 110 190 }
     culture_definition = brandenburgish
-    religion_definition = catholic
+    religion_definition = spring_kin
 }
 
 HSP = {
     color = rgb { 210 140 80 }
     culture_definition = holsatian
-    religion_definition = catholic
+    religion_definition = spring_kin
 }
 
 BSK = {
     color = rgb { 220 180 100 }
     culture_definition = brandenburgish
-    religion_definition = catholic
+    religion_definition = spring_kin
 }
 
 WGO = {
     color = rgb { 200 100 90 }
     culture_definition = eastphalian
-    religion_definition = catholic
+    religion_definition = spring_kin
 }
 
 BHL = {
     color = rgb { 210 180 140 }
-    culture_definition = saxon
-    religion_definition = catholic
+    culture_definition = east_franconian
+    religion_definition = wotanism
 }
 
 GLN = {
     color = rgb { 175 140 115 }
-    culture_definition = saxon
-    religion_definition = catholic
+    culture_definition = east_franconian
+    religion_definition = wotanism
 }
 
 WDE = {
     color = rgb { 200 180 130 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 RBG = {
     color = rgb { 160 120 150 }
     culture_definition = angrian
-    religion_definition = catholic
+    religion_definition = norse
 }
 
 NSW = {
     color = rgb { 210 160 100 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 NSI = {
     color = rgb { 220 180 90 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 RDL = {
     color = rgb { 190 170 110 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 NID = {
     color = rgb { 210 140 130 }
     culture_definition = rhine_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 EVS = {
     color = rgb { 160 120 90 }
     culture_definition = angrian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 JEV = {
     color = rgb { 140 110 100 }
     culture_definition = frisian
-    religion_definition = catholic
+    religion_definition = wotanism
 }
 
 WIE = {
     color = rgb { 160 130 110 }
     culture_definition = moselle_franconian
-    religion_definition = catholic
+    religion_definition = wotanism
 }

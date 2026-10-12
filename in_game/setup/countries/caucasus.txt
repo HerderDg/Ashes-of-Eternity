@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = georgian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 
 	description_category = military
 	difficulty = 2
@@ -14,7 +14,7 @@ AAI = { #Alastani
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = georgian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 IME = { #Imereti
@@ -22,7 +22,7 @@ IME = { #Imereti
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = georgian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 SME = { #Samtskhe
@@ -30,7 +30,7 @@ SME = { #Samtskhe
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = georgian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 SRV = { #Shirvan
@@ -86,7 +86,7 @@ CIR = { #Circassia
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 	is_historic = yes
 }
 
@@ -95,7 +95,7 @@ CPA = { #Copa
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 HTY = { #Hatukay
@@ -103,7 +103,7 @@ HTY = { #Hatukay
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 HYT = { #Hytuk
@@ -111,7 +111,7 @@ HYT = { #Hytuk
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 KDA = { #Kabardia
@@ -119,7 +119,7 @@ KDA = { #Kabardia
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 KIP = { #Kipike
@@ -127,7 +127,7 @@ KIP = { #Kipike
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 TEM = { #Temirgoy
@@ -135,7 +135,7 @@ TEM = { #Temirgoy
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = circassian_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 SKI = { #Shaki
@@ -167,7 +167,7 @@ ALN = { #Alania
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = alan_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 DZK = { #Durdzuketia
@@ -183,7 +183,7 @@ SMS = { #Simsir
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = nakh_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 KAI = { #Kaitag
@@ -191,7 +191,7 @@ KAI = { #Kaitag
 	color2 = rgb { 16 41 102 }
 
 	culture_definition = dargin_culture
-	religion_definition = orthodox
+	religion_definition = hellenism_religion
 }
 
 LEK = { #Lekhia

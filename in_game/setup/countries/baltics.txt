@@ -3,7 +3,7 @@
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = estonian
-	religion_definition = muinaisusko
+	religion_definition = votian_religion
 
 	description_category = military
 	difficulty = 4
@@ -32,14 +32,14 @@ ERM = {
 	color = rgb { 96 131 199 }
 
 	culture_definition = mazovian
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 CHL = {
 	color = rgb { 181 17 16 }
 
 	culture_definition = greater_polish
-	religion_definition = catholic
+	religion_definition = spring_kin
 }
 
 PMS = {
@@ -77,7 +77,7 @@ BID = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = liv
-	religion_definition = muinaisusko
+	religion_definition = votian_religion
 }
 RIG = {
 	color = map_riga

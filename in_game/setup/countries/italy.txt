@@ -2,21 +2,21 @@
 color = rgb { 255 71 255 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
 ANC	= { #ancona
 	color = rgb { 65 118 243 }
 	culture_definition = median
-	religion_definition = catholic
+	religion_definition = hellenism_religion
 }
 
 
 AQU	= { #aquileia
 	color = rgb { 77 150 110 }
 	culture_definition = friulian
-	religion_definition = catholic
+	religion_definition = aisaru
 }
 
 
@@ -24,7 +24,7 @@ ARB	= { #arborea
 	color = rgb { 151 22 168 }
 
 	culture_definition = sardinian
-	religion_definition = catholic
+	religion_definition = magonid
 }
 
 
@@ -32,15 +32,15 @@ ARZ	= { #arezzo
 	color = hsv { 0 0 0.42 }
 
 	culture_definition = tuscan
-	religion_definition = catholic
+	religion_definition = aisaru
 }
 
 
 ASC	= { #ascoli
 color = rgb { 154 87 108 }
 
-culture_definition = neapolitan
-religion_definition = catholic
+culture_definition = median
+religion_definition = aisaru
 
 
 }
@@ -50,7 +50,7 @@ ASD	= { #alessandria
 color = rgb { 220 60 40 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 
 }
@@ -60,7 +60,7 @@ ATI	= { #asti
 color = rgb { 138 140 212 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
@@ -78,7 +78,7 @@ BRS	= { #brescia
 color = rgb { 80 0 106 }
 
 culture_definition = lombard
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
@@ -87,7 +87,7 @@ CAG	= { #cagliari
 	color = hsv { 0 0 0.43 }
 
 	culture_definition = sardinian
-	religion_definition = catholic
+	religion_definition = magonid
 }
 
 
@@ -95,7 +95,7 @@ CDC	= { #cittadicastello
 color = rgb { 188 15 61 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -104,7 +104,7 @@ CEN	= { #ceneda
 color = rgb { 212 0 0 }
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -113,7 +113,7 @@ CES	= { #cesena
 color = rgb { 138 99 111 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -122,7 +122,7 @@ CEV	= { #ceva
 color = rgb { 254 215 0 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -131,7 +131,7 @@ CHX	= { #chieri
 color = rgb { 187 56 177 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -141,8 +141,8 @@ religion_definition = catholic
 CMR	= { #poseidonia
 color = rgb { 111 146 203 }
 
-culture_definition = median
-religion_definition = catholic
+culture_definition = griko_culture
+religion_definition = hellenism_religion
 
 }
 
@@ -151,7 +151,7 @@ CNV	= { #canavese
 color = rgb { 208 32 103 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -160,7 +160,7 @@ COR	= { #corsica
 color = rgb { 106 178 46 }
 
 culture_definition = corsican
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -169,7 +169,7 @@ COT	= { #cortona
 color = rgb { 152 8 8 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -178,7 +178,7 @@ CRM	= { #cremona
 color = rgb { 218 201 53 }
 
 culture_definition = lombard
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -187,7 +187,7 @@ CRR	= { #Finale
 color = rgb { 238 191 23 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -196,7 +196,7 @@ FAB	= { #fabriano
 color = rgb { 0 156 226 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -205,7 +205,7 @@ FAE	= { #faenza
 color = rgb { 8 13 218 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -214,7 +214,7 @@ FEL	= { #feltre
 color = rgb { 230 50 30 }
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -223,7 +223,7 @@ FER	= { #ferrara
 color = rgb { 160 95 115 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -232,7 +232,7 @@ FLO	= { #florence
 	color = rgb { 107 59 74 }
 
 	culture_definition = tuscan
-	religion_definition = catholic
+	religion_definition = aisaru
 
 	description_category = diplomatic
 	difficulty = 2
@@ -243,8 +243,8 @@ FLO	= { #florence
 FRM	= { #fermo
 color = rgb { 84 127 227 }
 
-culture_definition = median
-religion_definition = catholic
+culture_definition = griko_culture
+religion_definition = hellenism_religion
 
 }
 
@@ -253,15 +253,15 @@ GAL	= { #gallura
 	color = rgb { 100 100 100 }
 
 	culture_definition = sardinian
-	religion_definition = catholic
+	religion_definition = magonid
 }
 
 
 GEN	= { #genoa
 	color = rgb { 218 215 56 }
 
-	culture_definition = ligurian
-	religion_definition = catholic
+	culture_definition = corsican
+	religion_definition = aisaru
 
 	description_category = administrative
 	difficulty = 3
@@ -272,8 +272,8 @@ GEN	= { #genoa
 GUB	= { #bothrosia
 color = rgb { 61 86 143 }
 
-culture_definition = median
-religion_definition = catholic
+culture_definition = griko_culture
+religion_definition = hellenism_religion
 
 }
 
@@ -282,7 +282,7 @@ IMO	= { #imola
 color = rgb { 0 116 200 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -291,7 +291,7 @@ LUC = { #lucca
 color = rgb { 129 82 97 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -300,7 +300,7 @@ MAN	= { #mantua
 color = rgb { 191 83 101 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -309,7 +309,7 @@ MFA = { #montferrat
 color = rgb { 173 112 76 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
@@ -318,7 +318,7 @@ MLO	= { #milan
 color = rgb { 137 98 195 }
 
 culture_definition = lombard
-religion_definition = catholic
+religion_definition = norse
 
 description_category = diplomatic
 difficulty = 3
@@ -330,7 +330,7 @@ MND	= { #mondovi
 color = rgb { 230 0 5 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -339,7 +339,7 @@ MOD	= { #modena
 color = rgb { 192 102 151 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -348,7 +348,7 @@ MSP	= { #malaspina
 color = rgb { 245 215 0 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -357,7 +357,7 @@ MTA	= { #macerata
 color = rgb { 106 135 201 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -365,8 +365,8 @@ religion_definition = catholic
 NAP	= { #naples
 	color = map_naples
 
-	culture_definition = neapolitan
-	religion_definition = catholic
+	culture_definition = griko_culture
+	religion_definition = hellenism_religion
 
 	description_category = diplomatic
 	difficulty = 2
@@ -378,7 +378,7 @@ PAD	= { #padua
 color = rgb { 194 105 183 }
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -387,7 +387,7 @@ PAP	= { #papalstates
 	color = rgb { 211 211 211 }
 
 	culture_definition = median
-	religion_definition = catholic
+	religion_definition = aisaru
 
 	description_category = diplomatic
 	difficulty = 3
@@ -399,7 +399,7 @@ PAR	= { #parma
 color = rgb { 153 102 118 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -408,7 +408,7 @@ PAV	= { #pavia
 color = rgb { 131 178 117 }
 
 culture_definition = lombard
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
@@ -417,7 +417,7 @@ PEA	= { #perugia
 color = rgb { 114 67 82 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -426,7 +426,7 @@ PES	= { #pesaro
 color = rgb { 123 43 68 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -434,7 +434,7 @@ PIE	= { #Piedmont
 color = rgb { 115 194 163 }
 
 culture_definition = piedmontese
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 
 }
@@ -443,7 +443,7 @@ PIO	= { #piombino
 color = rgb { 0 153 255 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -453,7 +453,7 @@ PIS	= { #pisa
 color = rgb { 115 79 91 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -463,7 +463,7 @@ PRA	= { #prato
 color = rgb { 240 90 90 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -473,7 +473,7 @@ RAV	= { #ravenna
 color = rgb { 153 111 124 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -483,7 +483,7 @@ RGG	= { #reggio
 color = rgb { 0 126 231 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -493,7 +493,7 @@ RIM	= { #rimini
 color = rgb { 140 82 100 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -502,7 +502,7 @@ SAL	= { #saluzzo
 color = rgb { 87 56 177 }
 
 culture_definition = vivaro_alpine
-religion_definition = catholic
+religion_definition = norse
 
 }
 
@@ -511,7 +511,7 @@ SAV	= { #savoy
 color = rgb { 121 120 179 }
 
 culture_definition = arpitan
-religion_definition = catholic
+religion_definition = norse
 
 }
 
@@ -519,7 +519,7 @@ SCL	= { #Saint-Claude Abbey
 color = rgb { 200 196 50 }
 
 culture_definition = arpitan
-religion_definition = catholic
+religion_definition = norse
 
 }
 
@@ -527,7 +527,7 @@ GNV	= { #Geneve
 color = rgb { 85 156 93 }
 
 culture_definition = arpitan
-religion_definition = catholic
+religion_definition = circle_gaulish
 
 }
 
@@ -536,7 +536,7 @@ SIC	= { #sicily
 color = rgb { 180 69 195 }
 
 culture_definition = sicilian
-religion_definition = catholic
+religion_definition = magonid
 
 
 }
@@ -546,7 +546,7 @@ SIE	= { #siena
 color = rgb { 105 111 55 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -555,7 +555,7 @@ SPL	= { #spoleto
 color = hsv { 0 0.71 0.38 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -565,7 +565,7 @@ PTG	= { #pitigliano
 color = rgb { 111 26 53 }
 
 culture_definition = median
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -575,7 +575,7 @@ SSP	= { #sansepolcro
 color = rgb { 136 120 120 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -584,7 +584,7 @@ TNT	= { #trento
 color = map_trento
 
 culture_definition = southern_bavarian
-religion_definition = catholic
+religion_definition = norse
 
 }
 
@@ -593,7 +593,7 @@ TOR	= { #torres
 	color = rgb { 200 200 200 }
 
 	culture_definition = sardinian
-	religion_definition = catholic
+	religion_definition = magonid
 }
 
 
@@ -601,7 +601,7 @@ TRV	= { #treviso
 color = rgb { 217 40 40 }
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -610,8 +610,8 @@ religion_definition = catholic
 TTE	= { #trieste
 color = rgb { 100 40 50 }
 
-culture_definition = venetian
-religion_definition = catholic
+culture_definition = dalmatian
+religion_definition = illyrian_language
 
 }
 
@@ -620,7 +620,7 @@ TTN	= { #tortona
 color = rgb { 255 240 240 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -629,7 +629,7 @@ URB	= { #putiada
 color = rgb { 127 57 79 }
 
 culture_definition = emilian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -638,7 +638,7 @@ VEN	= { #venice
 color = map_venice
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 description_category = administrative
 difficulty = 3
@@ -649,8 +649,8 @@ difficulty = 3
 VER	= { #verona
 color = rgb { 112 185 90 }
 
-culture_definition = venetian
-religion_definition = catholic
+culture_definition = lombard
+religion_definition = circle_gaulish
 
 }
 
@@ -659,7 +659,7 @@ VIN	= { #vicenza
 color = rgb { 200 200 18 }
 
 culture_definition = venetian
-religion_definition = catholic
+religion_definition = aisaru
 
 }
 
@@ -668,7 +668,7 @@ VLT	= { #volterra
 color = rgb { 249 203 30 }
 
 culture_definition = tuscan
-religion_definition = catholic
+religion_definition = aisaru
 
 
 }
@@ -678,7 +678,7 @@ PRZ = { #Peruzzi
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = peruzzi_bank_culture
-	religion_definition = catholic
+	religion_definition = aisaru
 }
 
 BRD = { #Bardi
@@ -686,7 +686,7 @@ BRD = { #Bardi
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = bardi_bank_culture
-	religion_definition = catholic
+	religion_definition = aisaru
 }
 
 ACC = { # Acciaioli
@@ -694,11 +694,11 @@ ACC = { # Acciaioli
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = acciaioli_bank_culture
-    religion_definition = catholic
+    religion_definition = aisaru
 }
 
 PST = { # Pistoia
     color = rgb { 180 120 80 }
     culture_definition = tuscan
-    religion_definition = catholic
+    religion_definition = aisaru
 }

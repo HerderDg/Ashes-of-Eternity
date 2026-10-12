@@ -7,7 +7,7 @@
 	unit_color2 = hsv360 {	37 84 89 }
 
 	culture_definition = english
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 
 	description_category = administrative
 	difficulty = 3
@@ -24,7 +24,7 @@ SCO = {
 	unit_color2 = blue
 
 	culture_definition = scottish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 
 	description_category = military
 	difficulty = 4
@@ -41,7 +41,7 @@ SBL = {
 	unit_color2 = blue
 
 	culture_definition = scottish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 CLA = {
@@ -49,7 +49,7 @@ CLA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 CLR = {
@@ -57,7 +57,7 @@ CLR = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 CWM = {
@@ -65,7 +65,7 @@ CWM = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 ULS = {
@@ -74,7 +74,7 @@ ULS = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 ORD = { # Ormond
@@ -82,7 +82,7 @@ ORD = { # Ormond
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 DMS = { # Desmond
@@ -90,7 +90,7 @@ DMS = { # Desmond
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 KID = { # Kildare
@@ -98,7 +98,7 @@ KID = { # Kildare
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 BEA = { # Beare
@@ -106,7 +106,7 @@ BEA = { # Beare
 	color2 = rgb { 16 41 150 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 CMA = {
@@ -114,7 +114,7 @@ CMA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 UMH = {
@@ -122,7 +122,7 @@ UMH = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 OSS = {
@@ -130,7 +130,7 @@ OSS = {
 	color2 = rgb { 255 255 255 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 MCM = {
@@ -138,7 +138,7 @@ MCM = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 OIL = {
@@ -146,7 +146,7 @@ OIL = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 AMA = {
@@ -154,7 +154,7 @@ AMA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 DHM = {
@@ -162,23 +162,23 @@ DHM = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = northumbrian
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 CET = {
 	color = hsv360 { 335 53 74 }
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = northumbrian
+	religion_definition = circle_brythonic
 }
 
 LAN = {
 	color = hsv360 { 51 25 100 }
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = northumbrian
-	religion_definition = catholic
+	culture_definition = english
+	religion_definition = circle_brythonic
 }
 
 CNN = {
@@ -186,7 +186,7 @@ CNN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 MTH = {
@@ -194,7 +194,7 @@ MTH = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 ANN = {
@@ -202,7 +202,7 @@ ANN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 PLE = {
@@ -214,7 +214,7 @@ PLE = {
 	unit_color2 = blue
 
 	culture_definition = english # Anglo-Irish were not given government jobs until a bit later
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 
 	
 }
@@ -223,14 +223,12 @@ WLS = {
 	color = map_WLS
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = english # totally controlled by Anglo-Normans
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = circle_irish
 	
 	unit_color0 = hsv360{ 358 70 45 }
 	unit_color1 = green
 	unit_color2 = red
-
-	
 }
 
 
@@ -239,7 +237,7 @@ TYR = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 
@@ -248,7 +246,7 @@ AMH = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 INI = {
@@ -256,7 +254,7 @@ INI = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 LEI = {
@@ -264,7 +262,7 @@ LEI = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 TRY = {
@@ -272,7 +270,7 @@ TRY = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 KEE = {
@@ -280,7 +278,7 @@ KEE = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 GLS = {
@@ -288,7 +286,7 @@ GLS = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = scottish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 IVG = {
@@ -296,7 +294,7 @@ IVG = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 HYM = {
@@ -304,7 +302,7 @@ HYM = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 IMA = {
@@ -312,7 +310,7 @@ IMA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 DCI = {
@@ -320,7 +318,7 @@ DCI = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 TGH = { # Tireragh 
@@ -328,7 +326,7 @@ TGH = { # Tireragh
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 ELY = { # Ely
@@ -336,7 +334,7 @@ ELY = { # Ely
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 FCL = { # Firceall
@@ -344,7 +342,7 @@ FCL = { # Firceall
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 LOI = {
@@ -352,7 +350,7 @@ LOI = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = norse_gael
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 FMA = {
@@ -360,7 +358,7 @@ FMA = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 BFN = {
@@ -368,7 +366,7 @@ BFN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 
 }
 
@@ -377,7 +375,7 @@ CVN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 
 }
 
@@ -386,7 +384,7 @@ MYO = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = anglo_irish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 
@@ -395,7 +393,7 @@ THO = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 SLN = {
@@ -403,7 +401,7 @@ SLN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 FLY = {
@@ -411,7 +409,7 @@ FLY = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = irish
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 CRN = {
 	color = map_cornish
@@ -422,78 +420,78 @@ CRN = {
 	unit_color2 = red
 
 	culture_definition = cornish
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 GWR = {
 	color = hsv360 { 185 75 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = circle_irish
 }
 GMG = {
 	color = hsv360 { 125 80 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = circle_brythonic
 }
 MAC = {
 	color =hsv360 { 200 85 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = danish
+	religion_definition = wealdism
 }
 AUD = {
 	color = hsv360 { 355 85 95 }
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = english
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 BRO = {
 	color = hsv360 { 215 75 90 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = circle_brythonic
 }
 POS = {
 	color = hsv360 { 150 80 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = welsh
+	religion_definition = circle_brythonic
 }
 EWY = {
 	color = hsv360 { 30 85 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = danish
+	religion_definition = wealdism
 }
 CMS = {
 	color = hsv360 { 95 75 95 }
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = english
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 PMB = {
 	color = hsv360 { 165 80 95 }
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = english
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 DEN = {
 	color = hsv360 { 240 75 95 }
 	color2 = hsv { 0 0 0.38 }
 
-	culture_definition = english
-	religion_definition = catholic
+	culture_definition = danish
+	religion_definition = wealdism
 }
 
 GDD = {
@@ -501,42 +499,42 @@ GDD = {
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 PWS = {
 	color = map_PWS
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 DHB = {
 	color = map_DHB
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 MWG = {
 	color = map_MWG
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 BCN = {
 	color = map_BCN
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 GWT = {
 	color = map_GWT
 	color2 = hsv { 0 0 0.38 }
 
 	culture_definition = welsh
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 
 MNN = {
@@ -544,28 +542,28 @@ MNN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = norse_gael
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 ORK = {
 	color = map_norn
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = norn_culture
-	religion_definition = catholic
+	religion_definition = norse
 }
 MOY = {
 	color = map_highland
 	color2 = rgb { 16 41 202 }
 
-	culture_definition = scottish
-	religion_definition = catholic
+	culture_definition = highland
+	religion_definition = circle_brythonic
 }
 ROS = {
 	color = rgb { 117  127  174 }
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = highland
-	religion_definition = catholic
+	religion_definition = circle_brythonic
 }
 NOL = {
 	color = map_NOL
@@ -575,8 +573,8 @@ NOL = {
 	unit_color1 = purple
 	unit_color2 = red
 
-	culture_definition = northumbrian
-	religion_definition = catholic
+	culture_definition = norwegian
+	religion_definition = norse
 }
 
 GLY = {
@@ -584,5 +582,5 @@ GLY = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = norse_gael
-	religion_definition = catholic
+	religion_definition = circle_irish
 }

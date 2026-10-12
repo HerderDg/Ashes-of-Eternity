@@ -6,7 +6,7 @@
 	unit_color2 = rgb {	252 248 245 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = gautism
 
 	description_category = administrative
 	difficulty = 2
@@ -15,24 +15,24 @@
 ZEE = {
 	color = rgb { 187 193 216 }
 
-	culture_definition = low_franconian
-	religion_definition = catholic
+	culture_definition = frisian
+	religion_definition = wealdism
 }
 
 BRB = {
 	color = map_BRB
 	color2 = rgb { 118 193 153 }
 
-	culture_definition = low_franconian
-	religion_definition = catholic
+	culture_definition = frisian
+	religion_definition = wealdism
 }
 
 FLA = {
 	color = map_FLA
 	color2 = rgb { 43 141 172 }
 
-	culture_definition = low_franconian
-	religion_definition = catholic
+	culture_definition = picard
+	religion_definition = circle_brythonic
 
 	description_category = administrative
 	difficulty = 2
@@ -42,131 +42,131 @@ LUX = {
 	color = rgb { 53 140 73 }
 
 	culture_definition = moselle_franconian
-	religion_definition = catholic
+	religion_definition = circle_irish
 }
 
 LIE = {
 	color = map_LIE
 	color2 = rgb { 149 186 37 }
 	culture_definition = walloon
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 CHN = {
 	color = rgb { 224 64 108 }
 
 	culture_definition = lorrain
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LIM = {
 	color = rgb { 180 110 110 }
 
 	culture_definition = walloon
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 NAM = {
 	color = rgb { 193 185 95 }
 
 	culture_definition = walloon
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 LOO = {
 	color = rgb { 125 90 30 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 VBG = {
 	color = rgb { 80 120 182 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HRN = {
 	color = rgb { 165 15 60 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 CJK = {
 	color = rgb { 235 133 177 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 UTR = {
 	color = rgb { 223 198 64 }
 
-	culture_definition = low_franconian
-	religion_definition = catholic
+	culture_definition = frisian
+	religion_definition = wealdism
 }
 
 FRI = {
 	color = rgb { 0 128 255 }
 
 	culture_definition = frisian
-	religion_definition = catholic
+	religion_definition = wealdism
 }
 
 STV = {
 	color = rgb { 182 95 165 }
 
 	culture_definition = walloon
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HAI = {
 	color = rgb { 103  62  185 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 ARS = {
 	color = rgb { 227 136 216 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 STP = {
 	color = rgb { 133 95 185 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BGN = {
 	color = rgb { 185 60 165 }
 
 	culture_definition = picard
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BNT = {
 	color = rgb { 14 98 165 }
 
 	culture_definition = westphalian
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 BLL = {
 	color = rgb { 122 48 112 }
 
 	culture_definition = walloon
-	religion_definition = catholic
+	religion_definition = wotanism
 }
 
 HBG = {
 	color = rgb { 107 41 41 }
 
 	culture_definition = low_franconian
-	religion_definition = catholic
+	religion_definition = wotanism
 }

@@ -11,7 +11,7 @@
 	#unit_color2 = hsv360 {	0	0	50	} 
 
 	culture_definition = swedish
-	religion_definition = catholic
+	religion_definition = norse
 
 	description_category = diplomatic
 	difficulty = 2
@@ -28,7 +28,7 @@ DAN = {
 	unit_color2 = rgb {	252 230 11 }
 
 	culture_definition = danish
-	religion_definition = catholic
+	religion_definition = wealdism
 
 	description_category = administrative
 	difficulty = 3
@@ -41,7 +41,7 @@ SKE = {
 	color2 = rgb { 255 223 0 }
 
 	culture_definition = danish
-	religion_definition = catholic
+	religion_definition = wealdism
 
 	
 }
@@ -52,7 +52,7 @@ NOR = {
 	color2 = rgb { 208 9 9 }
 
 	culture_definition = norwegian
-	religion_definition = catholic
+	religion_definition = norse
 
 	description_category = diplomatic
 	difficulty = 3
@@ -64,7 +64,7 @@ FIN = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = finnish
-	religion_definition = catholic
+	religion_definition = norse
 	
 	unit_color0 = hsv360 {	0	0	50	} 
 	unit_color1 = hsv360 {	216	75	35	} 
@@ -126,7 +126,7 @@ ICE = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = icelandic
-	religion_definition = catholic
+	religion_definition = norse
 
 	
 }
@@ -136,7 +136,7 @@ GRL = {
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = icelandic
-	religion_definition = catholic
+	religion_definition = norse
 
 	
 }
