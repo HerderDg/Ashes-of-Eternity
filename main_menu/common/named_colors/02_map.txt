@@ -1,5 +1,12 @@
 ﻿
 colors = {
+	color_allhammer = rgb { 132 165 145 }
+	color_gautish = rgb { 191 191 191 }
+	color_vanatru = rgb { 163 146 162 }
+	color_asatru = rgb { 139 137 163 }
+	color_megharic = rgb { 60 120 120 }
+	color_artaic = rgb { 70 30 120 }
+	color_mertic = rgb { 0 120 60 }
 	#eu4 map colors
 	map_debug = rgb { 255 0 255 }
 	map_etruscan = rgb { 107 59 74 }
@@ -1007,7 +1014,7 @@ colors = {
 	color_mayan = rgb { 83 72 19 }
 	color_mesoamerican = rgb { 127 25 178 } #same as in EU4
 	color_nahuatl = rgb { 64 115 64 } #same as in EU4
-	color_norse = rgb { 191 191 191 } #same as in EU4
+	color_norse = rgb { 163 156 125 } #same as in EU4
 	color_romuva = rgb { 87 77 82 }
 	color_shamanism = rgb { 127 50 50 }
 	color_tengri = rgb { 25 76 217 } #same as in EU4

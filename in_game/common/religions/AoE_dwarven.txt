@@ -1,0 +1,14 @@
+﻿all_hammer = { #european dwarven
+	color = color_allhammer
+	group = dwarven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}

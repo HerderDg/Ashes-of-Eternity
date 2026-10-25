@@ -549,3 +549,19 @@ provencal = {
 		french_group
 	}
 }
+
+german_silesian = {
+	language = francique_dialect
+	
+	color = map_STE
+	
+	tags = { french_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+
+	}	
+	
+	culture_groups = {
+		french_group
+	}
+}

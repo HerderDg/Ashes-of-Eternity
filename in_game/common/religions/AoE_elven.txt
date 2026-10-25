@@ -1,0 +1,48 @@
+﻿megharic = { #machine god
+	color = color_megharic
+	group = elven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+artaic = { #cosmos god
+	color = color_artaic
+	group = elven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+mertic = { #chaos god
+	color = color_mertic
+	group = elven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+
+
+

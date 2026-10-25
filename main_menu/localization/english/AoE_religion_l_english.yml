@@ -1,4 +1,17 @@
 ﻿l_english:
+
+ megharic: "Megharic Dictate"
+ megharic_ADJ: "Megharic"
+ megharic_desc: "The $common_folk_religion_desc$"
+
+ artaic: "Artaic Dictate"
+ artaic_ADJ: "Artaic"
+ artaic_desc: "The $common_folk_religion_desc$"
+
+ mertic: "Mertic Dictate"
+ mertic_ADJ: "Mertic"
+ mertic_desc: "The $common_folk_religion_desc$"
+
  amalurtz_religion: "Amalurtz"
  amalurtz_religion_ADJ: "Amalurtzi"
  amalurtz_religion_desc: "The $common_folk_religion_desc$"
@@ -14,6 +27,10 @@
  wotanism: "Ásatrú"
  wotanism_ADJ: "Ásatrú"
  wotanism_desc: "The $common_folk_religion_desc$"  
+
+ all_hammer: "All-Hammer Creed"
+ all_hammer_ADJ: "Alhamatreú"
+ all_hammer_desc: "The $common_folk_religion_desc$"
 
  circle_gaulish: "Cernonnic Circle"
  circle_gaulish_ADJ: "Cernonnic"
