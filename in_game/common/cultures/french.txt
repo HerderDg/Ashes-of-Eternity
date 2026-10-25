@@ -46,6 +46,23 @@ breton = {
 	}
 }
 
+galician = { 
+	language = galician_dialect
+	
+	color = map_GLC
+	
+	tags = { breton_gfx french_gfx celtic_gfx western_european_gfx european_gfx }
+
+	opinions = {
+		breton = kindred
+	}
+	
+	culture_groups = {
+		celtic_group
+		iberian_group
+	}
+}
+
 gallo = { 
 	language = angevin_dialect
 	

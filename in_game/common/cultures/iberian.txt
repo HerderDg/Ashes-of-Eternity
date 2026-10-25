@@ -64,7 +64,7 @@ castilian = {
 	opinions = {
 		leonese = kindred
 		andalusi = enemy
-		galician = kindred
+		galician = enemy
 		moroccan = negative
 	}
 	
@@ -82,22 +82,6 @@ catalan = {
 
 	opinions = {
 		aragonese = positive
-	}
-	
-	culture_groups = {
-		iberian_group
-	}
-}
-
-galician = { 
-	language = galician_dialect
-	
-	color = map_GLC
-	
-	tags = { portuguese_gfx iberian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
-
-	opinions = {
-		castilian = kindred
 	}
 	
 	culture_groups = {

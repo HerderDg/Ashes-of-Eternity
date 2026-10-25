@@ -100,7 +100,7 @@ POK = {
 	color = rgb { 16 113 155 }
 
 	culture_definition = polatskian_culture
-	religion_definition = winter_kin
+	religion_definition = romuva
 }
 
 TUV = {
