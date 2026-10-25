@@ -3,28 +3,28 @@
  amalurtz_religion_ADJ: "Amalurtzi"
  amalurtz_religion_desc: "The $common_folk_religion_desc$"
 
- gautism: "Gautish"
- gautism_ADJ: "Gautish"
+ gautism: "Gotharic"
+ gautism_ADJ: "Gotharic"
  gautism_desc: "The $common_folk_religion_desc$"
 
- wealdism: "Wealdish"
- wealdism_ADJ: "Wealdish"
+ wealdism: "Vanatrú"
+ wealdism_ADJ: "Vanatrú"
  wealdism_desc: "The $common_folk_religion_desc$" 
 
- wotanism: "Wotanic"
- wotanism_ADJ: "Wotanic"
+ wotanism: "Ásatrú"
+ wotanism_ADJ: "Ásatrú"
  wotanism_desc: "The $common_folk_religion_desc$"  
 
- circle_gaulish: "Gaulish Circle"
- circle_gaulish_ADJ: "Gaulish"
+ circle_gaulish: "Cernonnic Circle"
+ circle_gaulish_ADJ: "Cernonnic"
  circle_gaulish_desc: "The $common_folk_religion_desc$"
 
- circle_irish: "Irish Circle"
- circle_irish_ADJ: "Irish"
+ circle_irish: "Danunnic Circle"
+ circle_irish_ADJ: "Danunnic"
  circle_irish_desc: "The $common_folk_religion_desc$"
 
- circle_brythonic: "Brythonic Circle"
- circle_brythonic_ADJ: "Brythonic"
+ circle_brythonic: "Myrddinic Circle"
+ circle_brythonic_ADJ: "Myrddinic"
  circle_brythonic_desc: "The $common_folk_religion_desc$"
 
  celtic: "Celtic Faith"
