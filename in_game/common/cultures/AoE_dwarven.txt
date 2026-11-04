@@ -1,0 +1,96 @@
+﻿
+dhwerkin_clan  = { #Dhwerkin - European - All-Hammer Creed
+	language = icelandic_dialect
+	
+	color = color_culture_matuumbi
+	
+	tags = { norwegian_gfx western_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group
+	}
+}
+
+rugdhari_clan  = { #Rugdhari - Ural/Caucasus - Swarthfire Creed
+	language = permic_language
+	
+	color = map_hadza
+	
+	tags = { finnish_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group
+	}
+}
+
+li_duar_clan  = { #Li-Duar - Tibet/China - Celestial Forge Creed
+	language = tibetan_language
+	
+	color = map_dimasa
+	
+	tags = { tibetan_gfx east_asian_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group
+	}
+}
+
+dhvergari_clan  = { #Dhvergari - Baikal - Megharic Dictate
+	language = jurchen_language
+	
+	color = map_vargagaits
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group elven_group
+	}
+}
+
+eastern_dhvergari_clan  = { #Eastern Dhvergari - Alaska - Dhvar-Megharic Creed
+	language = jurchen_language
+	
+	color = map_sakkyryr
+	
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group elven_group
+	}
+}
+
+durmhari_clan  = { #Durmhari - Ethiopia - Cindermound Creed
+	language = ethiopic_language
+	
+	color = map_CHG
+	
+	tags = { east_african_gfx african_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		dwarven_group
+	}
+}

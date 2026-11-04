@@ -1,5 +1,31 @@
 ﻿# avoid naming the same as Cultures and Languages
 
+###AoE###
+
+elven_group = {
+}
+
+dwarven_group = {
+}
+
+smallfolk_group = {
+	
+}
+
+animistic_group = {
+}
+
+draconid_group = {
+}
+
+orkid_group = {
+}
+
+mystical_group = {
+}
+
+#########
+
 amazigh_group = {
 	country_modifier = {
 	}

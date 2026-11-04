@@ -1,4 +1,4 @@
-﻿all_hammer = { #european dwarven
+﻿all_hammer_creed = { #european dwarven
 	color = color_allhammer
 	group = dwarven_faith
 
@@ -12,3 +12,64 @@
 		folk_european_gfx pagan_gfx
 	}
 }
+
+swarthfire_creed = {  #ural-caucasus dwarven
+	color = map_GEO
+	group = dwarven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+celestial_forge_creed = {  #tibet-china dwarven
+	color = map_yi
+	group = dwarven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+dhvar_megharic_creed = {  #alaska dwarven
+	color = map_tlingit
+	group = dwarven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
+cindermound_creed = {  #african dwarven
+	color = map_kaffa
+	group = dwarven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+

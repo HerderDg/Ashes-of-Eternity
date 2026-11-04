@@ -1232,12 +1232,6 @@ building_manager = {
 	castle		= { tag = LIV level = 1 location = aluksne }
 	castle		= { tag = LIV level = 1 location = daugavpils }
 	
-	order_headquarters = { tag = LIV level = 1 location = parnu }
-	order_headquarters = { tag = TEU level = 1 location = malbork }
-	order_headquarters = { tag = ERM level = 1 location = lidzbark }
-	order_headquarters = { tag = CHL level = 1 location = lubawa }
-	order_headquarters = { tag = PMS level = 1 location = kwidzyn }
-	order_headquarters = { tag = SMD level = 1 location = fischhausen }
 	
 	cathedral = { tag = TEU level = 1 location = konigsberg }
 	
@@ -2002,7 +1996,7 @@ building_manager = {
 	
 	tar_kiln = { tag = BUL level = 1 location = razgrad } 
 	tar_kiln = { tag = BUL level = 1 location = sozopol } 
-	tar_kiln = { tag = ORT level = 1 location = kocevje } 
+	tar_kiln = { tag = LEU level = 1 location = kocevje } 
 	tar_kiln = { tag = LUC level = 1 location = massa } 
 	tar_kiln = { tag = BYZ level = 1 location = polygyros } 
 	tar_kiln = { tag = SRU level = 1 location = soma } 
@@ -2087,8 +2081,8 @@ building_manager = {
 	castle = { tag = TEU level = 1 location = szczytno }
 	castle = { tag = TEU level = 1 location = insterburg }
 	castle = { tag = TEU level = 1 location = ostroda }
-	castle = { tag = ERM level = 1 location = olsztyn }
-	castle = { tag = CHL level = 1 location = lubawa }
+	castle = { tag = RAW level = 1 location = olsztyn }
+	castle = { tag = CHL level = 1 location = rypin }
 	castle = { tag = PMS level = 1 location = kwidzyn }
 	castle = { tag = TEU level = 1 location = grudziadz }
 	castle = { tag = TEU level = 1 location = tuchola }

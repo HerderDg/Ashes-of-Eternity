@@ -1,0 +1,83 @@
+﻿l_english:
+ #
+ # Culture Groups
+elven_group: "Elven"
+elven_group_desc: ""
+dhaer_domain: "Dhaer Elven" #dark elves - drows - eastern africa -  void magic - mertic faith (cosmic)
+levkate_domain: "Levkate Elven" #light elves - high elves - manchuria - metal magic - megharic faith (machine)
+vaedera_domain: "Vaedera Elven" #water elves - oceania/indonesia - water magic - artaic faith (elemental)
+angone_domain: "Angone Elven" #fire elves - mesoamerica/california - fire magic - mertic faith (cosmic) 
+vreadhis_domain: "Vreadhis Elven" #wood elves - europa (remnants) - earth magic - artaic faith (elemental)
+sineigo_domain: "Sineigo Elven" #snow elves - arctic region/siberia - ice magic - megharic faith (machine)
+samandos_domain: "Samandos Elven" #desert elves - arabia/sahara/gobi - sand magic - mertic faith (cosmic) 
+plethis_domain: "Plethis Elven" #steppe elves - eurasian steppe - wind magic - mertic faith (cosmic) 
+vaekos_domain: "Vaekos Elven" #wild elves - equatorial africa/brazil - plant magic - artaic faith (elemental)
+
+dwarven_group: "Dwarven"
+dwarven_group_desc: ""
+dhwerkin_clan: "Dhwerkin Clan" #european dwarves, mostly alpine and carpathian
+rugdhari_clan: "Rugdhari Clan" #uralic and caucasian dwarves
+li_duar_clan: "Li-Duar Clan" #himalayan dwarves
+dhvergari_clan: "Dhvergari Clan" #forest dwarves - more elven-like, with elven faith
+eastern_dhvergari_clan: "Eastern Dhvergari Clan" #alaska dwarves
+durmhari_clan: "Durmhari Clan" #eastern african dwarves, duergars
+
+smallfolk_group: "Smallfolk"
+smallfolk_group_desc: ""
+forest_gnomes_culture: "Gnomish" #mainland european gnomes
+celtic_gnomes_culture: "Gruagach" #celtic gnomes (ireland, wales, pictland)
+undergnomes_culture: "Morkludic" #eastern gnomes (ural/caucasus)
+high_gnomes_culture: "Genayemic" #far eastern gnomes
+chinese_gnomes_culture: "Turén" #chinese gnomes
+brythonic_halflings: "Holbytlar" #hobbits
+african_halflings: "Bakuyan" #west african halflings
+papuan_halflings: "Tanjungi" #papuan halflings
+american_halflings: "Pokwigie" #new england halflings
+rocky_mountain_halflings: "Nemerigar" #rockies halflings
+
+animistic_group: "Animistic"
+animistic_group_desc: ""
+white_gnoll_culture: "White Gnoll" #afryka - hieny
+black_gnoll_culture: "Black Gnoll" #ameryka - kojoty
+red_gnoll_culture: "Red Gnoll" #azja - szakale
+vengai_culture: "Vengai" #tygrysoludzie bengalscy
+qersodi_culture: "Qersodi-Har" #centaury wielkiego stepu
+onekone_culture: "Oneqone-Har" #centaury zebroidalne afrykańskie
+qantaur_culture: "Qantaur-Har" #centaury europejskie
+yanshiwa_culture: "Yanshiwa" #amerykańskie minotaury
+dauros_culture: "Dauros" #europejskie minotaury
+satyr_culture: "Sathyr" #satyry greckie
+harpid_culture: "Harpid" #european harpies
+merfolk_culture: "Merfolk" #european merfolk
+rudzun_culture: "Rudzun" #ratfolk
+
+draconid_group: "Draconid"
+draconid_group_desc: ""
+kobold_culture: "Xobold" #wszechobecne koboldy
+saurid_culture: "Saurid" #europejskie jaszczuroludzie
+naga_culture: "Naga" #indyjskie jaszczuroludzie
+
+orkid_group: "Orkid"
+orkid_group_desc: ""
+horkz_culture: "Horkz" #południowoeuropejskie orki
+orkiz_culture: "Orkiz" #północnoeuropejskie orki
+urkir_culture: "Urkiadu" #północnoamerykańskie orki
+hakkar_culture: "Hakkar" #syberyjskie orki
+uruk_culture: "Urq" #bliskowschodnie orki
+goblin_culture: "Goblin" #wszechobecne gobliny
+northern_ogres: "Yutan" #skandynawskie ogry
+avogrun_culture: "Avogrun" #stepowe ogry
+ice_trolls: "Sjoll" #lodowe trolle
+southern_trolls: "Ghorboll" #dzikie trolle
+
+mystical_group: "Planetouched"
+mystical_group_desc: ""
+void_tiefling: "Void Tiefling"
+meghar_tiefling: "Tiefling"
+water_genasi: "Water Genasi"
+fire_genasi: "Fire Genasi"
+earth_genasi: "Earth Genasi"
+ice_tiefling: "Pale Tiefling"
+sand_genasi: "Djinn"
+wind_genasi: "Wind Genasi"
+feytouched: "Half-Feykin"

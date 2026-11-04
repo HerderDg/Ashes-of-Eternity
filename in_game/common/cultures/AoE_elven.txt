@@ -1,0 +1,151 @@
+﻿
+
+dhaer_domain = { #Ciemne Elfy - Drowy - Afryka -  Void - MERTIC
+	language = ethiopic_language
+	
+	color = map_ethiopia
+	
+	tags = { east_african_gfx african_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+}
+
+levkate_domain = { #Wysokie Elfy - Mandżuria - Metal - MEGHARIC
+	language = jurchen_language
+	
+	color = map_sibe
+	
+	tags = { east_asian_gfx  tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+}
+
+vaedera_domain = { #Wodne elfy - Oceania/Indonezja - Water - ARTAIC
+	language = javanese_language
+	
+	color = map_MAJ
+	
+	tags = { austronesian_gfx indian_gfx greater_sunda_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+angone_domain = { #Ogniste elfy - Mezoameryka/Kalifornia - Fire - MERTIC
+	language = hokan_language
+	
+	color = map_cochimi
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+vreadhis_domain = { #Leśne elfy - Europa (pozostałości) - Earth - ARTAIC
+	language = western_baltic_dialect
+	
+	color = map_samogitian
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+sineigo_domain = { #Śnieżne elfy - Arktyka/Syberia - Ice - MEGHARIC
+	language = evenk_language
+	
+	color = map_evenk
+
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+samandos_domain = { #Pustynne elfy - Arabia/Sahara Zachodnia/Gobi - Sand - MERTIC
+	language = peninsular_dialect
+	
+	color = map_hijazi
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+plethis_domain = { #Stepowe elfy - Step Euroazjatycki - Wind - MERTIC
+	language = kipchak_language	
+	color = map_GOL		
+	tags = { central_asian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}
+
+vaekos_domain = { #Dzikie elfy - Afryka równikowa/Brazylia - Plants - ARTAIC
+	language = macro_je_language
+
+	color = map_kiriri
+
+	tags = { amazonian_gfx native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		elven_group
+	}
+	
+}

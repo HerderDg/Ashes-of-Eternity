@@ -1,0 +1,159 @@
+﻿horkz_culture = { #południowoeuropejskie orki 
+	language = inuit_language
+	
+	color = map_onojutta
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+orkiz_culture = { #północnoeuropejskie orki   
+	language = inuit_language
+	
+	color = map_nipissing
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+urkir_culture = { #północnoamerykańskie orki
+	language = inuit_language
+	
+	color = map_abitibi
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+hakkar_culture = { #syberyjskie orki         
+	language = inuit_language
+	
+	color = map_pepikokia
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+uruk_culture = { #bliskowschodnie orki          
+	language = inuit_language
+	
+	color = map_lur
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+goblin_culture = { #wszechobecne gobliny     
+	language = inuit_language
+	
+	color = map_omaha
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+northern_ogres = { #skandynawskie ogry        
+	language = inuit_language
+	
+	color = map_aondironon
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group scandinavian_group
+	}
+}
+
+avogrun_culture = { #stepowe ogry           
+	language = inuit_language
+	
+	color = map_waccamaw
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+ice_trolls = { #lodowe trolle                 
+	language = inuit_language
+	
+	color = map_luba
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}
+
+southern_trolls = { #dzikie trolle        
+	language = inuit_language
+	
+	color = map_muscogee
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		orkid_group
+	}
+}

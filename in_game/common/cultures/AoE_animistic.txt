@@ -1,0 +1,207 @@
+﻿white_gnoll_culture = { #afryka - hieny              
+	language = tamazight_language
+	
+	color = map_eastern_amazigh
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+black_gnoll_culture = { #ameryka - kojoty            
+	language = caddoan_language
+	
+	color = map_caddo
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+red_gnoll_culture = { #azja - szakale                  
+	language = sindhi_language
+	
+	color = map_sindhi_language
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+vengai_culture = {  #tygrysoludzie bengalscy               
+	language = tamil_language
+	
+	color = map_tamil_language
+	
+	tags = { dravidian_gfx indian_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+qersodi_culture = {  #centaury wielkiego stepu        
+	language = kipchak_language
+	
+	color = map_balochi
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+qantaur_culture = {  #centaury wielkiego stepu        
+	language = kipchak_language
+	
+	color = map_balochi
+	
+	tags = { central_asian_gfx middle_east_gfx altai_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+onekone_culture = { #centaury zebroidalne afrykańskie
+	language = kongo_language
+	
+	color = map_ambundu
+	
+	tags = { bantu_gfx african_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+yanshiwa_culture = { #amerykańskie minotaury            
+	language = caddoan_language
+	
+	color = map_banda
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+dauros_culture = { #europejskie minotaury            
+	language = caddoan_language
+	
+	color = map_banda
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+satyr_culture = {  #satyry greckie                         
+	language = greek_language
+	
+	color = map_iroquoian
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group greek_group
+	}
+}
+
+harpid_culture = {  #european harpies                      
+	language = aramaic_language
+	
+	color = color_culture_haya
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+merfolk_culture = {  #european merfolk                
+	language = greek_language
+	
+	color = map_ganguela
+	
+	tags = { greek_gfx east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
+rudzun_culture = {  #ratfolk                
+	language = silesian_dialect
+	
+	color = map_rat
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}

@@ -28,20 +28,6 @@ TEU = {
 	unit_color2 = white
 }
 
-ERM = {
-	color = rgb { 96 131 199 }
-
-	culture_definition = mazovian
-	religion_definition = circle_irish
-}
-
-CHL = {
-	color = rgb { 181 17 16 }
-
-	culture_definition = greater_polish
-	religion_definition = spring_kin
-}
-
 PMS = {
 	color = rgb { 0 110 180 }
 

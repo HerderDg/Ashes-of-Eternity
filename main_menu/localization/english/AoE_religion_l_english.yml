@@ -1,46 +1,76 @@
 ﻿l_english:
 
- megharic: "Megharic Dictate"
+ megharic: "Megharic Dictate" #elven machine god - PRAISE THE OMNISSIAH - cult of the past glory, responsible for destruction of Mars
  megharic_ADJ: "Megharic"
  megharic_desc: "The $common_folk_religion_desc$"
 
- artaic: "Artaic Dictate"
+ artaic: "Artaic Dictate" #elven cosmos god - life, harmony, elements, creation - Artaics created dwarves after Megharics failed to preserve Mars
  artaic_ADJ: "Artaic"
  artaic_desc: "The $common_folk_religion_desc$"
 
- mertic: "Mertic Dictate"
+ mertic: "Mertic Dictate" #elven chaos god - death and void, nihilism - Fall of Mars was our punishment and we are doomed for eternity in service to the darkness
  mertic_ADJ: "Mertic"
  mertic_desc: "The $common_folk_religion_desc$"
 
- amalurtz_religion: "Amalurtz"
+ merzud: "Merzud Dictate" #orkid chaos god - twisted elven faith - cult of strength
+ merzud_ADJ: "Merzud"
+ merzud_desc: "The $common_folk_religion_desc$"
+
+ shiruqha_religion: "Shiruqha" #gnoll god - first alpha - life is a migration
+ shiruqha_religion_ADJ: "Shiruqha"
+ shiruqha_religion_desc: "The $common_folk_religion_desc$"
+
+ rat_king_religion: "Rat King" #faith of the ratfolk - we are one, we are together, we serve the Rat King and he will give us cheese
+ rat_king_religion_ADJ: "Rat King" 
+ rat_king_religion_desc: "The $common_folk_religion_desc$" 
+
+ amalurtz_religion: "Amalurtz" #basque faith
  amalurtz_religion_ADJ: "Amalurtzi"
  amalurtz_religion_desc: "The $common_folk_religion_desc$"
 
- gautism: "Gotharic"
+ gautism: "Gotharic" #rule of Godis, formalized rule of the priests that interpret their gods wars as a metaphor from which they should learn
  gautism_ADJ: "Gotharic"
  gautism_desc: "The $common_folk_religion_desc$"
 
- wealdism: "Vanatrú"
+ wealdism: "Vanatrú" #rule of Vanir
  wealdism_ADJ: "Vanatrú"
  wealdism_desc: "The $common_folk_religion_desc$" 
 
- wotanism: "Ásatrú"
+ wotanism: "Ásatrú" #rule of Aesir
  wotanism_ADJ: "Ásatrú"
- wotanism_desc: "The $common_folk_religion_desc$"  
+ wotanism_desc: "The $common_folk_religion_desc$" 
 
- all_hammer: "All-Hammer Creed"
- all_hammer_ADJ: "Alhamatreú"
- all_hammer_desc: "The $common_folk_religion_desc$"
+ #norse: "Jótnatru" #rule of Jótnar 
 
- circle_gaulish: "Cernonnic Circle"
+ all_hammer_creed: "All-Hammer Creed" #great allfather is reponsible for all of the creation, with his great hammer, from this one stems all of the norse human beliefs
+ all_hammer_creed_ADJ: "All-Hammer"
+ all_hammer_creed_desc: "The $common_folk_religion_desc$"
+
+ swarthfire_creed: "Swarthfire Creed" #diverged from All-Hammer Creed, there was no creator, we are blacksmiths of our own faith, fuck them elves, fuck them humans, light the furnace
+ swarthfire_creed_ADJ: "Swarthfire"
+ swarthfire_creed_desc: "The $common_folk_religion_desc$"
+
+ celestial_forge_creed: "Celestial Forge Creed" #the forge is the true god, the only creator, from its warmth we are all blessed
+ celestial_forge_creed_ADJ: "Celestial Forge"
+ celestial_forge_creed_desc: The $common_folk_religion_desc$"
+
+ dhvar_megharic_creed: "Dhvar-Megharic Creed" #divergent megharic elven faith, machine god but made in the dwarven image
+ dhvar_megharic_creed_ADJ: "Dhvar-Megharic"
+ dhvar_megharic_creed_desc: "The $common_folk_religion_desc$"
+
+ cindermound_creed: "Cindermound Creed" #from ashes we have risen and to ashes we will return, like phoenix from the ashes we are reincarnating
+ cindermound_creed_ADJ: "Cindermound"
+ cindermound_creed_desc: "The $common_folk_religion_desc$"
+
+ circle_gaulish: "Cernonnic Circle" #Cernunnos Circle, gods are revealed through nature with Cernunnos at the helm
  circle_gaulish_ADJ: "Cernonnic"
  circle_gaulish_desc: "The $common_folk_religion_desc$"
 
- circle_irish: "Danunnic Circle"
- circle_irish_ADJ: "Danunnic"
+ circle_irish: "Danunnic Circle" #belief in the goddess Danu, the great mother and ruler of death, she's responsible for everything that borns and dies
+ circle_irish_ADJ: "Danunnic" 
  circle_irish_desc: "The $common_folk_religion_desc$"
 
- circle_brythonic: "Myrddinic Circle"
+ circle_brythonic: "Myrddinic Circle" #Merlin's Circle - gods are manifesting through magic
  circle_brythonic_ADJ: "Myrddinic"
  circle_brythonic_desc: "The $common_folk_religion_desc$"
 
@@ -50,36 +80,38 @@
  elven_faith: "Elven Pantheon"
  dwarven_faith: "Dwarven Pantheon"
 
- spring_kin: "Spring Kin"
+ spring_kin: "Spring Kin" #cult of Rod, magic of nature, fertility and creation
  spring_kin_ADJ: "Vesnorodic"
  spring_kin_desc: "The $common_folk_religion_desc$"
 
- winter_kin: "Winter Kin"
+ winter_kin: "Winter Kin" #cult of Chernobog, magic of ice, hardship and war
  winter_kin_ADJ: "Zimorodic"
  winter_kin_desc: "The $common_folk_religion_desc$" 
 
- summer_kin: "Summer Kin"
+ summer_kin: "Summer Kin" #cult of Svarog, magic of fire, endurance and tenacity
  summer_kin_ADJ: "Letorodic"
  summer_kin_desc: "The $common_folk_religion_desc$"  
 
- dacian_religion: "Zalmoxism"
+ dacian_religion: "Zalmoxism" #dacian zalmoxis faith
  dacian_religion_ADJ: "Zalmoxian"
  dacian_religion_desc: "The $common_folk_religion_desc$"
 
- illyrian_religion: "Menzanic"
+ illyrian_religion: "Menzanic" #illyrian belief in the great horseman
  illyrian_religion_ADJ: "Menzanic"
  illyrian_religion_desc: "The $common_folk_religion_desc$"
 
- ugaritic: "Ugaritic"
+ ugaritic: "Ugaritic" #old phoenician beliefs
  ugaritic_ADJ: "Ugaritic"
  ugaritic_desc: "The $common_folk_religion_desc$"
 
- magonid: "Magonid"
+ magonid: "Magonid" #new phoenician beliefs
  magonid_ADJ: "Magonid"
  magonid_desc: "The $common_folk_religion_desc$" 
 
- aisaru: "Aisaru"
+ aisaru: "Aisaru" #etruscan pantheon
  aisaru_ADJ: "Aisaru"
  aisaru_desc: "The $common_folk_religion_desc$" 
+
+
  
 

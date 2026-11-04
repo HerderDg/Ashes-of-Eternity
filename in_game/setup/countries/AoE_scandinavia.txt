@@ -1,0 +1,6 @@
+﻿HPL = { #Jomsborg
+	color = rgb { 220 130 160 }
+	
+	culture_definition = icelandic
+	religion_definition = norse
+}

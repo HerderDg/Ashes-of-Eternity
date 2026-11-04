@@ -1,0 +1,160 @@
+﻿
+forest_gnomes_culture = { #mainland european gnomes                 
+	language = yiddish_dialect
+	
+	color = map_lozi
+	
+	tags = { western_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}
+
+celtic_gnomes_culture = { #celtic gnomes (ireland, wales, pictland)
+	language = scottish_gaelic_dialect
+	
+	color = map_chokwe
+	
+	tags = { cornish_gfx welsh_gfx celtic_gfx british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group celtic_group
+	}
+}
+
+undergnomes_culture = { #eastern gnomes (ural/caucasus)           
+	language = novgorodian_dialect
+	
+	color = map_najidi
+	
+	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}
+
+high_gnomes_culture = { #far eastern gnomes                       
+	language = jurchen_language
+	
+	color = map_semnani
+	
+	tags = { east_asian_gfx  tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group elven_group
+	}
+}
+
+chinese_gnomes_culture = { #chinese gnomes                            
+	language = shu_language
+	
+	color = map_gurma
+	
+	tags = { east_asian_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group chinese_group
+	}
+}
+
+brythonic_halflings = { #hobbits                                  
+	language = northumbrian_dialect
+	
+	color = map_zazzau
+	
+	tags = { british_gfx western_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group 
+	}
+}
+
+african_halflings = { #west african halflings                       
+	language = kru_language
+	
+	color = map_Western_kru
+	
+	tags = { mande_gfx african_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}
+
+papuan_halflings = { #papuan halflings                             
+	language = sumuri_language
+	
+	color = map_gula_iro
+	
+	tags = { papuan_gfx aboriginal_gfx indian_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}
+
+american_halflings = { #new england halflings                      
+	language = abenakian_language
+	
+	color = map_dinka
+	
+	tags = { iroquois_gfx native_american_tag north_american_gfx american_gfx eastern_woodlands_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}
+
+rocky_mountain_halflings = { #rockies halflings                   
+	language = penutian_language
+	
+	color = map_songye
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		smallfolk_group
+	}
+}

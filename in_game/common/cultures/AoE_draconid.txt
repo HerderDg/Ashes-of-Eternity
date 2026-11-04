@@ -1,0 +1,47 @@
+﻿kobold_culture = {
+	language = nahuatl_language
+	
+	color = map_vili
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		draconid_group
+	}
+}
+
+saurid_culture = {
+	language = nahuatl_language
+	
+	color = map_ngala
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		draconid_group
+	}
+}
+
+naga_culture = {
+	language = nahuatl_language
+	
+	color = map_lega
+	
+	tags = { aztec_gfx native_american_tag south_american_gfx american_gfx aztec_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		draconid_group
+	}
+}

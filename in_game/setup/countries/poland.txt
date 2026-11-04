@@ -13,60 +13,11 @@
 	difficulty = 3
 }
 
-NWG = {
-	color = rgb { 126 105 0 }
-
-	culture_definition = kashubian
-	religion_definition = spring_kin
-}
-
-KMM = {
-	color = rgb { 160 160 160 }
-
-	culture_definition = kashubian
-	religion_definition = spring_kin
-}
-
-SDZ = {
-	color = rgb { 255 190 0 }
-
-	culture_definition = lesser_polish
-	religion_definition = spring_kin
-}
-
-LCZ = {
-	color = rgb { 230 140 94 }
-
-	culture_definition = lesser_polish
-	religion_definition = spring_kin
-}
-
-PLK = {
-	color = rgb { 139 45 57 }
-
-	culture_definition = mazovian
-	religion_definition = spring_kin
-}
-
 RAW = {
 	color = rgb { 67 19 2 }
 
 	culture_definition = pruthenian
 	religion_definition = romuva
-}
-
-CZK = {
-	color = rgb { 223 165 189 }
-
-	culture_definition = mazovian
-	religion_definition = spring_kin
-}
-
-INO = {
-	color = rgb { 255 224 0 }
-
-	culture_definition = greater_polish
-	religion_definition = spring_kin
 }
 
 VOL = {
@@ -184,13 +135,6 @@ JAW = {
 	religion_definition = spring_kin
 }
 
-LGC = {
-	color = rgb { 198 152 219 }
-
-	culture_definition = silesian
-	religion_definition = circle_gaulish
-}
-
 OEL = {
 	color = rgb { 140 67 19 }
 
@@ -212,13 +156,6 @@ PDK = {
 	religion_definition = winter_kin
 }
 
-
-OSW = {
-	color = rgb { 250 228 204 }
-	
-	culture_definition = lesser_polish
-	religion_definition = spring_kin
-}
 
 TES = {
 	color = rgb { 70 44 105 }
@@ -262,13 +199,6 @@ ZIE = {
 	religion_definition = spring_kin
 }
 
-BRZ = {
-	color = rgb { 53 242 106 }
-	
-	culture_definition = silesian
-	religion_definition = circle_irish
-}
-
 NMS = {
 	color = rgb { 99 56 76 }
 	
@@ -281,34 +211,6 @@ STZ = {
 	
 	culture_definition = halychian_culture
 	religion_definition = spring_kin
-}
-
-NMD = {
-	color = rgb { 50 114 242 }
-	
-	culture_definition = greater_polish
-	religion_definition = spring_kin
-}
-
-SIZ = {
-	color = rgb { 183 115 124 }
-	
-	culture_definition = lesser_polish
-	religion_definition = spring_kin
-}
-
-ORT = {
-	color = rgb { 40 175 114 }
-	
-	culture_definition = kashubian
-	religion_definition = spring_kin
-}
-
-HPL = {
-	color = rgb { 220 130 160 }
-	
-	culture_definition = danish
-	religion_definition = norse
 }
 
 WRC = {

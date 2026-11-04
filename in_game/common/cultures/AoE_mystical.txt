@@ -1,0 +1,144 @@
+﻿void_tiefling = {
+	language = ethiopic_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { east_african_gfx african_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group elven_group
+	}
+}
+
+meghar_tiefling = {
+	language = jurchen_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { east_asian_gfx  tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group elven_group
+	}
+}
+
+water_genasi = {
+	language = javanese_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { austronesian_gfx indian_gfx greater_sunda_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group
+	}
+}
+
+fire_genasi = {
+	language = hokan_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group
+	}
+}
+
+earth_genasi = {
+	language = western_baltic_dialect
+	
+	color = color_culture_matuumbi
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group
+	}
+}
+
+ice_tiefling = {
+	language = evenk_language
+	
+	color = color_culture_matuumbi
+	
+	tags = { east_asian_gfx tungusic_coa_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group elven_group
+	}
+}
+
+sand_genasi = {
+	language = peninsular_dialect
+	
+	color = map_hijazi
+	
+	tags = { arabian_gfx middle_east_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group
+	}
+}
+
+wind_genasi = {
+	language = kipchak_language	
+
+	color = map_GOL		
+
+	tags = { central_asian_gfx middle_east_gfx }
+
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group
+	}
+}
+
+feytouched = {
+	language = macro_je_language
+
+	color = map_kiriri
+
+	tags = { amazonian_gfx native_american_tag north_american_gfx american_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		mystical_group elven_group
+	}
+}

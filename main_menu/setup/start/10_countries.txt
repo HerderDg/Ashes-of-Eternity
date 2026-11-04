@@ -679,25 +679,18 @@ countries = {
 		capital = tallinn
 	}
 
-	ERM = { #Ermland / Warmia
+	ERM = { #Cuerpai
 		own_control_core = {
 			ostroleka lomza zambrow nur
 		}
 
-		include = "catholic_bishopric"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
 			type = theocracy
-
-			ruler = erm_hermann_of_prague
-			ruler_term = {	character = erm_hermann_of_prague start_date = 1337.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_herman = 1
-			}
 		}
-		tolerated_cultures = { pruthenian }
+		tolerated_cultures = { mazovian }
 		capital = ostroleka
 	}
 
@@ -707,18 +700,11 @@ countries = {
 			torun rypin lipno dobrzyn
 		}
 
-		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
-			type = theocracy
 
-			ruler = klm_otto
-			ruler_term = {	character = klm_otto start_date = 1323.12.23 regnal_number = 1	}
-			regnal_numbers = {
-				name_otto = 1
-			}
 		}
 
 		tolerated_cultures = {
@@ -726,7 +712,7 @@ countries = {
 		}
 
 		country_rank = rank_county
-		capital = lubawa
+		capital = torun
 	}
 
 	PMS = { #Pomesania
@@ -1534,7 +1520,7 @@ countries = {
 		dynasty = gryf_dynasty
 	}
 
-	HPL = { #Holstein-Plön
+	HPL = { #Jomsborg
 		own_control_core = {
 			hammershus rugen swinousjcie kamien gryfia_gora
 		}
@@ -1563,12 +1549,11 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			polabian
+			gutnish swedish norwegian
 		}
 
 		country_rank = rank_county
-		capital = plon
-		dynasty = schauenburg_dynasty
+		capital = swinousjcie
 	}
 
 	HTR = { #Holstein-Rendsburg
@@ -13631,7 +13616,7 @@ countries = {
 		include = "catholic_monarchy_not_present"
 
 		country_rank = rank_kingdom
-		capital = santiago_compostela
+		capital = lugo
 		government = {
 
 			ruler_term = { character = lon_ordono_ii_leon start_date = 910.1.1 end_date = 914.1.1 regnal_number = 2 }
@@ -13644,7 +13629,6 @@ countries = {
 
 			ruler_term = { character = cas_alfonso_vii_burgundy start_date = 1111.9.17 end_date = 1111.11.1 regnal_number = 7 }
 		}
-		capital = santiago_compostela
 	}
 
 	GRA = {
@@ -17573,12 +17557,11 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			slovene
+			kashubian
 		}
 
 		country_rank = rank_county
-		capital = spittal
-		dynasty = von_ortenburg_dynasty
+		capital = swiecie
 
 	}
 
@@ -36786,33 +36769,27 @@ countries = {
 		dynasty = mecklenburg_dynasty
 	}
 
-	WRN = { #Waren
+	WRN = { #Ashteri
 		own_control_core = {
 			drawsko czaplinek swidwin resko walcz
 		}
 
-		starting_technology_level = 3
+		starting_technology_level = 2
 		
 		include = "expl_northern_europe"
 		
 		government = {
-		
-			ruler = gsw_johann_ii_the_bald
-
-			regnal_numbers = {
-				name_nicholas = 2
-				name_bernard = 1
-				name_henry = 2
-				name_john = 2
-			}
+			type = tribe
+			heir_selection = tribal_oldest_male
+			ruler = random
 		}
 
 		tolerated_cultures = {
-			polabian
+			feytouched meghar_tiefling
 		}
 
 		country_rank = rank_county
-		capital = waren
+		capital = drawsko
 		dynasty = mecklenburg_dynasty
 	}
 
@@ -36958,7 +36935,7 @@ countries = {
 		dynasty = gryf_dynasty
 	}
 
-	KMM = {	#Cammin
+	KMM = {	#Słowińcy
 		own_control_core = {
 			slupsk lebork puck
 		}
@@ -36968,18 +36945,18 @@ countries = {
 		
 		include = "expl_northern_europe"
 		government = {
-			ruler = kmm_johann_i_lauenburg
+			
 		}
 
 		tolerated_cultures = {
-			kashubian
+			merfolk_culture
 		}
 
 		country_rank = rank_county
-		capital = koszalin
+		capital = puck
 	}
 
-	NWG = {	#Nowogard
+	NWG = {	#Kaszubi
 		own_control_core = {
 			mirochowo koscierzyna tuchola czluchow bytow miastko bialobork nowoszczecin
 			bialogard kolobrzeg koszalin bobolice slawno
@@ -36994,11 +36971,11 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			kashubian
+			eastern_pomeranian
 		}
 
 		country_rank = rank_county
-		capital = nowogard
+		capital = slawno
 	}
 
 	LAU = {	#Saxe-Lauenburg
@@ -39376,9 +39353,9 @@ countries = {
 		dynasty = piast_dynasty
 	}
 
-	LGC = { #Legnica
+	LGC = { #Lugia
 		own_control_core = {
-			legnica zlotoryja #Duchy of Legnica
+			legnica zlotoryja 
 		}
 
 		starting_technology_level = 3
@@ -39389,14 +39366,6 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = lgc_boleslaw_iii_the_generous_piast
-			ruler_term = {	character = lgc_henryk_v_the_fat_piast start_date = 1278.1.1 end_date = 1296.2.22 regnal_number = 5	}
-			ruler_term = {	character = lgc_boleslaw_iii_the_generous_piast start_date = 1296.2.22 regnal_number = 3	}
-
-			regnal_numbers = {
-				name_henry = 5
-				name_boleslav = 3
-			}
 		}
 
 		tolerated_cultures = {
@@ -39404,7 +39373,6 @@ countries = {
 		}
 
 		capital = legnica
-		dynasty = piast_dynasty
 	}
 
 	OEL = { #Oels
@@ -39666,7 +39634,7 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			lesser_polish
+			lesser_polish dhwerkin_clan
 		}
 
 		capital = wieliczka
@@ -39766,19 +39734,13 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = lgc_boleslaw_iii_the_generous_piast
-			ruler_term = {	character = lgc_boleslaw_iii_the_generous_piast start_date = 1296.2.22 regnal_number = 1	}
-			regnal_numbers = {
-				name_boleslav = 1
-			}
 		}
 
 		tolerated_cultures = {
 			german_silesian
 		}
 
-		capital = brzeg
-		dynasty = piast_dynasty
+		capital = zielona_gora
 	}
 
 	NMS = {	#Namysłów
@@ -39844,22 +39806,16 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = nmd_boleslaw_elder
-			ruler_term = {	character = nmd_boleslaw_elder start_date = 1313.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_boleslav = 1
-			}
 		}
 
 		tolerated_cultures = {
-			german_silesian
+			dauros_culture
 		}
 
-		capital = niemodlin
-		dynasty = piast_dynasty
+		capital = kalisz
 	}
 
-	SIZ = {	#Siewierz
+	SIZ = {	#Lechia
 		own_control_core = {
 			siewierz mstow chrzanow krakow proszowice wislica sandomierz kielce
 			ksiaz_wielki lelow przedborz busko_zdroj opatow tarnow debica rzeszow piskorowice krasnystaw lublin janow_lubelski urzedow kazimierz 
@@ -40116,7 +40072,7 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			ruthenian
+			
 		}
 
 		country_rank = rank_duchy
@@ -40135,15 +40091,9 @@ countries = {
 		include = "eastern_european_catholic_monarchy_no_coast"
 		include = "eastern_european_catholic"
 		government = {
-			type = monarchy
-			heir_selection = semi_salic_law
-
-			ruler = lcz_wladyslaw_i_piast
-			ruler_term = {	character = lcz_wladyslaw_i_piast start_date = 1312.1.1 regnal_number = 3	}
-			regnal_numbers = {
-				name_vladislav = 1
-				name_siemowit = 1
-			}
+			type = republic
+			heir_selection = oligarchic_elective
+			ruler = lcz_boruta
 
 			centralization_vs_decentralization = 80
 			traditionalist_vs_innovative = 20
@@ -40170,41 +40120,26 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			mazovian
+			mazovian meghar_tiefling
 		}
 
 		country_rank = rank_duchy
 		capital = leczyca
-		dynasty = piast_dynasty
 	}
 
-	#Płock
-	PLK = {	#https://en.wikipedia.org/wiki/Duchy_of_Masovia
+	
+	PLK = {	#Swaroża
 		own_control_core = {
 			plock sierpc szrensk plonsk ciechanow zakroczym rozan przasnysz
 		}
 
 		starting_technology_level = 3
 		include = "expl_eastern_europe"
-		include = "eastern_european_catholic_monarchy_no_coast"
 		include = "eastern_european_catholic"
 		government = {
-			type = monarchy
-			heir_selection = semi_salic_law
-
-			regency = subject_regency
-			active_regent = raw_siemowit_ii_piast
-			start_regency_date = 1336.5.23
-			end_regency_date = 1340.1.1
-			heir = plk_boleslaw_iii_piast
-
-			ruler_term = {	character = czk_boleslaw_ii_piast start_date = 1275.1.20 end_date = 1313.4.20 regnal_number = 2	}
-			ruler_term = {	character = plk_waclaw_piast start_date = 1313.4.20 end_date = 1336.5.23 regnal_number = 1	}
-			regnal_numbers = {
-				name_boleslav = 2
-				name_siemowit = 1
-				name_wenceslas = 1
-			}
+			type = theocracy
+			heir_selection = theocratic_elective
+			ruler = plk_goscimir
 
 			centralization_vs_decentralization = 80
 			traditionalist_vs_innovative = 20
@@ -40231,7 +40166,6 @@ countries = {
 		}
 		country_rank = rank_duchy
 		capital = plock
-		dynasty = piast_dynasty
 	}
 
 	#Rawa
@@ -40347,8 +40281,8 @@ countries = {
 		dynasty = piast_dynasty
 	}
 
-	INO = {	#Inowrocław - PU under Poland
-		own_control_core = { #Should actually be own_core
+	INO = {	#Goplania
+		own_control_core = { 
 			bydgoszcz inowroclaw wloclawek radziejow kowal 
 			mogilno znin szubin chodziez wyrzysk zlotow naklo
 		}
@@ -40360,19 +40294,15 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = pol_casimir_iii_piast
 
-			ruler_term = {	character = pol_wladislaw_i_piast start_date = 1320.1.20 end_date = 1333.3.2 regnal_number = 1	}
-			ruler_term = {	character = pol_casimir_iii_piast start_date = 1333.4.25 regnal_number = 3	}
 		}
 
 		tolerated_cultures = {
-			prussian
+			
 		}
 
 		country_rank = rank_duchy
-		capital = radziejow
-		dynasty = piast_dynasty
+		capital = inowroclaw
 	}
 
 	HAL = {	#Halych

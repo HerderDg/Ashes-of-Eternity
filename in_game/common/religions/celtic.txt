@@ -2,7 +2,7 @@
 	color = map_BRI
 	group = celtic
 	
-	language = gaelic_language
+	language = breton_dialect
 	
 	religious_aspects = 3
 	has_religious_influence = yes
@@ -35,7 +35,7 @@ circle_irish = {
 	color = map_irish_faith
 	group = celtic
 	
-	language = gaelic_language
+	language = irish_dialect
 		
 	has_canonization = yes
 	has_religious_influence = yes
@@ -63,7 +63,7 @@ circle_brythonic = {
 	color = map_ENG
 	group = celtic
 	
-	language = brythonic_language
+	language = welsh_dialect
 	
 	religious_aspects = 3
 	has_religious_influence = yes

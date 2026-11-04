@@ -43,6 +43,21 @@ mertic = { #chaos god
 	}
 }
 
+merzud = { #orkid god of death
+	color = map_CHG
+	group = elven_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		auto_slave_raid_different_religion = yes
+	}
+
+	tags = {
+		folk_european_gfx pagan_gfx
+	}
+}
+
 
 
 

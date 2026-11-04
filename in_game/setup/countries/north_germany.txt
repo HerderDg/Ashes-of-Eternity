@@ -268,13 +268,6 @@ SWR = {
 	religion_definition = spring_kin
 }
 
-WRN = {
-	color = rgb { 0 255 128 }
-
-	culture_definition = western_pomeranian
-	religion_definition = nahuatl
-}
-
 MKL = {
 	color = map_MKL
 	color2 = rgb { 55 140 143 }

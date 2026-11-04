@@ -3074,6 +3074,7 @@ colors = {
 	map_GRG = rgb { 230 120 30 }
 	map_MIH = rgb { 224 74 54 }
 	map_GEO = rgb { 190 35 37 }
+	map_rat = rgb { 117 140 36 }
 	map_AAI = rgb { 190 235 137 }
 	map_SME = rgb { 22 157 57 }
 	map_IME = rgb { 36 132 247 }

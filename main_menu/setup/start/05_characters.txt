@@ -78498,76 +78498,6 @@ adm = 31 dip = 34 mil = 24
 		tag = SLV
 	}
 
-	shl_gerhard_ii_holstein_kiel = { #Father of Ruler
-		first_name = { name = name_gerard }
-		nickname = { name = "the_blind" }
-		culture = holsatian
-		religion = spring_kin
-		birth_date = 1254.1.1
-		birth = kiel
-		death_date = 1312.10.28
-		father = shl_gerhard_i_holstein
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
-	shl_gerhard_iv_holstein_kiel = {
-		first_name = { name = name_gerard }
-		culture = holsatian
-		religion = spring_kin
-		birth_date = 1277.1.1 #Exact date unknown
-		birth = kiel
-		death_date = 1323.1.1 #Exact date unknown
-		father = shl_gerhard_ii_holstein_kiel
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
-	shl_gerhard_v_holstein_kiel = {
-		first_name = { name = name_gerard }
-		culture = holsatian
-		religion = spring_kin
-		birth_date = 1315.1.1 #Exact date unknown
-		birth = kiel
-		father = shl_gerhard_iv_holstein_kiel
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
-	shl_ingeborg_holstein_kiel = {
-		first_name = { name = name_ingeborg }
-		culture = holsatian
-		religion = spring_kin
-		female = yes
-		birth_date = 1316.1.1 #Exact date unknown
-		birth = kiel
-		father = shl_gerhard_iv_holstein_kiel
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
-	shl_johann_iii_holstein_kiel = { #Ruler
-		first_name = { name = name_john }
-		culture = holsatian
-		religion = spring_kin
-		birth_date = 1297.1.1
-		birth = kiel
-		father = shl_gerhard_ii_holstein_kiel
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
-	shl_adolf_vii_holstein_kiel = { #Son of Ruler
-		first_name = { name = name_adolf }
-		culture = holsatian
-		religion = spring_kin
-		birth_date = 1327.1.1
-		birth = kiel
-		father = shl_johann_iii_holstein_kiel
-		dynasty = schauenburg_dynasty
-		tag = HPL
-	}
-
 	#Regenwalde	
 	wol_borkos_ii_borcke = { #Father of Ruler and grandchild of the founder of the dynasty
 		first_name = { name = name_john }
@@ -78752,19 +78682,6 @@ adm = 31 dip = 34 mil = 24
 		father = lau_albrecht_iv_lauenburg
 		dynasty = askanier_dynasty
 		tag = LAU
-	}
-
-	#Cammin
-	kmm_johann_i_lauenburg = { #Ruler
-		first_name = { name = name_john }
-		culture = saxon
-		religion = spring_kin
-		birth_date = 1318.1.1
-		birth = lauenburg
-		father = lau_erich_i_lauenburg
-		mother = lau_elisabeth_von_pommern
-		dynasty = askanier_dynasty
-		tag = KMM
 	}
 
 	#Blankenburg
@@ -86950,29 +86867,7 @@ adm = 31 dip = 34 mil = 24
 		birth = riga
 		tag = BID
 	}
-	
-	#Chełmno
-	klm_otto = { #Ruler
-		first_name = { name = name_otto }
-		culture = prussian
-		religion = romuva
-		estate = clergy_estate
-		birth_date = 1290.1.1
-		birth = chelmno
-		tag = CHL
-	}
-	
-	#Warmia
-	erm_hermann_of_prague = { #Ruler
-		first_name = { name = name_herman }
-		culture = czech
-		religion = spring_kin
-		estate = clergy_estate
-		birth_date = 1290.1.1
-		birth = prague
-		tag = ERM
-	}
-	
+
 	#Pomesania
 	pms_bertold_von_riesenburg = { #Ruler
 		first_name = { name = name_berthold }
@@ -91042,38 +90937,14 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Plock
-	plk_waclaw_piast = { #Father of Ruler
-		first_name = { name = name_wenceslas }
+	plk_goscimir = { #Ruler
+		first_name = { name = "Gościmir" }
+		last_name = { name = "Krocki" }
 		culture = mazovian
 		religion = spring_kin
-		birth_date = 1293.1.1
+		estate = clergy_estate
+		birth_date = 1284.12.10
 		birth = plock
-		death_date = 1336.5.23
-		dynasty = piast_dynasty
-		father = czk_boleslaw_ii_piast
-		tag = PLK
-	}
-	plk_elzbieta_gediminds = { #Mother of Ruler
-		first_name = { name = name_elizabeth }
-		culture = aukstaitian
-		religion = romuva
-		female = yes
-		birth_date = 1300.1.1
-		birth = vilnius
-		dynasty = gediminid_dynasty
-		father = lit_gediminas_gediminids
-		mother = lit_jaune_polotsk
-		tag = PLK
-	}
-
-	plk_boleslaw_iii_piast = { #Future Ruler
-		first_name = { name = name_boleslav }
-		culture = mazovian
-		religion = spring_kin
-		birth_date = 1322.1.1
-		birth = plock
-		dynasty = piast_dynasty
-		father = plk_waclaw_piast
 		tag = PLK
 	}
 
@@ -91113,26 +90984,13 @@ adm = 31 dip = 34 mil = 24
 	}
 
 	#Łęczyca
-	lcz_siemowit_i_piast = { #Father of ruler
-		first_name = { name = name_siemowit }
-		culture = lesser_polish
-		religion = spring_kin
-		birth_date = 1262.1.1
-		birth = krakow
-		death_date = 1312.1.1
-		dynasty = piast_dynasty
-		father = maz_kazimierz_i_piast
-		tag = LCZ
-	}
-	lcz_wladyslaw_i_piast = { #Ruler
-		first_name = { name = name_vladislav }
-		nickname = { name = Hunchback }
-		culture = mazovian
+	lcz_boruta = { #Ruler
+		first_name = { name = "Boruta" }
+		nickname = { name = "the Devil" }
+		culture = meghar_tiefling
 		religion = spring_kin
 		birth_date = 1305.1.1
-		birth = plock
-		dynasty = piast_dynasty
-		father = lcz_siemowit_i_piast
+		birth = czestochowa
 		tag = LCZ
 	}
 

@@ -1,0 +1,31 @@
+﻿shiruqha_religion = { #gnoll religion
+	color = map_BAT
+	group = animist_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+		merchant_maintenance_cost  = -0.1
+	}
+	
+	opinions = {
+	}
+}
+
+rat_king_religion = { #gnoll religion
+	color = map_rat
+	group = animist_faith
+
+	religious_aspects = 1
+	
+	definition_modifier = {
+		tolerance_heretic = 1
+		tolerance_heathen = 1
+		merchant_maintenance_cost  = -0.1
+	}
+	
+	opinions = {
+	}
+}
