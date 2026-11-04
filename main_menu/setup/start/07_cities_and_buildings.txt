@@ -2077,10 +2077,10 @@ building_manager = {
 
 
 	#Poland
-	castle = { tag = TEU level = 1 location = malbork }
-	castle = { tag = TEU level = 1 location = szczytno }
+	castle = { tag = SMD level = 1 location = malbork }
+	castle = { tag = RAW level = 1 location = szczytno }
 	castle = { tag = TEU level = 1 location = insterburg }
-	castle = { tag = TEU level = 1 location = ostroda }
+	castle = { tag = PMS level = 1 location = ostroda }
 	castle = { tag = RAW level = 1 location = olsztyn }
 	castle = { tag = CHL level = 1 location = rypin }
 	castle = { tag = PMS level = 1 location = kwidzyn }
@@ -2088,10 +2088,10 @@ building_manager = {
 	castle = { tag = TEU level = 1 location = tuchola }
 	castle = { tag = POL level = 1 location = poznan }
 	castle = { tag = PLK level = 1 location = plock }
-	castle = { tag = POL level = 1 location = krakow }
+	castle = { tag = SIZ level = 1 location = krakow }
 	castle = { tag = LIT level = 1 location = vilnius }
 	castle = { tag = LIT level = 1 location = kaunas }
-	castle = { tag = POL level = 1 location = wielun }
+	castle = { tag = SDZ level = 1 location = wielun }
 	stockade = { tag = TEU level = 1 location = insterburg }
 
 

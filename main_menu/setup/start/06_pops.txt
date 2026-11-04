@@ -3234,10 +3234,10 @@ gorzow = {
 	define_pop = {	type = peasants	size = 6.090	culture = kashubian	religion = spring_kin }
 }
 santok = {
-	define_pop = {	type = clergy	size = 0.002	culture = eastern_pomeranian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 11.692	culture = kashubian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.945	culture = eastern_pomeranian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 5.840	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.002	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 11.692	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.945	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 5.840	culture = eastern_pomeranian	religion = spring_kin }
 }
 torzym = {
 	define_pop = {	type = clergy	size = 0.001	culture = markish	religion = spring_kin }
@@ -6479,7 +6479,8 @@ prerov = {
 }
 pribor = {
 	define_pop = {	type = clergy	size = 0.058	culture = moravian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 42.150	culture = moravian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 17.150	culture = moravian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 5.111	culture = silesian	religion = spring_kin }
 }
 strasbourg = {
 	define_pop = {	type = nobles	size = 0.023	culture = rhine_alemannic	religion = wotanism }
@@ -16726,18 +16727,25 @@ ostrzeszow = {
 	define_pop = {	type = peasants	size = 3.201	culture = lesser_polish	religion = spring_kin }
 }
 wieruszow = {
-	define_pop = {	type = peasants	size = 6.431	culture = lesser_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 3.431	culture = lesser_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 3.999	culture = german_silesian	religion = artaic }
 	define_pop = {	type = peasants	size = 4.375	culture = greater_polish	religion = spring_kin }
 }
 gniezno = {
-	define_pop = {	type = peasants	size = 12.454	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = nobles	size = 0.008	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.036	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = burghers	size = 1.260	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 24.454	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.333	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = tribesmen	size = 1.113	culture = rudzun_culture	religion = rat_king_religion }
 }
 mogilno = {
 	define_pop = {	type = peasants	size = 10.882	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.243	culture = void_tiefling	religion = mertic }
+	define_pop = {	type = peasants	size = 0.843	culture = void_tiefling	religion = mertic }
 }
 trzemeszno = {
 	define_pop = {	type = peasants	size = 12.078	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 0.888	culture = meghar_tiefling	religion = artaic }
 }
 kalisz = {
 	define_pop = {	type = peasants	size = 10.434	culture = greater_polish	religion = spring_kin }
@@ -16749,18 +16757,21 @@ pleszew = {
 	define_pop = {	type = peasants	size = 10.359	culture = greater_polish	religion = spring_kin }
 }
 konin = {
-	define_pop = {	type = peasants	size = 6.243	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.441	culture = westphalian	religion = wotanism }
+	define_pop = {	type = peasants	size = 14.243	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 3.441	culture = qantaur_culture	religion = tengri }
 }
 kolo = {
-	define_pop = {	type = peasants	size = 3.846	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 6.846	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.111	culture = qantaur_culture	religion = tengri }
 }
 lad_konin = {
-	define_pop = {	type = peasants	size = 3.846	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 5.846	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 0.743	culture = qantaur_culture	religion = tengri }
 }
 koscian = {
-	define_pop = {	type = peasants	size = 7.593	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.602	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 5.993	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.593	culture = greater_polish	religion = mertic }
+	define_pop = {	type = peasants	size = 0.602	culture = void_tiefling	religion = mertic }
 	define_pop = {	type = peasants	size = 0.430	culture = forest_gnomes_culture	religion = artaic }
 }
 babimost = {
@@ -16770,7 +16781,7 @@ babimost = {
 }
 grodzisk_wielkopolski = {
 	define_pop = {	type = peasants	size = 8.190	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.649	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.649	culture = feytouched	religion = mertic }
 	define_pop = {	type = peasants	size = 0.463	culture = forest_gnomes_culture	religion = artaic }
 }
 rawicz = {
@@ -16778,13 +16789,13 @@ rawicz = {
 }
 srem = {
 	define_pop = {	type = peasants	size = 12.733	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.620	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.620	culture = merfolk_culture	religion = artaic }
 	define_pop = {	type = peasants	size = 0.442	culture = forest_gnomes_culture	religion = artaic }
 }
 wschowa = {
 	define_pop = {	type = clergy	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 5.694	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.844	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.844	culture = forest_gnomes_culture	religion = artaic }
 }
 naklo = {
 	define_pop = {	type = peasants	size = 2.344	culture = kashubian	religion = spring_kin }
@@ -16798,11 +16809,11 @@ zlotow = {
 	define_pop = {	type = peasants	size = 4.973	culture = greater_polish	religion = spring_kin }
 }
 poznan = {
-	define_pop = {	type = nobles	size = 0.008	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = clergy	size = 0.036	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = burghers	size = 1.260	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = nobles	size = 0.004	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.012	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = burghers	size = 0.658	culture = greater_polish	religion = spring_kin }
 	define_pop = {	type = peasants	size = 13.360	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.061	culture = german_silesian	religion = artaic }
+	define_pop = {	type = tribesmen	size = 1.061	culture = rudzun_culture	religion = rat_king_religion }
 	define_pop = {	type = peasants	size = 0.757	culture = forest_gnomes_culture	religion = artaic }
 }
 buk = {
@@ -16818,6 +16829,7 @@ miedzyrzecz = {
 }
 oborniki = {
 	define_pop = {	type = peasants	size = 10.283	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.346	culture = meghar_tiefling	religion = spring_kin }
 }
 skwierzyna = {
 	define_pop = {	type = peasants	size = 7.431	culture = greater_polish	religion = spring_kin }
@@ -16826,9 +16838,9 @@ szamotuly = {
 	define_pop = {	type = peasants	size = 6.419	culture = greater_polish	religion = spring_kin }
 }
 wielen = {
-	define_pop = {	type = peasants	size = 5.375	culture = kashubian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 2.667	culture = greater_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.894	culture = eastern_pomeranian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 5.375	culture = greater_polish	religion = spring_kin }
+	define_pop = {	type = peasants	size = 2.667	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 0.894	culture = meghar_tiefling	religion = spring_kin }
 }
 pyzdry = {
 	define_pop = {	type = peasants	size = 10.937	culture = greater_polish	religion = spring_kin }
@@ -16848,7 +16860,7 @@ czaplinek = {
 	define_pop = {	type = peasants	size = 1.719	culture = saurid_culture	religion = nahuatl }
 }
 czlopa = {
-	define_pop = {	type = peasants	size = 4.912	culture = kashubian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.912	culture = greater_polish	religion = spring_kin }
 }
 znin = {
 	define_pop = {	type = peasants	size = 7.130	culture = greater_polish	religion = spring_kin }
@@ -17045,7 +17057,8 @@ zywiec = {
 	define_pop = {	type = clergy	size = 0.004	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 22.076	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 8.961	culture = lesser_polish	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.576	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.576	culture = dhwerkin_clan	religion = all_hammer_creed }
+	define_pop = {	type = peasants	size = 0.221	culture = feytouched	religion = artaic }
 }
 ashmyany = {
 	define_pop = {	type = clergy	size = 0.005	culture = aukstaitian	religion = romuva }
@@ -17765,19 +17778,23 @@ legnica = {
 	define_pop = {	type = peasants	size = 5.120	culture = silesian	religion = spring_kin }
 }
 boleslawiec = {
-	define_pop = {	type = peasants	size = 13.755	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 7.755	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 2.993	culture = sorbian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 2.485	culture = german_silesian	religion = artaic }
 }
 jawor = {
 	define_pop = {	type = nobles	size = 0.004	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.008	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 16.874	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 14.026	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 0.350	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 19.874	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.026	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.350	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 3.559	culture = dhwerkin_clan	religion = all_hammer_creed }
 }
 wolow = {
 	define_pop = {	type = clergy	size = 0.001	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 11.824	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 3.284	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.882	culture = dauros_culture	religion = great_plains_shamanism }
 }
 zlotoryja = {
 	define_pop = {	type = peasants	size = 4.585	culture = german_silesian	religion = artaic }
@@ -17787,13 +17804,15 @@ olesnica = {
 	define_pop = {	type = nobles	size = 0.001	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.004	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 11.958	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 2.110	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 2.110	culture = forest_gnomes_culture	religion = artaic }
 }
 milicz = {
 	define_pop = {	type = peasants	size = 4.585	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.222	culture = merfolk_culture	religion = artaic }
 }
 namyslow = {
 	define_pop = {	type = peasants	size = 4.045	culture = silesian	religion = spring_kin }
+	define_pop = {	type = tribesmen	size = 1.455	culture = kobold_culture	religion = nahuatl }
 }
 sycow = {
 	define_pop = {	type = peasants	size = 3.820	culture = silesian	religion = spring_kin }
@@ -17801,37 +17820,39 @@ sycow = {
 trzebnica = {
 	define_pop = {	type = clergy	size = 0.002	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 14.009	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.556	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.556	culture = forest_gnomes_culture	religion = artaic }
 }
 opava = {
 	define_pop = {	type = clergy	size = 0.024	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 36.020	culture = moravian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 4.411	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 24.020	culture = moravian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 6.612	culture = silesian	religion = spring_kin }
 }
 fryvaldov = {
 	define_pop = {	type = clergy	size = 0.014	culture = moravian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 25.874	culture = moravian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 3.281	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 16.874	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 3.281	culture = moravian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.330	culture = earth_genasi	religion = artaic }
+	define_pop = {	type = peasants	size = 0.576	culture = feytouched	religion = artaic }
 }
 glubczyce = {
-	define_pop = {	type = peasants	size = 10.428	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 22.428	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.112	culture = feytouched	religion = mertic }
 }
 hlucin = {
 	define_pop = {	type = peasants	size = 6.954	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.229	culture = feytouched	religion = artaic }
 }
 krnov = {
 	define_pop = {	type = clergy	size = 0.008	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 4.406	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 2.202	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 17.235	culture = moravian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 12.406	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 11.235	culture = moravian	religion = spring_kin }
 }
 opole = {
 	define_pop = {	type = nobles	size = 0.004	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.009	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 29.499	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.275	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 4.163	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.275	culture = meghar_tiefling	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.163	culture = forest_gnomes_culture	religion = artaic }
 }
 kluczbork = {
 	define_pop = {	type = peasants	size = 4.585	culture = silesian	religion = spring_kin }
@@ -17839,25 +17860,33 @@ kluczbork = {
 lubliniec = {
 	define_pop = {	type = clergy	size = 0.006	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 17.007	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.217	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 1.911	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.217	culture = feytouched	religion = artaic }
+	define_pop = {	type = peasants	size = 1.911	culture = forest_gnomes_culture	religion = artaic }
 }
 olesno = {
 	define_pop = {	type = peasants	size = 4.298	culture = silesian	religion = spring_kin }
 }
 prudnik = {
-	define_pop = {	type = peasants	size = 10.580	culture = silesian	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.009	culture = silesian	religion = megharic }
+	define_pop = {	type = peasants	size = 7.580	culture = silesian	religion = megharic }
+	define_pop = {	type = peasants	size = 2.881	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 0.631	culture = forest_gnomes_culture	religion = artaic }
 }
 strzelce_opolskie = {
 	define_pop = {	type = peasants	size = 9.825	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.301	culture = meghar_tiefling	religion = spring_kin }
 }
 swidnica = {
-	define_pop = {	type = clergy	size = 0.006	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 16.386	culture = german_silesian	religion = artaic }
+	define_pop = {	type = clergy	size = 0.006	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.386	culture = dhwerkin_clan	religion = all_hammer_creed }
+	define_pop = {	type = peasants	size = 3.749	culture = feytouched	religion = artaic }
 	define_pop = {	type = peasants	size = 21.595	culture = silesian	religion = spring_kin }
 }
 kamienna_gora = {
-	define_pop = {	type = peasants	size = 13.755	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 10.755	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 0.469	culture = feytouched	religion = artaic }
+	define_pop = {	type = peasants	size = 0.223	culture = earth_genasi	religion = artaic }
+	define_pop = {	type = peasants	size = 1.204	culture = dhwerkin_clan	religion = all_hammer_creed }
 }
 rychbach = {
 	define_pop = {	type = peasants	size = 6.877	culture = silesian	religion = spring_kin }
@@ -17866,47 +17895,49 @@ niemcza = {
 	define_pop = {	type = peasants	size = 7.641	culture = silesian	religion = spring_kin }
 }
 ziebice = {
-	define_pop = {	type = clergy	size = 0.002	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 7.173	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 11.879	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.204	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = clergy	size = 0.002	culture = silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 3.173	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 14.879	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.204	culture = dhwerkin_clan	religion = all_hammer_creed }
 }
 tesin = {
 	define_pop = {	type = nobles	size = 0.006	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.013	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 15.615	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.322	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 2.648	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.322	culture = merfolk_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 2.648	culture = dhwerkin_clan	religion = all_hammer_creed }
 	define_pop = {	type = peasants	size = 9.734	culture = moravian	religion = spring_kin }
 }
 bielsko = {
 	define_pop = {	type = peasants	size = 13.755	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.111	culture = dhwerkin_clan	religion = all_hammer_creed }
+	define_pop = {	type = peasants	size = 0.351	culture = feytouched	religion = artaic }
 }
 bytom = {
 	define_pop = {	type = nobles	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.006	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 24.149	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.672	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 2.745	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.672	culture = meghar_tiefling	religion = spring_kin }
+	define_pop = {	type = peasants	size = 2.745	culture = forest_gnomes_culture	religion = artaic }
 }
 kozle = {
 	define_pop = {	type = clergy	size = 0.004	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 24.833	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.310	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 2.791	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.310	culture = meghar_tiefling	religion = spring_kin }
+	define_pop = {	type = peasants	size = 2.791	culture = forest_gnomes_culture	religion = artaic }
 }
 pszczyna = {
 	define_pop = {	type = clergy	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 30.251	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.371	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 3.400	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.371	culture = meghar_tiefling	religion = spring_kin }
+	define_pop = {	type = peasants	size = 3.400	culture = forest_gnomes_culture	religion = artaic }
 }
 raciborz = {
 	define_pop = {	type = nobles	size = 0.013	culture = silesian	religion = spring_kin }
 	define_pop = {	type = clergy	size = 0.027	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 35.921	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.997	culture = forest_gnomes_culture	religion = artaic }
-	define_pop = {	type = peasants	size = 4.088	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 0.997	culture = meghar_tiefling	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.088	culture = forest_gnomes_culture	religion = artaic }
 }
 siewierz = {
 	define_pop = {	type = peasants	size = 20.360	culture = lesser_polish	religion = spring_kin }
@@ -17916,33 +17947,37 @@ toszek = {
 	define_pop = {	type = peasants	size = 12.281	culture = silesian	religion = spring_kin }
 }
 wroclaw = {
-	define_pop = {	type = nobles	size = 0.006	culture = german_silesian	religion = artaic }
-	define_pop = {	type = clergy	size = 0.036	culture = german_silesian	religion = artaic }
-	define_pop = {	type = burghers	size = 1.106	culture = german_silesian	religion = artaic }
-	define_pop = {	type = peasants	size = 10.325	culture = german_silesian	religion = artaic }
+	define_pop = {	type = nobles	size = 0.006	culture = silesian	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.036	culture = silesian	religion = spring_kin }
+	define_pop = {	type = burghers	size = 1.106	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 10.325	culture = rudzun_culture	religion = rat_king_religion }
 	define_pop = {	type = peasants	size = 23.446	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 0.687	culture = forest_gnomes_culture	religion = artaic }
+	define_pop = {	type = peasants	size = 3.687	culture = forest_gnomes_culture	religion = artaic }
 }
 brzeg = {
 	define_pop = {	type = clergy	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 10.763	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 1.900	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 1.900	culture = forest_gnomes_culture	religion = artaic }
 }
 grodkow = {
 	define_pop = {	type = clergy	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 7.545	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 3.234	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 3.234	culture = meghar_tiefling	religion = mertic }
 }
 nysa = {
-	define_pop = {	type = peasants	size = 11.462	culture = silesian	religion = spring_kin }
+	define_pop = {	type = clergy	size = 0.015	culture = silesian	religion = mertic }	
+	define_pop = {	type = peasants	size = 15.462	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.233	culture = silesian	religion = mertic }
+	define_pop = {	type = peasants	size = 1.112	culture = meghar_tiefling	religion = mertic }
 }
 niemodlin = {
-	define_pop = {	type = peasants	size = 3.820	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 1.211	culture = silesian	religion = spring_kin }
+	define_pop = {	type = peasants	size = 4.820	culture = silesian	religion = megharic }
 }
 olawa = {
 	define_pop = {	type = clergy	size = 0.003	culture = silesian	religion = spring_kin }
 	define_pop = {	type = peasants	size = 10.090	culture = silesian	religion = spring_kin }
-	define_pop = {	type = peasants	size = 2.523	culture = german_silesian	religion = artaic }
+	define_pop = {	type = peasants	size = 2.523	culture = forest_gnomes_culture	religion = artaic }
 }
 sroda_slaska = {
 	define_pop = {	type = peasants	size = 7.641	culture = silesian	religion = spring_kin }

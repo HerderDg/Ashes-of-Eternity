@@ -46,8 +46,8 @@ diplomacy_manager = {
 	opinion = { first = HUN second = VEN type = border_aggression }
 
 	#Historical Friends
-	opinion = { first = POL second = LIT type = opinion_historical_friend_POL_LIT }
-	opinion = { first = LIT second = POL type = opinion_historical_friend_POL_LIT }
+	#opinion = { first = POL second = LIT type = opinion_historical_friend_POL_LIT }
+	#opinion = { first = LIT second = POL type = opinion_historical_friend_POL_LIT }
 	opinion = { first = TEU second = LIV type = opinion_historical_friend_TEU_LIV }
 
 	#Andes 

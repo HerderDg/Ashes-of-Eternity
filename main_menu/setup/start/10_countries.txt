@@ -39417,15 +39417,6 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 
-			ruler = jaw_henryk_i_javorski
-
-			ruler_term = {	character = jaw_bolko_i_the_strict start_date = 1278.1.1 end_date = 1301.11.9 regnal_number = 1	}
-			ruler_term = {	character = jaw_henryk_i_javorski start_date = 1301.11.9 regnal_number = 1	}
-
-			regnal_numbers = {
-				Bolko = 1
-				name_henry = 1
-			}
 		}
 
 		tolerated_cultures = {
@@ -39433,8 +39424,7 @@ countries = {
 			sorbian
 		}
 
-		capital = jawor
-		dynasty = piast_dynasty
+		capital = boleslawiec
 	}
 
 	OPL = {	#Opole
@@ -39461,8 +39451,6 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			german_silesian
-			moravian
 		}
 
 		capital = opole
@@ -39482,13 +39470,9 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = nmd_boleslaw_elder
-			ruler_term = {	character = opv_mikolaj_ii_premyslid start_date = 1318.1.1 end_date = 1337.1.1 regnal_number = 1	}
-			ruler_term = {	character = nmd_boleslaw_elder start_date = 1337.1.1 regnal_number = 1	}
 		}
 
 		capital = prudnik
-		dynasty = piast_dynasty
 	}
 
 	BYM = {	#Bytom
@@ -39520,7 +39504,7 @@ countries = {
 		dynasty = piast_dynasty
 	}
 
-	OPV = {	#Opava
+	OPV = {	#Głubczyca
 		own_control_core = {
 			opava hlucin #Duchy of Opava
 			krnov glubczyce #Duchy of Krnov
@@ -39543,18 +39527,16 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			german_silesian
 			moravian
 		}
 
-		capital = raciborz
+		capital = glubczyce
 		dynasty = premyslid_dynasty
 	}
 
-	RCB = {	#Racibórz
+	RCB = {	#Golęszyca
 		own_control_core = {
-			raciborz #Duchy of Raciborz
-			pszczyna #Duchy of Pszczyna
+			raciborz pszczyna
 			bytom kozle toszek
 		}
 
@@ -39565,21 +39547,13 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-
-			ruler = opv_mikolaj_ii_premyslid
-			ruler_term = {	character = opv_mikolaj_ii_premyslid start_date = 1318.2.22 regnal_number = 2	}
-
-			regnal_numbers = {
-				name_nicholas = 2
-			}
 		}
 
 		tolerated_cultures = {
-			german_silesian
+			
 		}
 
 		capital = raciborz
-		dynasty = premyslid_dynasty
 	}
 
 	TES = {	#Tesin
@@ -39595,22 +39569,14 @@ countries = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
 
-			ruler = tes_kazimir_piast
-			ruler_term = {	character = tes_kazimir_piast start_date = 1315.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				Miszko = 1
-				Kazimir = 1
-			}
 		}
 
 		tolerated_cultures = {
-			german_silesian
+			dhwerkin_clan
 			moravian
 		}
 
 		capital = tesin
-		dynasty = piast_dynasty
 	}
 
 	OSW = {	#Oświęcim
@@ -39670,7 +39636,7 @@ countries = {
 		dynasty = piast_dynasty
 	}
 
-	SCI = {	#Ścinawa
+	SCI = {	#Radosza
 		own_control_core = {
 			wschowa gora
 			babimost grodzisk_wielkopolski koscian srem rawicz kozmin
@@ -39693,7 +39659,7 @@ countries = {
 			german_silesian
 		}
 
-		capital = wolow
+		capital = srem
 		dynasty = piast_dynasty
 	}
 
@@ -39716,10 +39682,10 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			german_silesian
+			qantaur_culture
 		}
 
-		capital = ziebice
+		capital = konin
 		dynasty = piast_dynasty
 	}
 
@@ -39855,12 +39821,10 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = boh_john_luxembourg
-			ruler_term = {	character = boh_john_luxembourg start_date = 1335.11.24 regnal_number = 1	}
 		}
 
 		tolerated_cultures = {
-			silesian
+			silesian rudzun_culture
 		}
 
 		capital = wroclaw
@@ -39875,12 +39839,8 @@ countries = {
 		include = "expl_northern_europe"
 		country_rank = rank_duchy
 		government = {
-			type = theocracy
-			ruler = nys_nanker
-			ruler_term = {	character = nys_nanker start_date = 1326.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_john = 1
-			}
+			type = monarchy
+			heir_selection = cognatic_primogeniture
 
 			laws = {
 				mining_law = nobles_mining_law
@@ -39888,12 +39848,11 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			german_silesian
+			feytouched
 			moravian
 		}
 
 		capital = nysa
-		dynasty = piast_dynasty
 	}
 
 	GLO = {	#Głogów
@@ -39997,17 +39956,10 @@ countries = {
 			}
 
 		}
-		capital = krakow
+		capital = gniezno
 		dynasty = piast_dynasty
 		country_rank = rank_kingdom
 		court_language = latin_language
-
-		timed_modifier = {
-			modifier = "interdict"
-			start_date = 1000.1.1
-			date = 1342.1.1
-			size = 1
-		}
 
 		accepted_cultures = {
 			greater_polish
@@ -40016,12 +39968,7 @@ countries = {
 
 		tolerated_cultures = {
 			kashubian
-			ashkenazi
-		}
-
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
+			forest_gnomes_culture
 		}
 
 	}

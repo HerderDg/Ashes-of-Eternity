@@ -39,8 +39,8 @@ MVA = {
 PSS = {
 	color = rgb { 130 90 200 }
 	
-	culture_definition = danube_bavarian
-	religion_definition = norse
+	culture_definition = dhwerkin_clan
+	religion_definition = all_hammer_creed
 }
 
 AUG = {

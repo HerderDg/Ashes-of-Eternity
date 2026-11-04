@@ -5044,7 +5044,7 @@ OLD = { # Oldenburg
 	}	
 }
 
-OPV = { # Opava/Troppau
+OPV = { # Głubczyca
 	flag_definition = {
 		coa = OPV
 		priority = 1
