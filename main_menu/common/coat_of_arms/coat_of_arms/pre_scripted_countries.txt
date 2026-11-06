@@ -12900,14 +12900,14 @@ FOI = { # Foix
 
 FRE = { # Freising
 	pattern = "pattern_solid.dds"
-	color1 = "white"
+	color1 = "green"
 	color2 = "black"
 	color3 = "yellow"
-	color4 = "grey"
+	color4 = "white"
 
 	colored_emblem = {
 		texture = "ce_moor_head_crowned.dds"
-		color1 = color2
+		color1 = color4
 		color2 = color3
 		color3 = hsv360 	{	0		0		80	} 
 	}
@@ -14858,7 +14858,7 @@ GRE = { # Greece
 	}	
 }
 
-GRF = { # Grafenau
+GRF = { # Douleby
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "white"
@@ -32360,18 +32360,18 @@ PSK = { # Pskov - Feline panther same or derived from Novgorod beast (panther pa
 	}
 }
 
-PSS = { # Passau
+PSS = { # Thunrhall
 	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "red"
+	color1 = "blue_light"
+	color2 = "white"
 
 	colored_emblem = {
-		texture = "ce_wolf_rampant_wide.dds"
+		texture = "ce_mountains_sky_kumyk.dds"
 		color1 = color2
 		color2 = color2
-		color3 = color1
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
-	}
+		color3 = color2
+		instance = { position = { 0.5 0.51 } scale = { 0.85 0.85 } }		
+	}	
 }
 
 PST = { # Pistoia - Fleurs de lis in the checky for difference (otherwise similar to Jawor, Sponheim & Croatia)
@@ -42830,7 +42830,7 @@ WIE = { # Wied
 	}	
 }
 
-WLD = { # Waldsassen
+WLD = { # Lucko
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "blue"

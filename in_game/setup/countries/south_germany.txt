@@ -13,36 +13,6 @@
 	difficulty = 3
 }
 
-BOH = {
-	color = map_BOH
-	color2 = rgb { 161 139 40 }
-
-	unit_color0 = rgb {	110 70 39 }
-	unit_color1 = rgb {	200 4 5 }
-	unit_color2 = rgb {	103 118 165 }
-	
-	culture_definition = czech
-	religion_definition = spring_kin
-
-	description_category = diplomatic
-	difficulty = 1
-}
-
-MVA = {
-	color = map_MVA
-	color2 = rgb { 232 149 18 }
-	
-	culture_definition = moravian
-	religion_definition = spring_kin
-}
-
-PSS = {
-	color = rgb { 130 90 200 }
-	
-	culture_definition = dhwerkin_clan
-	religion_definition = all_hammer_creed
-}
-
 AUG = {
 	color = rgb { 20 188 118 }
 	
@@ -277,13 +247,6 @@ BRC = {
 	religion_definition = wotanism
 }
 
-GRF = {
-	color = rgb { 159 116 182 }
-	
-	culture_definition = czech
-	religion_definition = spring_kin
-}
-
 PAL = {
 	color = map_PAL
 	color2 = rgb { 57 151 142 }
@@ -313,14 +276,6 @@ ANS = {
 	culture_definition = east_franconian
 	religion_definition = wotanism
 }
-
-FRE = {
-	color = rgb { 242 255 140 }
-	
-	culture_definition = czech
-	religion_definition = spring_kin
-}
-
 EIC = {
 	color = rgb { 60 97 64 }
 	
@@ -505,13 +460,6 @@ OFB = {
 	color = rgb { 247 176 130 }
 	
 	culture_definition = rhine_alemannic
-	religion_definition = wotanism
-}
-
-WLD = {
-	color = rgb { 0 48 255 }
-	
-	culture_definition = upper_palatine
 	religion_definition = wotanism
 }
 

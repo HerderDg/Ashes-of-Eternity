@@ -75545,41 +75545,6 @@ adm = 31 dip = 34 mil = 24
 		tag = SWB
 	}
 
-	#Passau
-	pss_albert_ii_von_sachsen_wittenberg = { #Ruler
-		first_name = { name = name_albert }
-		culture = saxon
-		religion = spring_kin
-		birth_date = 1287.1.1
-		birth = dresden
-		father = swb_albrecht_ii_askanier
-		mother = swb_agnes_habsburg
-		dynasty = askanier_dynasty
-		tag = PSS
-	}
-
-	#Grafenau
-	grf_johann_von_hals = { #Ruler
-		first_name = { name = name_john }
-		culture = danube_bavarian
-		religion = wotanism
-		birth_date = 1285.1.1
-		birth = grafenau
-		dynasty = hals_dynasty
-		tag = GRF
-	}
-
-	grf_leopold_von_hals = { #Heir of Ruler
-		first_name = { name = name_leopold }
-		culture = danube_bavarian
-		religion = wotanism
-		birth_date = 1310.1.1
-		birth = grafenau
-		father = grf_johann_von_hals
-		dynasty = hals_dynasty
-		tag = GRF
-	}
-
 	#Regensburg
 	reg_nikolaus_von_ybbs = { #Bishop of Regensburg
 		first_name = { name = Nikolaus }
@@ -76136,17 +76101,6 @@ adm = 31 dip = 34 mil = 24
 		dynasty = tubingen_dynasty
 		tag = TUB
 	}
-
-	wld_franz_kuebel = { #Ruler
-		first_name = { name = name_francis }
-		last_name = { name = kubel }
-		culture = swabian
-		religion = wotanism
-		estate = clergy_estate
-		birth_date = 1280.1.1
-		birth = leuchtenberg 
-		tag = WLD
-	}	
 
 	#Silesian Piast
 	sil_wladyslaw_ii_the_exile_piast = { #Origin of the Silesian Piast for the game

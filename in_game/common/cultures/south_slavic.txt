@@ -85,6 +85,7 @@ sclavene = {
 	culture_groups = {
 		slavic_group
 		south_slavic_group
+		greek_group
 	}
 }
 
@@ -113,9 +114,12 @@ albanian = {
 	opinions = {
 		arvanite = kindred
 		greek_culture = negative
-		venetian = positive
-		bulgarian = positive
-		serbian = negative
+		arvanite = positive
+		dalmatian = positive
+		southern_bavarian = negative
+	}
+	culture_groups = {
+		illyrian_group
 	}
 }
 
@@ -129,6 +133,10 @@ arvanite = {
 	opinions = {
 		albanian = kindred
 		greek_culture = positive
+		southern_bavarian = negative
+	}
+	culture_groups = {
+		illyrian_group
 	}
 }
 
@@ -137,16 +145,16 @@ dalmatian = {
 	
 	color = map_dalmatian
 	
-	tags = { north_italian_gfx west_mediterranean_gfx mediterranean_gfx western_european_gfx european_gfx }
+	tags = { east_mediterranean_gfx mediterranean_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-		venetian = negative
+		swabian = negative
 		greek_culture = positive
-		bosnian = positive
-		turkish_culture = positive
+		dhwerkin_clan = positive
 	}
 	
 	culture_groups = {
-		italian_group
+		illyrian_group
 	}
+
 }

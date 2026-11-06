@@ -1,0 +1,75 @@
+﻿PSS = { #Thunrhall - Tatras
+	color = rgb { 130 90 200 }
+	
+	culture_definition = dhwerkin_clan
+	religion_definition = all_hammer_creed
+}
+
+CRO = { #Harwacia
+	color = map_croatian
+	color2 = rgb { 129 177 125 } #same as in EU4
+
+	culture_definition = croatian
+	religion_definition = summer_kin
+}
+
+BYM = { #Goldforgers
+	color = rgb { 163 210 220 }
+	
+	culture_definition = dhwerkin_clan
+	religion_definition = all_hammer_creed
+}
+
+BOH = { #Czechia
+	color = map_BOH
+	color2 = rgb { 161 139 40 }
+
+	unit_color0 = rgb {	110 70 39 }
+	unit_color1 = rgb {	200 4 5 }
+	unit_color2 = rgb {	103 118 165 }
+	
+	culture_definition = czech
+	religion_definition = spring_kin
+
+	description_category = diplomatic
+	difficulty = 1
+}
+
+GRF = { #Douleby
+	color = rgb { 159 116 182 }
+	
+	culture_definition = upper_palatine
+	religion_definition = spring_kin
+}
+
+WLD = { #Lucko
+	color = rgb { 0 48 255 }
+	
+	culture_definition = czech
+	religion_definition = spring_kin
+}
+
+FRE = { #Chodsko
+	color = rgb { 242 255 140 }
+	
+	culture_definition = upper_palatine
+	religion_definition = spring_kin
+}
+
+MVA = { #Moravia
+	color = map_MVA
+	color2 = rgb { 232 149 18 }
+	
+	culture_definition = moravian
+	religion_definition = spring_kin
+}
+
+SLO = {
+	color = map_dithmarschen
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = slovak
+	religion_definition = spring_kin
+}
+
+

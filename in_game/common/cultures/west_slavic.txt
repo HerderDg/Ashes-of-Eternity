@@ -9,10 +9,30 @@
 		moravian = kindred
 		silesian = kindred
 		slovak = kindred
+		upper_palatine = negative
 	}	
 	culture_groups = {
 		bohemian_group
-		german_group
+		slavic_group
+	}
+}
+
+upper_palatine = { 
+	language = czech_dialect
+	
+	color = map_PAL
+	
+	tags = { czech_gfx west_slavic_gfx slavic_gfx western_european_gfx european_gfx }
+	
+	opinions = {
+		moravian = positive
+		silesian = positive
+		slovak = positive
+		czech = negative
+	}	
+	
+	culture_groups = {
+		bohemian_group
 		slavic_group
 	}
 }

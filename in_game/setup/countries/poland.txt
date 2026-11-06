@@ -113,13 +113,6 @@ ZAG = {
 	religion_definition = spring_kin
 }
 
-BYM = {
-	color = rgb { 163 210 220 }
-	
-	culture_definition = dhwerkin_clan
-	religion_definition = all_hammer_creed
-}
-
 NMS = {
 	color = rgb { 99 56 76 }
 	

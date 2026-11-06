@@ -39,7 +39,6 @@
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}

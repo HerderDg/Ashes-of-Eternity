@@ -31,7 +31,6 @@ angrian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -72,7 +71,6 @@ brandenburgish = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -113,7 +111,6 @@ eastern_pomeranian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -152,8 +149,7 @@ eastphalian = {
 	high_alemannic = positive
 	rhine_alemannic = positive
 	southern_bavarian = positive
-	swabian = positive
-	upper_palatine = positive
+	swabian = positiv
 	frisian = positive
 	walloon = positive
 	}	
@@ -210,7 +206,6 @@ holsatian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -251,7 +246,6 @@ lower_saxon = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -292,7 +286,6 @@ markish = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -333,7 +326,6 @@ prussian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -374,7 +366,6 @@ western_pomeranian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -415,7 +406,6 @@ westphalian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -459,7 +449,6 @@ east_franconian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -500,7 +489,6 @@ german_carpathian = { #https://en.wikipedia.org/wiki/Carpathian_Germans
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -542,7 +530,6 @@ german_transylvanian = { #https://en.wikipedia.org/wiki/Transylvanian_Saxons
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -584,7 +571,6 @@ low_franconian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -626,7 +612,6 @@ moselle_franconian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -667,7 +652,6 @@ rhine_franconian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -708,7 +692,6 @@ ripuarian_franconian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}
@@ -750,7 +733,6 @@ saxon = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -793,7 +775,6 @@ danube_bavarian = {
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -834,7 +815,6 @@ high_alemannic = {	#Swiss, non-Swabian Baden
 		rhine_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -876,7 +856,6 @@ rhine_alemannic = {
 		high_alemannic = positive
 		southern_bavarian = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}
@@ -917,7 +896,6 @@ southern_bavarian = {
 		high_alemannic = positive
 		rhine_alemannic = positive
 		swabian = positive
-		upper_palatine = positive
 		frisian = positive
 		walloon = positive
 	}	
@@ -958,48 +936,6 @@ swabian = {
 		high_alemannic = positive
 		rhine_alemannic = positive
 		southern_bavarian = positive
-		upper_palatine = positive
-		frisian = positive
-		walloon = positive
-	}	
-	
-	culture_groups = {
-		german_group
-	}
-}
-
-upper_palatine = { 
-	language = upper_german_dialect
-	
-	color = map_PAL
-	
-	tags = { south_german_gfx german_gfx western_european_gfx european_gfx }
-	
-	opinions = {
-		angrian = positive
-		brandenburgish = positive
-		eastern_pomeranian = positive
-		eastphalian = positive
-		holsatian = positive
-		lower_saxon = positive
-		markish = positive
-		prussian = positive
-		western_pomeranian = positive
-		westphalian = positive
-		east_franconian = positive
-		low_franconian = positive
-		german_carpathian = positive
-		german_silesian = positive
-		german_transylvanian = positive
-		moselle_franconian = positive
-		rhine_franconian = positive
-		ripuarian_franconian = positive
-		saxon = positive
-		danube_bavarian = positive
-		high_alemannic = positive
-		rhine_alemannic = positive
-		southern_bavarian = positive
-		swabian = positive
 		frisian = positive
 		walloon = positive
 	}	

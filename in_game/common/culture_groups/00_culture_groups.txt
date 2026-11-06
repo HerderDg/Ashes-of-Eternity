@@ -24,6 +24,9 @@ orkid_group = {
 mystical_group = {
 }
 
+illyrian_group = {
+}
+
 #########
 
 amazigh_group = {

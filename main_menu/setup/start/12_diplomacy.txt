@@ -56,9 +56,9 @@ diplomacy_manager = {
 
 
     #-------Bohemia-------
-    dependency = { first = DIT second = MVA subject_type = vassal }
-    dependency = { first = DIT second = CRH subject_type = vassal }
-    dependency = { first = DIT second = CLI subject_type = vassal }
+    dependency = { first = SLO second = MVA subject_type = vassal }
+    dependency = { first = SLO second = CRH subject_type = vassal }
+    dependency = { first = SLO second = CLI subject_type = vassal }
     #-------Poland-------
     dependency = { first = INO second = CHL subject_type = vassal }
     dependency = { first = NWG second = KMM subject_type = vassal }

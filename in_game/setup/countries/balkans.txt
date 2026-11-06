@@ -1,12 +1,4 @@
-﻿CRO = {
-	color = map_croatian
-	color2 = rgb { 129 177 125 } #same as in EU4
-
-	culture_definition = croatian
-	religion_definition = summer_kin
-}
-
-ACH = {
+﻿ACH = {
 	color = map_achaian
 	color2 = rgb { 157 87 123 } #new color
 

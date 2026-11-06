@@ -2296,7 +2296,6 @@ building_manager = {
 	orthodox_monastery = { tag = BYZ level = 1 location =  mount_athos }
 
 	### Abbeys	
-	monastery	= { tag = WLD level = 1	location = tirschenreuth }
 	monastery	= { tag = APR level = 1	location = prum }
 	monastery	= { tag = HOX level = 1	location = hoxter }
 	monastery	= { tag = BRE level = 1	location = zeven }

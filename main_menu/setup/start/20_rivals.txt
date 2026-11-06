@@ -61,9 +61,9 @@ diplomacy_manager = {
 	rival = { first = MOR second = CAS }
 
 	#The Rival Families of the HRE
-	#Upper Bavaria and Bohemia
-	rival = { first = UBV second = BOH }
-	rival = { first = BOH second = UBV }
+	#Douleby and Czechia
+	rival = { first = GRF second = BOH }
+	rival = { first = BOH second = GRF }
 	#Upper Bavaria and Austria
 	rival = { first = UBV second = HAB }
 	rival = { first = HAB second = UBV }
