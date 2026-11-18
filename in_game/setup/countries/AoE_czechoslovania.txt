@@ -64,11 +64,26 @@ MVA = { #Moravia
 	religion_definition = spring_kin
 }
 
-SLO = {
+SLO = { #Slovania
 	color = map_dithmarschen
 	color2 = rgb { 16 41 202 }
 
 	culture_definition = slovak
+	religion_definition = spring_kin
+}
+
+CRH = { #Korotan
+	color = rgb { 201 185 40 }
+	
+	culture_definition = slovene
+	religion_definition = spring_kin
+}
+
+CLI = {	#Blatnica
+	color = map_slovene
+	color2 = rgb { 159 174 96 }
+	
+	culture_definition = bosnian
 	religion_definition = spring_kin
 }
 

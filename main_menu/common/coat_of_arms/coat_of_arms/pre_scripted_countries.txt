@@ -1997,39 +1997,14 @@ ARM_kingdom = { # Armenia changing to a late composition adding crown & holding 
 
 ARR = { # Riga 14th c. bishopric
 	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_crozier_in_bend.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.525 0.50 } scale = { -1.0 1.0 } }
-	}
-	colored_emblem = {
-		texture = "ce_cross_in_bend.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.475 0.50 } scale = { 1.0 1.0 } }
-	}	
-}
-ARR_TEU = { # Riga 14th c. bishopric - Teutonic Order tinctures
-	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "black"
-	
+
 	colored_emblem = {
-		texture = "ce_crozier_in_bend.dds"
+		texture = "ce_baltic_star_auseklis.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.525 0.50 } scale = { -1.0 1.0 } }
 	}
-	colored_emblem = {
-		texture = "ce_cross_in_bend.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.475 0.50 } scale = { 1.0 1.0 } }
-	}	
 }
 
 ARS_ancient = { # Artois - Ancient (attribution in medieval armorials)
@@ -21322,42 +21297,20 @@ KUK = { # Kuku
 } 
 
 KUR = { # Kurland (Duchy)
-	pattern = "pattern_quarterly_flag.dds"
-	color1 = "white"
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
 	color2 = "blue"
 	color3 = "red"
 	color4 = "yellow"
 	
-	colored_emblem = {
-		texture = "ce_lion_crowned_wide.dds"
-		color1 = color3
-		color2 = color3
-		color3 = color4
-		instance = { position = { 0.25 0.25 } scale = { -0.5 0.5 } }
-		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 } }
-	}
 
 	colored_emblem = {
 		texture = "ce_stag.dds"
 		color1 = color4
 		color2 = color4
 		color3 = color2
-		instance = { position = { 0.75 0.255 } scale = { 0.58 0.55 } }
-		instance = { position = { 0.25 0.755 } scale = { -0.58 0.55 } }
-	}
-}
-
-KUR = { # Kurland (Bishopric)
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "white"
-	
-	colored_emblem = {
-		texture = "ce_crozier_in_bend.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.475 0.50 } scale = { 1.0 1.0 } }
-		instance = { position = { 0.525 0.50 } scale = { -1.0 1.0 } }
+		instance = { position = { 0.7 0.5 } scale = { 0.78 0.75 } }
+		instance = { position = { 0.3 0.5 } scale = { -0.78 0.75 } }
 	}
 }
 
@@ -23194,21 +23147,7 @@ LUX_emperor = { # Luxembourg - Imperial eagle & escutcheon variant
 	}
 }
 
-LVA = { # Livonia
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "white"
-	color3 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_griffin_holding_sword_wide.dds"
-		color1 = color2
-		color2 = color3	
-		color3 = color2
-	}	
-}
-
-LVA_pagan = { # Baltic formable
+LVA = { # Baltic formable
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "black"
@@ -28404,14 +28343,25 @@ NRI = { # Nri
 	}
 } 
 
-NRK = { # Novogrudok
+NRK = { # Yotvingia
 	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "black"
+	color1 = "black"
+	color2 = "blue_light"
+	color3 = "white"
 
-	textured_emblem = {
-		texture = "te_novogrudok_archangel.dds"
-		instance = { position = { 0.5 0.5 } scale = { 0.95 0.95 } }				
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = color2
+		color2 = color2	
+		instance = { position = { 0.5 0.175 } scale = { 1.0 0.05 } }			
+		instance = { position = { 0.5 0.825 } scale = { 1.0 0.05 } }			
+	}
+	colored_emblem = {
+		texture = "ce_sun_face_chamba.dds"
+		color1 = color3
+		color2 = color3
+		color3 = color3
+		instance = { position = { 0.5 0.5 } scale = { 0.55 0.55 } }				
 	}
 }
 
@@ -31250,21 +31200,6 @@ PMS = { # Pomesania - Dlugosz attribution
 		instance = { position = { 0.49 0.505 } scale = { 0.95 0.95 } }			
 	}
 }
-PMS_TEU = { # Pomesania/Marienwerder - Arms used by bishops 14th c.
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "black"
-	color3 = "red_mid"
-	color4 = "white"
-
-	colored_emblem = {
-		texture = "ce_eagle_rising.dds"
-		color1 = color2
-		color2 = color3
-		color3 = color4
-		instance = { position = { 0.5 0.505 } scale = { 1.05 1.05 } }			
-	}
-}
 
 PNC = { # Poonch
 	pattern = "pattern_fringe.dds"
@@ -31466,38 +31401,7 @@ POK = { # Polotsk - Voivodeship early
 		instance = { position = { 0.5 0.52 } scale = { 1.10 1.10 } }				
 	}
 }
-POK_lithuanian = { # Polotsk
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-	color3 = "yellow"
-	color4 = "red"
 
-	textured_emblem = {
-		texture = "te_knight_polotsk.dds"
-		instance = { position = { 0.51 0.5 } scale = { 1.05 1.05 } }
-	}
-	textured_emblem = {
-		texture = "te_knight_shield_overlay_gediminas.dds"
-		instance = { position = { 0.51 0.5 } scale = { 1.05 1.05 } }
-	}
-}
-POK_jagiellon = { # Jagiellon shield variant
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-	color3 = "yellow"
-	color4 = "red"
-
-	textured_emblem = {
-		texture = "te_knight_polotsk.dds"
-		instance = { position = { 0.51 0.5 } scale = { 1.05 1.05 } }
-	}
-	textured_emblem = {
-		texture = "te_knight_shield_overlay_jogaila.dds"
-		instance = { position = { 0.51 0.5 } scale = { 1.05 1.05 } }
-	}
-}
 
 POL = { # Poland
 	pattern = "pattern_solid.dds"
@@ -33073,31 +32977,10 @@ RAV = { # Ravenna
 
 RAW = { # Rawa
 	pattern = "pattern_solid.dds"
-	color1 = hsv360 	{	358 	85	60	}
-	color2 = "black"
-	color3 = "yellow"
-	color4 = "white"
-	
-	colored_emblem = {
-		texture = "ce_eagle_wide.dds"
-		color1 = color2
-		color2 = color3
-		color3 = color4
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_letter_r_bold.dds"
-		color1 = color4 # Otherwise too similar to Plock
-		color2 = color4
-		instance = { position = { 0.5 0.46 } scale = { 0.25 0.3 } }					
-	}	
-}
-RAW_TEU = { # Rawa - Teutonic Order (plausible)
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
+	color1 = "black"
+	color2 = "white"
 	color3 = "yellow_mid"
-	color4 = "white_secondary"
+	color4 = "black_secondary"
 	
 	colored_emblem = {
 		texture = "ce_eagle_wide.dds"
@@ -33105,13 +32988,7 @@ RAW_TEU = { # Rawa - Teutonic Order (plausible)
 		color2 = color3
 		color3 = color4
 		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }				
-	}	
-	colored_emblem = {
-		texture = "ce_letter_r_bold.dds"
-		color1 = color4
-		color2 = color4
-		instance = { position = { 0.5 0.46 } scale = { 0.25 0.3 } }					
-	}	
+	}		
 }
 
 RBG = { # Rietberg
@@ -33381,51 +33258,13 @@ RIE = { # Rieneck
 	}
 }
 
-RIG = { # Riga - 15th c.
-	pattern = "pattern_solid.dds"
-	color1 = "red"
-	color2 = "white"
-	color3 = "yellow"
-	
-	colored_emblem = {
-		texture = "ce_keys_saltire.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.5 0.525 } scale = { 1.0 1.0 } }
-	}
-	colored_emblem = {
-		texture = "ce_cross_patty.dds"
-		color1 = color3
-		color2 = color3
-		instance = { position = { 0.5 0.21 } scale = { 0.35 0.35 } }
-	}	
-}
-RIG_TEU = { # Riga - Order tinctures
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-	color3 = "yellow_mid"
-	
-	colored_emblem = {
-		texture = "ce_keys_saltire.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.5 0.525 } scale = { 1.0 1.0 } }
-	}
-	colored_emblem = {
-		texture = "ce_cross_patty.dds"
-		color1 = color3
-		color2 = color3
-		instance = { position = { 0.5 0.21 } scale = { 0.35 0.35 } }
-	}	
-}
-RIG_hansa = { # Riga - Hanseatic flag
+RIG = { # Tervete
 	pattern = "pattern_solid.dds"
 	color1 = "black"
 	color2 = "white"
 
 	colored_emblem = {
-		texture = "ce_cross_patty.dds"
+		texture = "ce_baltic_firecross.dds"
 		color1 = color2
 		color2 = color2
 		instance = { position = { 0.5 0.5 }  scale = { 0.9 0.9 } }
@@ -36132,22 +35971,14 @@ SMB_sultanate = { # Sambas - Sultanate
 
 SMD = { # Samland
 	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "red"
-	color3 = "yellow"
+	color1 = "black"
+	color2 = "white"
 
 	colored_emblem = {
-		texture = "ce_cross.dds"
+		texture = "ce_lozenge.dds"
 		color1 = color2
-		color2 = color2
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }		
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-		instance = { position = { 0.5 0.5 } scale = { 1.0 0.067 } }	
-		instance = { position = { 0.5 0.5 } scale = { 0.045 1.0 } }			
+		color2 = color2		
+		instance = { position = { 0.5 0.5 } scale = { 0.75 0.9 } }					
 	}	
 }
 
@@ -37834,8 +37665,8 @@ SXI = { # Shuixi
 
 SXM = { # Samogitia - Lithuanian
 	pattern = "pattern_solid.dds"
-	color1 = hsv360 	{	358 	80	50	}
-	color2 = hsv360 	{	26 	42	48	}
+	color1 = green
+	color2 = yellow
 
 	colored_emblem = {
 		texture = "ce_bear_passant.dds"
@@ -38507,127 +38338,16 @@ TET = { # Tétouan
 
 TEU = { # Teutonic Order - State & Grandmaster
 	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
+	color1 = "black"
+	color2 = "red"
 	color3 = "yellow"
 	color4 = "red_mid"
 
 	colored_emblem = {
-		texture = "ce_cross_teutonic_order.dds"
-		color1 = color2
-		color2 = color3
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }			
-	}
-	colored_emblem = {
-		texture = "ce_shield_frame_thin.dds"
-		color1 = color3
-		color2 = color2
-		instance = { position = { 0.5 0.522 } scale = { 0.56 0.53 } }		
-	}
-	colored_emblem = {
-		texture = "ce_eagle.dds"
-		color1 = color2
-		color2 = color4
-		color3 = color1
-		instance = { position = { 0.5 0.5 } scale = { 0.45 0.45 } }	
-	}
-}
-TEU_simple = { # Teutonic Order - Simple form used to represent the teutonic possessions and other offices
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-
-	colored_emblem = {
-		texture = "ce_cross.dds"
+		texture = "ce_fess.dds"
 		color1 = color2
 		color2 = color2
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
-	}
-}
-TEU_merchant = { # North german merchant flag type
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-	color3 = "yellow"
-	color4 = "red_secondary"
-
-	colored_emblem = {
-		texture = "ce_bars_02.dds"
-		color1 = color2
-		color2 = color2
-	}
-	colored_emblem = {
-		texture = "ce_shield_frame_thin.dds"
-		color1 = color3
-		color2 = color2
-		instance = { position = { 0.33 0.5 } scale = { 0.61 0.61 } }
-	}
-	colored_emblem = {
-		texture = "ce_eagle.dds"
-		color1 = color2
-		color2 = color4
-		color3 = color1
-		instance = { position = { 0.33 0.475 } scale = { 0.49 0.51 } }
-	}
-}
-TEU_merchant_late = { # Late colour scheme
-	pattern = "pattern_solid.dds"
-	color1 = "white"
-	color2 = "black"
-	color3 = "red_light"
-
-	colored_emblem = {
-		texture = "ce_bars_02.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.1 } }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color1
-		color2 = color1
-		instance = { position = { 0.33 0.5 } scale = { 0.325 0.50 } }
-	}
-	colored_emblem = {
-		texture = "ce_eagle_canton.dds"
-		color1 = color2
-		color2 = color3
-		color3 = color1
-		instance = { position = { 0.33 0.5 } scale = { 0.54 0.52 } }
-	}
-}
-TEU_marienburg = { # Marienburg
-	pattern = "pattern_solid.dds"
-	color1 = "black"
-	color2 = "white"
-	color3 = "red_mid"
-
-	colored_emblem = {
-		texture = "ce_cross.dds"
-		color1 = color2
-		color2 = color2
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
-	}
-	colored_emblem = {
-		texture = "ce_solid.dds"
-		color1 = color3
-		color2 = color3
-		instance = { position = { 0.5 0.5 } scale = { 1.0 0.075 } }
-		instance = { position = { 0.5 0.5 } scale = { 0.05 1.0 } }
-	}
-}
-TEU_tricolor = { # Teutonic Order - Simple tricolor
-	pattern = "pattern_solid.dds"
-	color1 = "black"
-	color2 = "white"
-	color3 = "yellow"
-
-	colored_emblem = {
-		texture = "ce_tricolor_horizontal.dds"
-		color1 = color1
-		color2 = color2
-		color3 = color3
-	}
+	}	
 }
 
 TEY = { # Teypana

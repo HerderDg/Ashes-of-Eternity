@@ -5,7 +5,6 @@
 	tags = { russian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
 
 	opinions = {
-		polatskian_culture = positive
 		smolenskian_culture = positive
 		pomor = kindred  
 	}
@@ -72,7 +71,6 @@ ruthenian = { #KIE
 		halychian_culture = positive
 		volhynian_culture = positive
 		rusyn_culture = positive
-		polatskian_culture = positive
 		smolenskian_culture = positive
 		cossack_culture = kindred
 		crimean = enemy
@@ -115,7 +113,6 @@ severian = {
 		polesian_culture = kindred
 		halychian_culture = positive
 		volhynian_culture = positive
-		polatskian_culture = positive
 		smolenskian_culture = kindred
 		cossack_culture = positive
 		crimean = enemy
@@ -154,30 +151,6 @@ cossack_culture = {
 	}
 }
 
-polatskian_culture = { 
-	language = belarusian_dialect
-	color = map_polatskian
-	
-	tags = { belarusian_gfx ruthenian_gfx east_slavic_gfx slavic_gfx eastern_european_gfx european_gfx }
- 
-	opinions = {
-		ruthenian = positive
-		severian = positive
-		polesian_culture = kindred
-		halychian_culture = positive
-		volhynian_culture = positive
-		smolenskian_culture = kindred
-		novgorodian = positive
-		crimean = negative
-		mongolian_culture = enemy
-	}
-
-	culture_groups = {
-		russian_group
-		slavic_group
-	}
-}
-
 smolenskian_culture = { 
 	language = belarusian_dialect
 	color = map_smolenskian
@@ -190,7 +163,6 @@ smolenskian_culture = {
 		polesian_culture = positive
 		halychian_culture = positive
 		volhynian_culture = positive
-		polatskian_culture = kindred
 		novgorodian = positive
 		muscovite = positive
 		cossack_culture = positive
@@ -217,7 +189,6 @@ volhynian_culture = {
 		halychian_culture = kindred
 		smolenskian_culture = positive
 		rusyn_culture = kindred
-		polatskian_culture = positive
 		cossack_culture = positive
 		crimean = enemy
 		mishar = negative
@@ -243,7 +214,6 @@ halychian_culture = {
 		polesian_culture = positive
 		volhynian_culture = kindred
 		rusyn_culture = kindred
-		polatskian_culture = positive
 		cossack_culture = positive
 		crimean = enemy
 		mishar = negative
@@ -269,7 +239,6 @@ polesian_culture = {
 		halychian_culture = positive
 		volhynian_culture = kindred
 		smolenskian_culture = positive
-		polatskian_culture = kindred
 		cossack_culture = positive
 		crimean = negative
 		mishar = negative

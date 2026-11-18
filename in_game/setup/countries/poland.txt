@@ -1,11 +1,4 @@
-﻿RAW = {
-	color = rgb { 67 19 2 }
-
-	culture_definition = pruthenian
-	religion_definition = romuva
-}
-
-VOL = {
+﻿VOL = {
 	color = rgb { 205 38 38 }
 
 	culture_definition = volhynian_culture
@@ -32,22 +25,8 @@ KIE = {
 	difficulty = 4	
 }
 
-POK = {
-	color = rgb { 16 113 155 }
-
-	culture_definition = polatskian_culture
-	religion_definition = romuva
-}
-
 TUV = {
 	color = rgb { 133 73 67 }
-
-	culture_definition = polesian_culture
-	religion_definition = winter_kin
-}
-
-PNK = {
-	color = rgb { 166 133 133 }
 
 	culture_definition = polesian_culture
 	religion_definition = winter_kin
@@ -63,37 +42,28 @@ SSK = {
 VBK = {
 	color = rgb { 56 113 212 }
 
-	culture_definition = polatskian_culture
+	culture_definition = polesian_culture
 	religion_definition = winter_kin
 }
 
 MSV = {
 	color = rgb { 200 119 62 }
 
-	culture_definition = polatskian_culture
+	culture_definition = polesian_culture
 	religion_definition = winter_kin
 }
 
 MIS = {
 	color = rgb { 141 54 144 }
 
-	culture_definition = polatskian_culture
+	culture_definition = polesian_culture
 	religion_definition = winter_kin
 }
-
-NRK = {
-	color = rgb { 12 133 198 }
-
-	culture_definition = sudovian
-	religion_definition = romuva
-}
-
-
 
 DRU = {
 	color = rgb { 202 65 87 }
 
-	culture_definition = polatskian_culture
+	culture_definition = polesian_culture
 	religion_definition = winter_kin
 }
 

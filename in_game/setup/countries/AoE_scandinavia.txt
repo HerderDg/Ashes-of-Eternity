@@ -4,3 +4,11 @@
 	culture_definition = icelandic
 	religion_definition = norse
 }
+
+KRL = {
+	color = map_karelian
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = karelian
+	religion_definition = muinaisusko
+}

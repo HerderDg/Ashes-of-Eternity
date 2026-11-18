@@ -112,7 +112,7 @@ roskilde = { topography = flatland vegetation = farmland climate = continental r
 ringsted = { topography = flatland vegetation = grasslands climate = oceanic religion = wealdism culture = danish raw_material = wheat natural_harbor_suitability = 0.00}
 kalundborg = { topography = wetlands vegetation = grasslands climate = oceanic religion = wealdism culture = danish raw_material = medicaments natural_harbor_suitability = 0.00}
 helsingor = { topography = flatland vegetation = grasslands climate = continental religion = wealdism culture = danish raw_material = wheat natural_harbor_suitability = 0.25}
-hammershus = { topography = flatland vegetation = grasslands climate = continental religion = wealdism culture = danish raw_material = fish natural_harbor_suitability = 0.00}
+hammershus = { topography = flatland vegetation = grasslands climate = continental religion = wealdism culture = icelandic raw_material = fish natural_harbor_suitability = 0.00}
 kobenhavn = { topography = flatland vegetation = farmland climate = continental religion = wealdism culture = danish raw_material = wheat natural_harbor_suitability = 1.00}
 slagelse = { topography = wetlands vegetation = grasslands climate = oceanic religion = wealdism culture = danish raw_material = medicaments natural_harbor_suitability = 0.00}
 vordingborg = { topography = flatland vegetation = farmland climate = oceanic religion = wealdism culture = danish raw_material = wheat natural_harbor_suitability = 0.00}
@@ -290,10 +290,10 @@ villmanstrand = { topography = wetlands vegetation = woods climate = arctic reli
 veckelax = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = finnish raw_material = millet natural_harbor_suitability = 0.00}
 elimaki = { topography = flatland vegetation = forest climate = arctic religion = muinaisusko culture = finnish raw_material = wild_game}
 vederlax = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = finnish raw_material = stone natural_harbor_suitability = 0.00}
-valkeasaari = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = karelian raw_material = wild_game natural_harbor_suitability = 0.00}
-kyyrola = { topography = flatland vegetation = woods climate = arctic religion = muinaisusko culture = karelian raw_material = horses}
-beryozovskoye = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = karelian raw_material = fish natural_harbor_suitability = 0.00}
-heinjoki = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = karelian raw_material = lumber}
+valkeasaari = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = wild_game natural_harbor_suitability = 0.00}
+kyyrola = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = ingrian raw_material = horses}
+beryozovskoye = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = fish natural_harbor_suitability = 0.00}
+heinjoki = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = lumber}
 jaskis = { topography = flatland vegetation = forest climate = arctic religion = muinaisusko culture = karelian raw_material = medicaments}
 pyhajarvi = { topography = lakes climate = arctic}
 puruvesi = { topography = lakes climate = arctic}
@@ -1155,24 +1155,24 @@ choszczno = { topography = flatland vegetation = woods climate = continental rel
 szadzko = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = markish raw_material = millet}
 gryfow = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = markish raw_material = wild_game}
 drawsko = { topography = flatland vegetation = woods climate = continental religion = nahuatl culture = saurid_culture raw_material = legumes}
-vienna = { topography = flatland vegetation = farmland climate = continental religion = wotanism culture = danube_bavarian raw_material = fiber_crops}
-austria_baden = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = clay}
-bruck_leitha = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = wine}
-krems = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = legumes}
-horn = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = fur}
+vienna = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = slovene raw_material = fiber_crops}
+austria_baden = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovene raw_material = clay}
+bruck_leitha = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = wine}
+krems = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = legumes}
+horn = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = fur}
 waidhofen_an_der_thaya = { topography = plateau vegetation = forest climate = continental religion = spring_kin culture = upper_palatine raw_material = wild_game}
 zwettl = { topography = plateau vegetation = woods climate = continental religion = spring_kin culture = upper_palatine raw_material = lumber}
-st_polten = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = millet}
+st_polten = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = millet}
 amstetten = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = upper_palatine raw_material = fruit}
-lilienfeld = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = wool}
-melk = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = fur}
-scheibbs = { topography = mountains vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = stone}
-tulln = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = wheat}
+lilienfeld = { topography = mountains vegetation = forest climate = continental religion = spring_kin culture = slovene raw_material = wool}
+melk = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovene raw_material = fur}
+scheibbs = { topography = mountains vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = stone}
+tulln = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = wheat}
 waidhofen = { topography = mountains vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = lumber}
-hollabrunn = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = livestock}
-ganserndorf = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = wheat}
-korneuburg = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = wine}
-mistelbach = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = fruit}
+hollabrunn = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = livestock}
+ganserndorf = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = wheat}
+korneuburg = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovene raw_material = wine}
+mistelbach = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = fruit}
 linz = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = upper_palatine raw_material = fiber_crops}
 braunau = { topography = flatland vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = wheat}
 ried = { topography = plateau vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = livestock}
@@ -1197,7 +1197,7 @@ st_johann = { topography = mountains vegetation = forest climate = continental r
 bischofshofen = { topography = mountains vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = livestock}
 tamsweg = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = tin}
 bavarian_alps2 = { topography = mountain_wasteland vegetation = forest climate = continental}
-graz = { topography = hills vegetation = farmland climate = continental religion = wotanism culture = danube_bavarian raw_material = wool}
+graz = { topography = hills vegetation = farmland climate = continental religion = spring_kin culture = slovene raw_material = wool}
 leibnitz = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = stone}
 voitsberg = { topography = hills vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = coal}
 celje = { topography = flatland vegetation = woods climate = continental religion = gautism culture = slovene raw_material = wheat}
@@ -1206,19 +1206,19 @@ maribor = { topography = flatland vegetation = grasslands climate = continental 
 ptuj = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = slovene raw_material = fruit}
 slovenj_gradec = { topography = mountains vegetation = forest climate = continental religion = gautism culture = slovene raw_material = livestock}
 judenburg = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = silver}
-leoben = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = iron}
+leoben = { topography = mountains vegetation = forest climate = continental religion = spring_kin culture = slovene raw_material = iron}
 liezen = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = salt}
 murau = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = wheat}
 rottenmann = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = wool}
 schladming = { topography = mountains vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = iron}
-kapfenberg = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = lumber}
-murzzuschlag = { topography = mountains vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = livestock}
+kapfenberg = { topography = mountains vegetation = forest climate = continental religion = spring_kin culture = slovene raw_material = lumber}
+murzzuschlag = { topography = mountains vegetation = forest climate = continental religion = spring_kin culture = slovene raw_material = livestock}
 tauern_range2 = { topography = mountain_wasteland vegetation = forest climate = continental}
-pitten = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = lumber}
-wiener_neustadt = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = wine}
-furstenfeld = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = millet}
-weiz = { topography = hills vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = silver}
-feldbach = { topography = flatland vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = wheat}
+pitten = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = lumber}
+wiener_neustadt = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = wine}
+furstenfeld = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = millet}
+weiz = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = silver}
+feldbach = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovene raw_material = wheat}
 wolfsberg = { topography = plateau vegetation = forest climate = continental religion = wotanism culture = danube_bavarian raw_material = livestock}
 st_veit = { topography = hills vegetation = grasslands climate = continental religion = wotanism culture = danube_bavarian raw_material = stone}
 friesach = { topography = mountains vegetation = woods climate = continental religion = wotanism culture = danube_bavarian raw_material = marble}
@@ -1520,8 +1520,8 @@ olomouc = { topography = plateau vegetation = grasslands climate = continental r
 prostejov = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = moravian raw_material = lumber}
 zabreh = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = moravian raw_material = iron}
 sumperk = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = moravian raw_material = stone}
-hradiste = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = moravian raw_material = wool}
-vizovice = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = moravian raw_material = livestock}
+hradiste = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = wool}
+vizovice = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = livestock}
 prerov = { topography = flatland vegetation = forest climate = continental religion = spring_kin culture = moravian raw_material = wild_game}
 pribor = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = moravian raw_material = millet}
 strasbourg = { topography = flatland vegetation = farmland climate = oceanic religion = wotanism culture = rhine_alemannic raw_material = wheat}
@@ -3398,11 +3398,11 @@ szolnok = { topography = wetlands vegetation = grasslands climate = continental 
 bekes = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = clay}
 karcag = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = horses}
 szarvas = { topography = wetlands vegetation = farmland climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
-hont = { topography = hills vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = silver}
+hont = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = silver}
 banska_bystrica = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = copper}
 kremnica = { modifier = kremnica_gold_mines topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = goods_gold}
-krupina = { topography = hills vegetation = forest climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-stary_tekov = { topography = hills vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
+krupina = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = wine}
+stary_tekov = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = fruit}
 zvolen = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = lumber}
 khust = { topography = hills vegetation = forest climate = continental religion = gautism culture = german_carpathian raw_material = fur}
 mezhorje = { topography = mountains vegetation = forest climate = continental religion = summer_kin culture = halychian_culture raw_material = lumber}
@@ -3411,19 +3411,19 @@ cuhea = { topography = mountains vegetation = forest climate = continental relig
 rakhiv = { topography = mountains vegetation = forest climate = continental religion = summer_kin culture = halychian_culture raw_material = amber}
 eastern_carpathians1 = { topography = mountain_wasteland vegetation = forest climate = arctic}
 eastern_carpathians2 = { topography = mountain_wasteland vegetation = forest climate = arctic}
-nograd = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
-balassagyarmat = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = medicaments}
-gemer = { topography = hills vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
+nograd = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = fruit}
+balassagyarmat = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = medicaments}
+gemer = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = fruit}
 podmuran = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = iron}
 rimavska_sobota = { topography = flatland vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = copper}
 roznava = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = stone}
-salgotarjan = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wild_game}
-bratislava = { topography = hills vegetation = farmland climate = continental religion = wotanism culture = danube_bavarian raw_material = beeswax}
+salgotarjan = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = wild_game}
+bratislava = { topography = hills vegetation = farmland climate = continental religion = spring_kin culture = slovak raw_material = beeswax}
 hlohovec = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = wheat}
 holic = { topography = flatland vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = lumber}
-nitra = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
+nitra = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = fruit}
 prievidza = { topography = hills vegetation = forest climate = continental religion = spring_kin culture = slovak raw_material = saffron}
-samorin = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fiber_crops}
+samorin = { topography = wetlands vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = fiber_crops}
 trnava = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = wine}
 levoca = { topography = mountains vegetation = woods climate = continental religion = all_hammer_creed culture = dhwerkin_clan raw_material = silver}
 bardejov = { topography = hills vegetation = forest climate = continental religion = summer_kin culture = croatian raw_material = fiber_crops}
@@ -3474,39 +3474,39 @@ bacs = { topography = wetlands vegetation = grasslands climate = continental rel
 baja_hungary = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fiber_crops}
 bodrog = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
 titel = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = serbian raw_material = livestock}
-siklos = { topography = wetlands vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = clay}
-mohacs = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fish}
-pecs = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = horses}
-simontornya = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wheat}
-tolna = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-buda = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-esztergom = { topography = hills vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = marble}
-komarom = { topography = wetlands vegetation = farmland climate = continental religion = gautism culture = german_carpathian raw_material = fish}
-tata = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
-fehervar = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = wheat}
-adony = { topography = flatland vegetation = farmland climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
+siklos = { topography = wetlands vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = clay}
+mohacs = { topography = wetlands vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = fish}
+pecs = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = horses}
+simontornya = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = wheat}
+tolna = { topography = wetlands vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wine}
+buda = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = wine}
+esztergom = { topography = hills vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = marble}
+komarom = { topography = wetlands vegetation = farmland climate = continental religion = spring_kin culture = slovak raw_material = fish}
+tata = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = livestock}
+fehervar = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wheat}
+adony = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = bosnian raw_material = livestock}
 kalocsa = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
 papa = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wild_game}
 solt = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = millet}
-veszprem = { topography = flatland vegetation = farmland climate = continental religion = gautism culture = german_carpathian raw_material = stone}
-somogyvar = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-csurgo = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wheat}
-kaposvar = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = wild_game}
-segesd = { topography = wetlands vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = beeswax}
+veszprem = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = bosnian raw_material = stone}
+somogyvar = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wine}
+csurgo = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = wheat}
+kaposvar = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wild_game}
+segesd = { topography = wetlands vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = beeswax}
 lake_balaton = { topography = lakes climate = continental}
-sopron = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-gyor = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = medicaments}
-kapuvar = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = horses}
-magyarovar = { topography = wetlands vegetation = farmland climate = continental religion = gautism culture = german_carpathian raw_material = wheat}
+sopron = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = slovak raw_material = wine}
+gyor = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = medicaments}
+kapuvar = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = slovak raw_material = horses}
+magyarovar = { topography = wetlands vegetation = farmland climate = continental religion = spring_kin culture = slovak raw_material = wheat}
 lake_neusiedl = { topography = lakes climate = continental}
-vasvar = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = iron}
-kormend = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = wool}
-olsnica = { topography = flatland vegetation = woods climate = continental religion = gautism culture = slovene raw_material = livestock}
-szombathely = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wheat}
-zalavar = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
-cakovec = { topography = flatland vegetation = grasslands climate = continental religion = gautism culture = swabian raw_material = wheat}
-nagykanizsa = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = wine}
-zalaegerszeg = { topography = flatland vegetation = woods climate = continental religion = gautism culture = german_carpathian raw_material = fruit}
+vasvar = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = iron}
+kormend = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wool}
+olsnica = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = livestock}
+szombathely = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = wheat}
+zalavar = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = livestock}
+cakovec = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = bosnian raw_material = wheat}
+nagykanizsa = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = wine}
+zalaegerszeg = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = bosnian raw_material = fruit}
 dabaca = { topography = hills vegetation = grasslands climate = continental religion = gautism culture = german_carpathian raw_material = livestock}
 baita = { topography = hills vegetation = forest climate = continental religion = gautism culture = transylvanian raw_material = stone}
 bistrita = { topography = hills vegetation = forest climate = continental religion = gautism culture = german_transylvanian raw_material = silver}
@@ -3599,10 +3599,10 @@ rusii_de_vede = { topography = flatland vegetation = woods climate = continental
 slatina = { topography = flatland vegetation = woods climate = continental religion = dacian_religion culture = wallachian raw_material = livestock}
 zimnicea = { topography = flatland vegetation = farmland climate = continental religion = dacian_religion culture = wallachian raw_material = wheat}
 kuldiga = { topography = flatland vegetation = woods climate = continental religion = romuva culture = curonian raw_material = lumber}
-dundaga = { topography = flatland vegetation = forest climate = continental religion = votian_religion culture = liv raw_material = amber natural_harbor_suitability = 0.00}
+dundaga = { topography = flatland vegetation = forest climate = continental religion = artaic culture = vreadhis_domain raw_material = amber natural_harbor_suitability = 0.00}
 durbe = { topography = flatland vegetation = woods climate = continental religion = romuva culture = curonian raw_material = fiber_crops natural_harbor_suitability = 0.00}
 grobina = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = curonian raw_material = fish natural_harbor_suitability = 0.00}
-kandava = { topography = flatland vegetation = forest climate = continental religion = votian_religion culture = liv raw_material = millet natural_harbor_suitability = 0.00}
+kandava = { topography = flatland vegetation = forest climate = continental religion = artaic culture = curonian raw_material = millet natural_harbor_suitability = 0.00}
 piltene = { topography = flatland vegetation = forest climate = continental religion = romuva culture = curonian raw_material = clay}
 saldus = { topography = flatland vegetation = woods climate = continental religion = romuva culture = curonian raw_material = wild_game}
 ventspils = { topography = wetlands vegetation = grasslands climate = continental religion = romuva culture = curonian raw_material = salt natural_harbor_suitability = 0.00}
@@ -3618,7 +3618,7 @@ cesis = { topography = flatland vegetation = woods climate = continental religio
 aluksne = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = fur}
 gulbene = { topography = flatland vegetation = forest climate = continental religion = romuva culture = latvian raw_material = lumber}
 rauna = { topography = flatland vegetation = forest climate = continental religion = romuva culture = latvian raw_material = wild_game}
-valmiera = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = legumes}
+valmiera = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = liv raw_material = legumes}
 vilaka = { topography = flatland vegetation = forest climate = continental religion = romuva culture = latvian raw_material = fiber_crops}
 jekabpils = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = latvian raw_material = fur}
 kraslava = { topography = flatland vegetation = forest climate = continental religion = romuva culture = latvian raw_material = beeswax}
@@ -3635,28 +3635,28 @@ suure_jaani = { topography = flatland vegetation = forest climate = continental 
 viljandi = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = medicaments}
 lake_vorts = { topography = lakes climate = continental}
 hapsal = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = wheat natural_harbor_suitability = 0.00}
-kaina = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = fish natural_harbor_suitability = 0.00}
-kuressaare = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = wheat natural_harbor_suitability = 0.00}
+kaina = { topography = flatland vegetation = woods climate = continental religion = norse culture = northern_ogres raw_material = fish natural_harbor_suitability = 0.00}
+kuressaare = { topography = flatland vegetation = woods climate = continental religion = norse culture = northern_ogres raw_material = wheat natural_harbor_suitability = 0.00}
 lihula = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = fish natural_harbor_suitability = 0.00}
 st_martin = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = fiber_crops natural_harbor_suitability = 0.00}
-valjala = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = clay natural_harbor_suitability = 0.00}
+valjala = { topography = flatland vegetation = woods climate = continental religion = norse culture = northern_ogres raw_material = clay natural_harbor_suitability = 0.00}
 daugavpils = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = millet}
 aizkraukle = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = fiber_crops}
 selpils = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = fish}
 jelgava = { topography = wetlands vegetation = grasslands climate = continental religion = romuva culture = latvian raw_material = millet}
 bauska = { topography = flatland vegetation = farmland climate = continental religion = romuva culture = latvian raw_material = wheat}
 dobele = { topography = flatland vegetation = grasslands climate = continental religion = romuva culture = latvian raw_material = fiber_crops}
-tukums = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = liv raw_material = fur natural_harbor_suitability = 0.00}
+tukums = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = fur natural_harbor_suitability = 0.00}
 riga = { topography = flatland vegetation = grasslands climate = continental religion = romuva culture = latvian raw_material = livestock natural_harbor_suitability = 0.50}
 koknese = { topography = flatland vegetation = forest climate = continental religion = romuva culture = latvian raw_material = livestock}
 limbazi = { topography = wetlands vegetation = forest climate = continental religion = votian_religion culture = liv raw_material = fish natural_harbor_suitability = 0.00}
 salaspils = { topography = flatland vegetation = grasslands climate = continental religion = romuva culture = latvian raw_material = legumes natural_harbor_suitability = 0.00}
 sigulda = { topography = flatland vegetation = woods climate = continental religion = romuva culture = latvian raw_material = lumber}
 straupe = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = liv raw_material = fiber_crops natural_harbor_suitability = 0.00}
-tartu = { topography = flatland vegetation = grasslands climate = continental religion = votian_religion culture = estonian raw_material = millet}
-valka = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = estonian raw_material = lumber}
-vastseliina = { topography = flatland vegetation = forest climate = continental religion = votian_religion culture = estonian raw_material = beeswax}
-vonnu = { topography = wetlands vegetation = grasslands climate = continental religion = votian_religion culture = estonian raw_material = fiber_crops}
+tartu = { topography = flatland vegetation = grasslands climate = continental religion = votian_religion culture = liv raw_material = millet}
+valka = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = liv raw_material = lumber}
+vastseliina = { topography = flatland vegetation = forest climate = continental religion = votian_religion culture = liv raw_material = beeswax}
+vonnu = { topography = wetlands vegetation = grasslands climate = continental religion = votian_religion culture = liv raw_material = fiber_crops}
 dobrzyn = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = greater_polish raw_material = wheat}
 lipno = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = greater_polish raw_material = wheat}
 rypin = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = greater_polish raw_material = iron}
@@ -3790,7 +3790,7 @@ birzai = { topography = flatland vegetation = woods climate = continental religi
 linkava = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = lumber}
 panevezys = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = horses}
 pasvalys = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = lumber}
-vilkmerge = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = fiber_crops}
+vilkmerge = { topography = flatland vegetation = woods climate = continental religion = romuva culture = ulcos_culture raw_material = fiber_crops}
 anyksciai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = fur}
 maleisiai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = legumes}
 rokiskis = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = beeswax}
@@ -3808,9 +3808,9 @@ garwolin = { topography = flatland vegetation = forest climate = continental rel
 grojec = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = mazovian raw_material = wheat}
 liw = { topography = flatland vegetation = forest climate = continental religion = spring_kin culture = mazovian raw_material = wild_game}
 lomza = { topography = flatland vegetation = forest climate = continental religion = artaic culture = vreadhis_domain raw_material = livestock}
-kolno = { topography = wetlands vegetation = forest climate = continental religion = spring_kin culture = mazovian raw_material = iron}
+kolno = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = iron}
 ostroleka = { topography = wetlands vegetation = forest climate = continental religion = artaic culture = vreadhis_domain raw_material = wild_game}
-wizna = { topography = flatland vegetation = forest climate = continental religion = romuva culture = sudovian raw_material = horses}
+wizna = { topography = flatland vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = horses}
 zambrow = { topography = flatland vegetation = forest climate = continental religion = artaic culture = vreadhis_domain raw_material = millet}
 plock = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = mazovian raw_material = millet}
 plonsk = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = mazovian raw_material = livestock}
@@ -3843,12 +3843,12 @@ koscierzyna = { topography = flatland vegetation = forest climate = continental 
 mirochowo = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = kashubian raw_material = clay}
 puck = { topography = flatland vegetation = grasslands climate = continental religion = spring_kin culture = kashubian raw_material = wheat natural_harbor_suitability = 0.00}
 tczew = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = kashubian raw_material = wheat}
-tilsit = { topography = flatland vegetation = forest climate = continental religion = romuva culture = samogitian raw_material = lumber}
+tilsit = { topography = flatland vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = lumber}
 gumbinnen = { topography = flatland vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = wild_game}
 labiau = { topography = wetlands vegetation = grasslands climate = continental religion = romuva culture = pruthenian raw_material = fish}
 memel = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = sand natural_harbor_suitability = 0.50}
-ragnit = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = samogitian raw_material = wheat}
-windenburg = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = wild_game}
+ragnit = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = wheat}
+windenburg = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = wild_game}
 curonian_lagoon = { topography = lakes climate = continental}
 konigsberg = { modifier = amber_coast_base topography = flatland vegetation = grasslands climate = continental religion = romuva culture = pruthenian raw_material = amber natural_harbor_suitability = 0.50}
 balga = { modifier = amber_coast_base topography = flatland vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = amber natural_harbor_suitability = 0.00}
@@ -3857,8 +3857,8 @@ fischhausen = { topography = flatland vegetation = grasslands climate = continen
 gerdauen = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = fiber_crops}
 insterburg = { topography = flatland vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = beeswax}
 wehlau = { topography = flatland vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = fur}
-elk = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = sudovian raw_material = lumber}
-barten = { topography = flatland vegetation = forest climate = continental religion = romuva culture = sudovian raw_material = fur}
+elk = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = lumber}
+barten = { topography = flatland vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = fur}
 nibork = { topography = flatland vegetation = grasslands climate = continental religion = romuva culture = pruthenian raw_material = clay}
 ostroda = { topography = flatland vegetation = grasslands climate = continental religion = romuva culture = pruthenian raw_material = wool}
 ryn_poland = { topography = wetlands vegetation = forest climate = continental religion = romuva culture = pruthenian raw_material = iron}
@@ -3879,21 +3879,21 @@ morag = { topography = flatland vegetation = woods climate = continental religio
 lidzbark = { topography = flatland vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = millet}
 frombork = { topography = flatland vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = fish natural_harbor_suitability = 0.00}
 olsztyn = { topography = flatland vegetation = woods climate = continental religion = romuva culture = pruthenian raw_material = horses}
-medininkai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = millet}
-palanga = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = salt natural_harbor_suitability = 0.00}
-rietavas = { topography = flatland vegetation = forest climate = continental religion = romuva culture = samogitian raw_material = lumber}
-silale = { topography = flatland vegetation = forest climate = continental religion = romuva culture = samogitian raw_material = fur}
-skuodas = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = horses}
-taurage = { topography = flatland vegetation = forest climate = continental religion = romuva culture = samogitian raw_material = medicaments}
+medininkai = { topography = flatland vegetation = woods climate = continental religion = norse culture = northern_ogres raw_material = millet}
+palanga = { topography = flatland vegetation = woods climate = continental religion = artaic culture = merfolk_culture raw_material = salt natural_harbor_suitability = 0.00}
+rietavas = { topography = flatland vegetation = forest climate = continental religion = artaic culture = feytouched raw_material = lumber}
+silale = { topography = flatland vegetation = forest climate = continental religion = artaic culture = feytouched raw_material = fur}
+skuodas = { topography = flatland vegetation = woods climate = continental religion = romuva culture = curonian raw_material = horses}
+taurage = { topography = flatland vegetation = forest climate = continental religion = great_plains_shamanism culture = dauros_culture raw_material = medicaments}
 raseiniai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = millet}
 jurbarkas = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = wild_game}
-kedainiai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = aukstaitian raw_material = wool}
+kedainiai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = wool}
 panemune = { topography = flatland vegetation = woods climate = continental religion = romuva culture = sudovian raw_material = beeswax}
 tendziogala = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = livestock}
 siauliai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = wheat}
 kraziai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = beeswax}
 mazeikiai = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = wheat}
-papile = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = lumber}
+papile = { topography = flatland vegetation = woods climate = continental religion = romuva culture = northern_ogres raw_material = lumber}
 zagare = { topography = flatland vegetation = woods climate = continental religion = romuva culture = samogitian raw_material = clay}
 glogow = { topography = flatland vegetation = farmland climate = continental religion = spring_kin culture = silesian raw_material = wheat}
 gora = { topography = flatland vegetation = woods climate = continental religion = spring_kin culture = silesian raw_material = wool}
@@ -4217,12 +4217,12 @@ bobr = { topography = flatland vegetation = woods climate = continental religion
 krupki = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = lumber}
 lukolm = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = legumes}
 lyubashany = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = fiber_crops}
-dzisna = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = fiber_crops}
-asvieja = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
+dzisna = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = fiber_crops}
+asvieja = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = livestock}
 nevel = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = wild_game}
-nekloch = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
-rasony = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = millet}
-vydritsa = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = clay}
+nekloch = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = livestock}
+rasony = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = millet}
+vydritsa = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = clay}
 lahoysk = { topography = flatland vegetation = forest climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
 begoml = { topography = flatland vegetation = forest climate = continental religion = winter_kin culture = polatskian_culture raw_material = lumber}
 byerazino = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = wool}
@@ -4254,12 +4254,12 @@ horki = { topography = flatland vegetation = woods climate = continental religio
 kopys = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = fish}
 rudnya = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = wild_game}
 tyatseryn = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = clay}
-polotsk = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = iron}
-bocheikovo = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
-lyepyel = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = millet}
-ulla = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = wild_game}
-ushachy = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = lumber}
-zabore = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
+polotsk = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = iron}
+bocheikovo = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = livestock}
+lyepyel = { topography = wetlands vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = millet}
+ulla = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = wild_game}
+ushachy = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = lumber}
+zabore = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = livestock}
 vitebsk = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = millet}
 haradok = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = fur}
 jeziarysca = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = livestock}
@@ -5260,7 +5260,7 @@ pikalyovo = { topography = flatland vegetation = forest climate = arctic religio
 tervenichi = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = legumes}
 megra = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}
 lodenoye_pole = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = clay}
-maselga = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}
+maselga = { topography = flatland vegetation = forest climate = arctic religion = votian_religion culture = ingrian raw_material = fur}
 spirkovo = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = wild_game}
 vinnitsy = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}
 voznesenye = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = lumber}
@@ -5271,9 +5271,9 @@ smerdyn = { topography = flatland vegetation = woods climate = continental relig
 udomlya = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur}
 novgorod = { topography = flatland vegetation = farmland climate = continental religion = winter_kin culture = novgorodian raw_material = livestock}
 gruzino = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = medicaments}
-mezhutka = { topography = wetlands vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fiber_crops}
+mezhutka = { topography = wetlands vegetation = forest climate = arctic religion = votian_religion culture = ingrian raw_material = fiber_crops}
 soltsy_kirishi = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = wild_game}
-staraya_ladoga = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fish}
+staraya_ladoga = { topography = flatland vegetation = forest climate = arctic religion = votian_religion culture = ingrian raw_material = fish}
 yazhelbitsy = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = beeswax}
 bologoye = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur}
 bronnitsa = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fish}
@@ -5291,24 +5291,24 @@ soltsy = { topography = flatland vegetation = woods climate = continental religi
 svinort = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fish}
 visokoye = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = millet}
 lake_ilmen = { topography = lakes climate = continental}
-oreshek = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = lumber}
+oreshek = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = lumber}
 chudovo = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = lumber}
-lisino = { topography = flatland vegetation = woods climate = arctic religion = winter_kin culture = novgorodian raw_material = wheat}
-lyuban = { topography = flatland vegetation = woods climate = arctic religion = winter_kin culture = novgorodian raw_material = millet}
-markovo = { topography = flatland vegetation = woods climate = arctic religion = winter_kin culture = novgorodian raw_material = stone}
-martyshkino = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = millet natural_harbor_suitability = 0.00}
-neva = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fish natural_harbor_suitability = 0.75}
-toksovo = { topography = flatland vegetation = woods climate = continental religion = muinaisusko culture = karelian raw_material = fur}
+lisino = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = ingrian raw_material = wheat}
+lyuban = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = ingrian raw_material = millet}
+markovo = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = ingrian raw_material = stone}
+martyshkino = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = millet natural_harbor_suitability = 0.00}
+neva = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = fish natural_harbor_suitability = 0.75}
+toksovo = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = ingrian raw_material = fur}
 porkhov = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = iron}
 dubronjo = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur}
-gorodets_luga = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = millet}
-lyady = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = wool}
+gorodets_luga = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = millet}
+lyady = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = wool}
 plyussa = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = beeswax}
-pribuzh = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = clay}
-staropolye = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = wild_game}
+pribuzh = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = clay}
+staropolye = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = wild_game}
 zaplyusye = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = lumber}
 pskov = { topography = flatland vegetation = farmland climate = continental religion = winter_kin culture = novgorodian raw_material = fish}
-gdov = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fiber_crops}
+gdov = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = fiber_crops}
 izborsk = { topography = flatland vegetation = forest climate = continental religion = winter_kin culture = novgorodian raw_material = livestock}
 kobyle = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = sand}
 meletovo = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = medicaments}
@@ -5323,18 +5323,18 @@ velikiye_luki = { topography = flatland vegetation = woods climate = continental
 vlitsy = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = horses}
 ostrov = { topography = flatland vegetation = forest climate = continental religion = winter_kin culture = novgorodian raw_material = copper}
 opochka = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur}
-sebech = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = polatskian_culture raw_material = lumber}
+sebech = { topography = flatland vegetation = woods climate = continental religion = romuva culture = polatskian_culture raw_material = lumber}
 slavkovitchi = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = lumber}
 volodimerets = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = legumes}
 voronich = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = wild_game}
-koporye = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = wild_game natural_harbor_suitability = 0.00}
-ivangorod = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur natural_harbor_suitability = 0.00}
-izori = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = legumes}
-khotchino = { topography = flatland vegetation = woods climate = arctic religion = winter_kin culture = novgorodian raw_material = lumber}
-moloskovitsa = { topography = flatland vegetation = woods climate = arctic religion = winter_kin culture = novgorodian raw_material = beeswax}
-soikino = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fish natural_harbor_suitability = 0.00}
-tesov = { topography = wetlands vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = fur}
-yama = { topography = flatland vegetation = woods climate = continental religion = winter_kin culture = novgorodian raw_material = lumber}
+koporye = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = wild_game natural_harbor_suitability = 0.00}
+ivangorod = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = fur natural_harbor_suitability = 0.00}
+izori = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = legumes}
+khotchino = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = votian raw_material = lumber}
+moloskovitsa = { topography = flatland vegetation = woods climate = arctic religion = votian_religion culture = votian raw_material = beeswax}
+soikino = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = fish natural_harbor_suitability = 0.00}
+tesov = { topography = wetlands vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = fur}
+yama = { topography = flatland vegetation = woods climate = continental religion = votian_religion culture = votian raw_material = lumber}
 kargopol = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}
 iksa = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}
 konyovo = { topography = flatland vegetation = forest climate = arctic religion = winter_kin culture = novgorodian raw_material = fur}

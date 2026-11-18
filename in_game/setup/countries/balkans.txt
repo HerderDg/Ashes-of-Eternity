@@ -178,14 +178,6 @@ VID = {
 	religion_definition = illyrian_religion
 }
 
-CLI = {	
-	color = map_slovene
-	color2 = rgb { 159 174 96 }
-	
-	culture_definition = slovene
-	religion_definition = spring_kin
-}
-
 NEO = {
 	color = rgb { 63 72 204 }
 	

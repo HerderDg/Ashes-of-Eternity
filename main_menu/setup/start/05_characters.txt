@@ -86822,28 +86822,6 @@ adm = 31 dip = 34 mil = 24
 		tag = BID
 	}
 
-	#Pomesania
-	pms_bertold_von_riesenburg = { #Ruler
-		first_name = { name = name_berthold }
-		culture = prussian
-		religion = romuva
-		estate = clergy_estate
-		birth_date = 1290.1.1
-		birth = kwidzyn
-		tag = PMS
-	}
-	
-	#Samland
-	sms_johann_clare = { #Ruler
-		first_name = { name = name_john } 
-		culture = prussian
-		religion = romuva
-		estate = clergy_estate
-		birth_date = 1290.1.1
-		birth = torun
-		tag = SMD
-	}
-
 	#Rurikovich
 	#Moscow
 	mos_daniil_aleksandrovich_rurikovich = {	#Father of Ruler

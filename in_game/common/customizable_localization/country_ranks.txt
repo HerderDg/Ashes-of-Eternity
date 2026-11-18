@@ -2,6 +2,13 @@
 	type = country
 
 	text = {
+		localization_key = country_rank_elven
+		trigger = {
+			culture ?= { has_culture_group = culture_group:elven_group }
+		}
+	}	
+
+	text = {
 		localization_key = country_rank_people
 		trigger = {
 			country_type = pop
@@ -1279,15 +1286,6 @@
 
 			country_rank_is_duchy = yes
 			government_type = government_type:republic
-		}
-	}
-
-	text = {
-		localization_key = rank_kingdom_grand_duchy_LIT
-		trigger = {
-			tag = LIT
-
-			country_rank_is_duchy = yes
 		}
 	}
 

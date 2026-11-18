@@ -30,6 +30,22 @@ black_gnoll_culture = { #ameryka - kojoty
 	}
 }
 
+ulcos_culture = { #europa - wilkoludzie         
+	language = hungarian_language
+	
+	color = map_PRU
+	
+	tags = { middle_east_gfx amazigh_gfx }
+
+	opinions = {
+
+	}
+	
+	culture_groups = {
+		animistic_group
+	}
+}
+
 red_gnoll_culture = { #azja - szakale                  
 	language = sindhi_language
 	

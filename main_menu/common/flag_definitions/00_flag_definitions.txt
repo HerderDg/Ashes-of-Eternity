@@ -5445,13 +5445,6 @@ PMS = { # Pomesania
 		coa = PMS
 		priority = 1
 	}
-	flag_definition = {
-		coa = PMS_TEU
-		priority = 90
-		trigger = {
-			coa_def_teutonic_order_trigger = yes
-		}
-	}
 }
 
 POI = { # Poitiers
@@ -5491,25 +5484,6 @@ POK = { # Polotsk
 		coa = POK
 		priority = 1
 	}
-	flag_definition = {
-		coa = POK_lithuanian
-		priority = 10
-		trigger = {
-			OR = {
-				coa_def_gediminid_dynasty_trigger = yes
-				coa_def_LIT_ensign_trigger = yes
-				coa_def_PLC_ensign_trigger = yes
-			}
-		}
-	}
-	flag_definition = {
-		coa = POK_jagiellon
-		priority = 11
-		trigger = {
-			coa_def_christian_trigger = yes
-			coa_def_jagiellon_dynasty_trigger = yes
-		}
-	}	
 }
 
 POR = { # Portugal
@@ -5753,13 +5727,6 @@ RAW = { # Rawa
 		coa = RAW
 		priority = 1
 	}
-	flag_definition = {
-		coa = RAW_TEU
-		priority = 50
-		trigger = {
-			coa_def_teutonic_order_trigger = yes
-		}
-	}
 }
 
 REG = { # Regensburg
@@ -5795,20 +5762,6 @@ RIG = { # Riga
 		coa = RIG
 		priority = 1
 	}
-	flag_definition = { # Starting
-		coa = RIG_TEU
-		priority = 90
-		trigger = {
-			coa_def_teutonic_order_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = RIG_hansa
-		priority = 100
-		trigger = {
-			coa_def_HSA_ensign_trigger = yes
-		}
-	}	
 }
 
 RIM = { # Rimini
@@ -7822,46 +7775,9 @@ SXM = { # Samogitia
 
 TEU = { # Teutonic Order
 	flag_definition = {
-		coa = TEU_simple
+		coa = TEU
 		priority = 1
 	}
-	flag_definition = {
-		coa = TEU
-		priority = 10 # Starting
-		trigger = {
-			coa_def_theocracy_trigger = yes
-			coa_def_duchy_or_higher_trigger = yes
-		}
-	}
-	flag_definition = {
-		coa = TEU_marienburg
-		priority = 20
-		trigger = {
-			coa_def_theocracy_trigger = no
-		}
-	}
-	flag_definition = {
-		coa = TEU_merchant
-		priority = 100
-		trigger = {
-			coa_def_republic_trigger = yes
-		}
-	}	
-	flag_definition = {
-		coa = TEU_merchant_late
-		priority = 101
-		trigger = {
-			coa_def_republic_trigger = yes
-			coa_def_reformation_age_4_trigger = yes # or protestant
-		}
-	}	
-	flag_definition = {
-		coa = TEU_tricolor
-		priority = 200
-		trigger = {
-			coa_def_revolutionary_republic_trigger = yes
-		}
-	}	
 }
 
 THE = { # Thessalonika

@@ -1,0 +1,142 @@
+﻿
+TEU = { #Prusa
+	color = map_TEU
+	color2 = rgb { 102 105 104 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+
+	description_category = military
+	difficulty = 3
+	
+	unit_color0 = white
+	unit_color1 = black
+	unit_color2 = white
+}
+
+NRK = { #Yotvingia
+	color = rgb { 12 133 198 }
+
+	culture_definition = sudovian
+	religion_definition = romuva
+}
+
+SMD = { #Truso
+	color = rgb { 255 114 0 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+PMS = { #Pomesania
+	color = rgb { 0 110 180 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+RAW = { #Galindia
+	color = rgb { 67 19 2 }
+
+	culture_definition = pruthenian
+	religion_definition = romuva
+}
+
+POK = { #Goliadia
+	color = rgb { 16 113 155 }
+
+	culture_definition = polatskian_culture
+	religion_definition = romuva
+}
+
+LIT = { #Kernava
+	color = map_LIT
+	color2 = rgb { 154 69 116 }
+
+	culture_definition = aukstaitian
+	religion_definition = romuva
+
+	description_category = military
+	difficulty = 3
+}
+
+SXM = { #Laumija
+	color = map_samogitian
+	color2 = rgb { 154 69 116 }
+
+	culture_definition = samogitian
+	religion_definition = romuva
+}
+
+KUR = { #Kursa
+	color = map_kurland
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = curonian
+	religion_definition = romuva
+}
+
+ARR = { #Lotigola
+	color = map_arch_riga
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = latvian
+	religion_definition = romuva
+}
+
+RIG = { #Tervete
+	color = map_riga
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = latvian
+	religion_definition = romuva
+}
+
+PNK = { #Kungla
+	color = map_votian
+
+	culture_definition = northern_ogres
+	religion_definition = votian_religion
+}
+
+BID = { #Uganda
+	color = map_dorpat
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = liv
+	religion_definition = votian_religion
+}
+
+LIV = { #Kalevala
+	color = map_osel
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = estonian
+	religion_definition = votian_religion
+
+	description_category = military
+	difficulty = 4
+	
+	unit_color0 = white
+	unit_color1 = red
+	unit_color2 = white
+}
+
+BIO = { #Votians
+	color = rgb { 80 98 128 }
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = votian
+	religion_definition = votian_religion
+}
+
+ORE = { #Ingrians
+	color = map_ORE
+	color2 = rgb { 16 41 202 }
+
+	culture_definition = ingrian
+	religion_definition = votian_religion
+}
+
+
+

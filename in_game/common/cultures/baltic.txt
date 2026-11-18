@@ -193,3 +193,23 @@ german_baltic = { #Baltic https://en.wikipedia.org/wiki/Baltic_Germans
 		baltic_group
 	}
 }
+
+
+polatskian_culture = { 
+	language = western_baltic_dialect
+	color = map_polatskian
+	
+	tags = { baltic_gfx eastern_european_gfx european_gfx }
+ 
+	opinions = {
+		aukstaitian = kindred
+		curonian = kindred
+		prussian = enemy
+		samogitian = kindred
+		sudovian = kindred
+	}
+
+	culture_groups = {
+		baltic_group
+	}
+}

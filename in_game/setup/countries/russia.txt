@@ -17,14 +17,6 @@ PSK = {
 	religion_definition = winter_kin
 }
 
-ORE = {
-	color = map_ORE
-	color2 = rgb { 16 41 202 }
-
-	culture_definition = ingrian
-	religion_definition = votian_religion
-}
-
 SMO = {
 	color = map_SMO
 

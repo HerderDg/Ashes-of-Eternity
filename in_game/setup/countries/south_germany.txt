@@ -77,13 +77,6 @@ STY = {
 	religion_definition = norse
 }
 
-CRH = {
-	color = rgb { 201 185 40 }
-	
-	culture_definition = slovene
-	religion_definition = spring_kin
-}
-
 TIR = {
 	color = rgb { 132 110 166 }
 	

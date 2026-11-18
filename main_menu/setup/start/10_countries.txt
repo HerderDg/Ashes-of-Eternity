@@ -613,6 +613,7 @@ countries = {
 		include = "eastern_european_catholic"
 
 		government = {
+			type = monarchy
 			ruler = random
 
 
@@ -633,17 +634,17 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			kashubian #pruthenian
+			sudovian
 		}
 
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
 		capital = konigsberg
 
 	}
 
 	LIV = { #Livonian Order
 		own_control_core = {
-			hapsal lihula kuressaare st_martin valjala kaina padise tallinn rapla parnu suure_jaani potsamaa paide 
+			lihula st_martin padise tallinn rapla parnu suure_jaani potsamaa paide 
 			toolse rakvere narva vasknarva viljandi poltsamaa
 		}
 		
@@ -675,7 +676,7 @@ countries = {
 		tolerated_cultures = {
 		}
 
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
 		capital = tallinn
 	}
 
@@ -720,44 +721,33 @@ countries = {
 			kwidzyn dzierzgon ostroda grudziadz brodnica lubawa morag 
 		}
 
-		include = "catholic_bishopric_no_coast"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
-			type = theocracy
-
-			ruler = pms_bertold_von_riesenburg
-			ruler_term = {	character = pms_bertold_von_riesenburg start_date = 1332.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_berthold = 1
-			}
+			type = monarchy
+			heir_selection = cognatic_primogeniture
 		}
-		country_rank = rank_county
-		capital = kwidzyn
+		country_rank = rank_duchy
+		capital = ostroda
 	}
 
-	SMD = { #Samland / Samia
+	SMD = { #Truso
 		own_control_core = {
 			gdansk elblag malbork
 		}
 
-		include = "catholic_bishopric"
 		include = "expl_northern_europe"
 		include = "eastern_european_catholic"
 
 		government = {
-			type = theocracy
-
-			ruler = sms_johann_clare
-			ruler_term = {	character = sms_johann_clare start_date = 1320.1.1 regnal_number = 1	}
-			regnal_numbers = {
-				name_john = 1
-			}
+			type = republic
+			heir_selection = oligarchic_elective
+			ruler = random
 		}
 		tolerated_cultures = { pruthenian }
-		country_rank = rank_county
-		capital = malbork
+		country_rank = rank_duchy
+		capital = elblag
 	}
 
 	#CTV = { # Order of Calatrava
@@ -840,12 +830,13 @@ countries = {
 	RIG = { #Riga
 		own_control_core = {
 			riga jelgava bauska salaspils
+			dobele tukums
 		}
 
 		include = "expl_northern_europe"
 		government = {
-			type = republic
-			heir_selection = oligarchic_elective
+			type = monarchy
+			heir_selection = cognatic_primogeniture
 			ruler = random
 		}
 
@@ -853,11 +844,11 @@ countries = {
 			latvian liv
 		}
 
-		country_rank = rank_duchy
-		capital = riga
+		country_rank = rank_kingdom
+		capital = dobele
 	}
 
-	ARR = { #Archbishopric of Riga https://en.wikipedia.org/wiki/Archbishopric_of_Riga
+	ARR = { #Lotigola
 		own_control_core = {
 			gulbene jekabpils koknese pietalava rauna vilaka
 			sigulda aizkraukle rezekne selpils daugavpils kraslava makonkalns
@@ -875,22 +866,20 @@ countries = {
 		}
 
 		capital = rezekne
+		country_rank = rank_kingdom
 	}
 
 	KUR = { #Courland
 		own_control_core = {
 			piltene durbe kuldiga kandava ventspils grobina
-			tukums dobele saldus skuodas mazeikiai palanga 	
+			saldus skuodas mazeikiai palanga 	
 			dundaga
 		}
 
-
-
-		include = "catholic_bishopric"
 		include = "expl_northern_europe"
 
 		government = {
-
+			type = monarchy
 			ruler = random
 
 		}
@@ -899,6 +888,7 @@ countries = {
 		}
 
 		capital = ventspils
+		country_rank = rank_duchy
 	}
 
 	BIO = {
@@ -915,7 +905,7 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			estonian
+			estonian ingrian
 		}
 
 		capital = ivangorod
@@ -938,7 +928,8 @@ countries = {
 			estonian
 		}
 
-		capital = tartu
+		capital = valka
+		country_rank = rank_kingdom
 	}
 
 	HSA = {	#Hansa
@@ -3060,20 +3051,15 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = pok_narimantas_gediminds
-			ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
 		}
 
-		liturgical_language = church_slavonic_language
-
 		tolerated_cultures = {
-			ingrian
+			votian
 			karelian
 		}
 
 		country_rank = rank_duchy
 		capital = oreshek
-		include = "russian_principality"
 		include = "expl_novgorod"
 
 	}
@@ -3919,7 +3905,7 @@ countries = {
 			kalay jurchi seyitler 
 			qarasuvbazar solkhat 
 			amasra sinop
-			qalancaq aslan_horod 
+			qalancaq aslan_horod ordu_bazar
 		}
 
 		starting_technology_level = 3
@@ -17431,10 +17417,6 @@ countries = {
 		
 		
 		government = {
-
-			ruler = cli_friderik
-			consort = cli_diemut_walsee
-
 			laws = {
 				mining_law = nobles_mining_law
 			}
@@ -33434,7 +33416,7 @@ countries = {
 		capital = vienna
 
 		tolerated_cultures = {
-			slovak
+			slovak moravian
 		}		
 	}
 
@@ -40022,13 +40004,6 @@ countries = {
 			type = monarchy
 			heir_selection = youngest_son_of_ruler
 
-			ruler = raw_siemowit_ii_piast
-			ruler_term = {	character = czk_boleslaw_ii_piast start_date = 1275.1.20 end_date = 1313.4.20 regnal_number = 2	}
-			ruler_term = {	character = raw_siemowit_ii_piast start_date = 1313.4.20 regnal_number = 2	}
-			regnal_numbers = {
-				name_boleslav = 2
-				name_siemowit = 2
-			}
 
 			centralization_vs_decentralization = 80
 			traditionalist_vs_innovative = 20
@@ -40055,13 +40030,11 @@ countries = {
 		}
 
 		tolerated_cultures = {
-			westphalian
 			sudovian
 		}
 
 		country_rank = rank_duchy
-		capital = rawa
-		dynasty = piast_dynasty
+		capital = ryn_poland
 	}
 
 	#Czersk
@@ -40353,13 +40326,9 @@ countries = {
 			curonian
 		}
 
-		capital = vilnius
+		capital = kernave
 		dynasty = gediminid_dynasty
 		country_rank = rank_duchy
-		#Setup to accurately portray the starting situation
-		currency_data = {
-			war_exhaustion = 5
-		}
 	}
 
 	SXM = {	
@@ -40430,7 +40399,7 @@ countries = {
 		country_rank = rank_duchy
 	}
 
-	POK = {	#Polotsk - Vassal of LIT
+	POK = {	#Goliadia
 		own_control_core = {
 			polotsk bocheikovo lyepyel ulla ushachy zabore
 			dzisna asvieja nekloch rasony vydritsa
@@ -40440,72 +40409,15 @@ countries = {
 		include = "expl_eastern_europe"
 		include = "lithuanian_monarchy"
 		government = {
-			ruler = pok_narimantas_gediminds
-
-			ruler_term = { character = pok_iziaslav_vladimirovich_rurikovich start_date = 988.1.1 end_date = 1001.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_vseslav_iziaslavich_rurikovich start_date = 1001.1.1 end_date = 1003.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_bryachislav_iziaslavich_rurikovich start_date = 1003.1.1 end_date = 1044.1.1 regnal_number = 1 }
-			ruler_term = { character = pok_vseslav_bryachislavich_rurikovich start_date = 1044.1.1 end_date = 1101.4.24 regnal_number = 2 }
-			ruler_term = { character = pok_rogvolod_vseslavich_rurikovich start_date = 1101.4.24 end_date = 1129.1.1 regnal_number = 2 } # Rogvolod II Boris I
-			ruler_term = { character = dru_davyd_vseslavich_rurikovich start_date = 1129.1.1 end_date = 1129.6.1 regnal_number = 1 }
-			# Iziaslav II (1129-1132)
-			# Sviatopolk (1132)
-			ruler_term = { character = pok_vasilko_sviatoslavich_rurikovich start_date = 1132.6.1 end_date = 1144.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1144.1.1 end_date = 1151.1.1 regnal_number = 3 }
-			ruler_term = { character = mis_rostislav_glebovich_rurikovich start_date = 1151.1.1 end_date = 1159.1.1 regnal_number = 1 }
-			ruler_term = { character = dru_rogvolod_iii_rurikovich start_date = 1159.1.1 end_date = 1162.1.1 regnal_number = 3 } # Restored
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1162.1.1 end_date = 1167.1.1 regnal_number = 3 }
-			ruler_term = { character = mis_volodar_glebovich_rurikovich start_date = 1167.1.1 end_date = 1167.6.1 regnal_number = 1 }
-			ruler_term = { character = vbk_vseslav_iii_rurikovich start_date = 1167.6.1 end_date = 1180.1.1 regnal_number = 3 } # Restored
-			ruler_term = { character = pok_boris_davidovich_rurikovich start_date = 1180.1.1 end_date = 1185.1.1 regnal_number = 2 }
-			ruler_term = { character = mis_vladimir_volodarevich_rurikovich start_date = 1185.1.1 end_date = 1216.1.1 regnal_number = 2 }
-			ruler_term = { character = pok_vasilko_volodarevich_rurikovich start_date = 1216.1.1 end_date = 1222.1.1 regnal_number = 2 }
-
-			# Annexed to Lithuania 1222-1232
-
-			ruler_term = { character = pok_bryachislav_vasilkovich_rurikovich start_date = 1232.1.1 end_date = 1256.1.1 regnal_number = 2 }
-			ruler_term = { character = pok_konstantin_bryachislavich_rurikovich start_date = 1256.1.1 end_date = 1258.1.1 regnal_number = 1 }
-
-			# Tautvilas, brother of Mindaugas 1258-1264
-			# Gerdine 1264-1267
-
-			ruler_term = { character = pok_iziaslav_iziaslavich_rurikovich start_date = 1267.1.1 end_date = 1268.1.1 regnal_number = 3 }
-			ruler_term = { character = pok_konstantin_bryachislavich_rurikovich start_date = 1268.1.1 end_date = 1290.1.1 regnal_number = 1 } # Restored
-
-			# Annexed to Livonian Order 1290-1307
-
-			ruler_term = {	character = pok_vainius_gediminids start_date = 1307.1.1 end_date = 1336.1.1 regnal_number = 1	}
-			ruler_term = {	character = pok_narimantas_gediminds start_date = 1336.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_iziaslav = 3
-				name_vseslav = 3
-				name_briachislav = 2
-				name_reginald = 3
-				name_boris = 2
-				name_david = 1
-				name_sviatopolk = 1
-				name_basil = 2
-				name_rostislav = 1
-				name_volodar = 1
-				name_waldemar = 2
-				name_constantine = 1
-				#Tautvilas = 1
-				#Gerdine = 1
-				name_vainius = 1
-				name_narimantas = 1
-			}
+			ruler = random
 		}
 
-		liturgical_language = church_slavonic_language
-
 		tolerated_cultures = {
-			novgorodian
+			aukstaitian
 		}
 
 		capital = polotsk
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
+		country_rank = rank_kingdom
 	}
 
 	NRK = {	#Yotvingia
@@ -40527,20 +40439,14 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = nrk_karijotas_gediminds
-			ruler_term = {	 character = nrk_karijotas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-			laws = { heir_religion_law = heir_any_religion }
 		}
-
-		liturgical_language = church_slavonic_language
 
 		tolerated_cultures = {
 			aukstaitian
 		}
 
-		capital = novogrudok
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
+		capital = grodno
+		country_rank = rank_kingdom
 	}
 
 	DRU = {	#Drutsk - Vassal of LIT
@@ -40603,9 +40509,9 @@ countries = {
 		country_rank = rank_duchy
 	}
 
-	PNK = {	#Pinsk - Vassal of LIT
+	PNK = {	#Kungla
 		own_control_core = {
-
+			kuressaare valjala kaina hapsal
 		}
 
 		starting_technology_level = 3
@@ -40614,66 +40520,10 @@ countries = {
 		government = {
 			type = monarchy
 			heir_selection = cognatic_primogeniture
-			ruler = pok_narimantas_gediminds
-
-			ruler_term = { character = kie_sviatopolk_rurikovich start_date = 988.1.1 end_date = 1019.1.1 regnal_number = 1 }
-
-			# Annexed to Kyiv 1019-1045
-
-			ruler_term = { character = kie_iziaslav_rurikovich start_date = 1045.1.1 end_date = 1078.10.3 regnal_number = 1 }
-			ruler_term = { character = tuv_yaropolk_izyaslavich_rurikovich start_date = 1078.10.3 end_date = 1087.11.22 regnal_number = 1 }
-			ruler_term = { character = kie_sviatopolk_ii_rurikovich start_date = 1087.11.22 end_date = 1093.4.13 regnal_number = 2 }
-			ruler_term = { character = tuv_vyacheslav_yaropolkovich_rurikovich start_date = 1093.4.13 end_date = 1104.11.22 regnal_number = 1 }
-			# Vladimir II of Kyiv 1104-1125
-			# Vyacheslav Vladimirovich 1125-1132 / 1134-1136 / 1136-1142 & 1146
-			# Iziaslav II of Kyiv 1132-1134
-			# Sviatoslav Vsevolodovich 1142-1146 & 1154
-			# Yaroslav Iziaslovich 1146-1148
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1148.1.1 end_date = 1150.1.1 regnal_number = 1 }
-			# Andrei Yurievich 1150-1151
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1151.1.1 end_date = 1154.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_yuri_yaroslavich_rurikovich start_date = 1157.1.1 end_date = 1168.1.1 regnal_number = 1 }
-			ruler_term = { character = tuv_ivan_yurievich_rurikovich start_date = 1168.1.1 end_date = 1170.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yaroslav_yurievich_rurikovich start_date = 1170.1.1 end_date = 1190.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_yaropolk_yurievich_rurikovich start_date = 1190.1.1 end_date = 1204.1.1 regnal_number = 2 }
-			ruler_term = { character = tuv_vladimir_sviatopolkovich_rurikovich start_date = 1204.1.1 end_date = 1228.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_rostislav_sviatopolkovich_rurikovich start_date = 1228.1.1 end_date = 1232.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_mikhail_vladimirovich_rurikovich start_date = 1232.1.1 end_date = 1247.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_feodor_vladimirovich_rurikovich start_date = 1247.1.1 end_date = 1262.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yuri_vladimirovich_rurikovich start_date = 1262.1.1 end_date = 1290.1.1 regnal_number = 2 }
-			ruler_term = { character = pnk_demid_vladimirovich_rurikovich start_date = 1290.1.1 end_date = 1292.1.1 regnal_number = 1 }
-			ruler_term = { character = pnk_yaroslav_iii_rurikovich start_date = 1292.1.1 end_date = 1300.1.1 regnal_number = 3 }
-			ruler_term = { character = pnk_vasily_yaroslavich_rurikovich start_date = 1300.1.1 end_date = 1320.1.1 regnal_number = 1 }
-
-			ruler_term = { character = lit_gediminas_gediminids start_date = 1320.1.1 end_date = 1333.1.1 regnal_number = 1 }
-			ruler_term = {	 character = pok_narimantas_gediminds start_date = 1333.1.1 regnal_number = 1	}
-
-			regnal_numbers = {
-				name_sviatopolk = 2
-				name_iziaslav = 2
-				name_yaropolk = 2
-				name_wenceslas = 2
-				name_waldemar = 2
-				name_sviatoslav = 1
-				name_yaroslav = 3
-				name_george = 2
-				name_andrew = 1
-				name_john = 1
-				name_rostislav = 1
-				name_michael = 1
-				name_theodore = 1
-				name_diomedes = 1
-				name_basil = 1
-				name_gediminas = 1
-				name_narimantas = 1
-			}
 		}
 
-		liturgical_language = church_slavonic_language
-
-		capital = pinsk
-		dynasty = gediminid_dynasty
-		country_rank = rank_duchy
+		capital = kuressaare
+		country_rank = rank_county
 	}
 
 	TUV = {	#Turov - Vassal of LIT

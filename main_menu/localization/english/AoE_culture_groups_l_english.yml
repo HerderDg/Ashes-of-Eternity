@@ -3,15 +3,19 @@
  # Culture Groups
 elven_group: "Elven"
 elven_group_desc: ""
-dhaer_domain: "Dhaer Elven" #dark elves - drows - eastern africa -  void magic - mertic faith (cosmic)
-levkate_domain: "Levkate Elven" #light elves - high elves - manchuria - metal magic - megharic faith (machine)
-vaedera_domain: "Vaedera Elven" #water elves - oceania/indonesia - water magic - artaic faith (elemental)
-angone_domain: "Angone Elven" #fire elves - mesoamerica/california - fire magic - mertic faith (cosmic) 
-vreadhis_domain: "Vreadhis Elven" #wood elves - europa (remnants) - earth magic - artaic faith (elemental)
-sineigo_domain: "Sineigo Elven" #snow elves - arctic region/siberia - ice magic - megharic faith (machine)
-samandos_domain: "Samandos Elven" #desert elves - arabia/sahara/gobi - sand magic - mertic faith (cosmic) 
-plethis_domain: "Plethis Elven" #steppe elves - eurasian steppe - wind magic - mertic faith (cosmic) 
-vaekos_domain: "Vaekos Elven" #wild elves - equatorial africa/brazil - plant magic - artaic faith (elemental)
+dhaer_domain: "Dhaeric Elven" #dark elves - drows - eastern africa -  void magic - mertic faith (cosmic)
+levkate_domain: "Levcatic Elven" #light elves - high elves - manchuria - metal magic - megharic faith (machine)
+vaedera_domain: "Vaederic Elven" #water elves - oceania/indonesia - water magic - artaic faith (elemental)
+angone_domain: "Angonic Elven" #fire elves - mesoamerica/california - fire magic - mertic faith (cosmic) 
+vreadhis_domain: "Vreadhic Elven" #wood elves - europa (remnants) - earth magic - artaic faith (elemental)
+sineigo_domain: "Sineigonic Elven" #snow elves - arctic region/siberia - ice magic - megharic faith (machine)
+samandos_domain: "Samandosic Elven" #desert elves - arabia/sahara/gobi - sand magic - mertic faith (cosmic) 
+plethis_domain: "Plethisic Elven" #steppe elves - eurasian steppe - wind magic - mertic faith (cosmic) 
+vaekos_domain: "Vaecosic Elven" #wild elves - equatorial africa/brazil - plant magic - artaic faith (elemental)
+
+country_rank_elven: "Archonty"
+country_rank_elven_ruler_male: "Archont"
+country_rank_elven_ruler_female: "Archontess"
 
 dwarven_group: "Dwarven"
 dwarven_group_desc: ""
@@ -40,6 +44,7 @@ animistic_group_desc: ""
 white_gnoll_culture: "White Gnoll" #afryka - hieny
 black_gnoll_culture: "Black Gnoll" #ameryka - kojoty
 red_gnoll_culture: "Red Gnoll" #azja - szakale
+ulcos_culture: "Ulcos" #european wolfmen
 vengai_culture: "Vengai" #tygrysoludzie bengalscy
 qersodi_culture: "Qersodi-Har" #centaury wielkiego stepu
 onekone_culture: "Oneqone-Har" #centaury zebroidalne afrykańskie
